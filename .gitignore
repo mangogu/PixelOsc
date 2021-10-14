@@ -1,0 +1,6 @@
+## Ignore Files
+
+# Object Files
+*.d
+*.o
+*.crf
