@@ -1,7 +1,7 @@
 ## Ignore Files
 
 # Object Files
-/Hardware/*/History/
-/Hardware/*/Project Logs for CTR_PAD/
-/Hardware/*/Project Outputs for CTR_PAD/
-/Hardware/*/Project Project Logs for CORE_BOARD/
+/Hardware/*/History
+/Hardware/*/Project Logs for CTR_PAD
+/Hardware/*/Project Outputs for CTR_PAD
+/Hardware/*/Project Project Logs for CORE_BOARD
