@@ -1,6 +1,6 @@
 ## Ignore Files
 
 # Object Files
-*.d
-*.o
-*.crf
+*/History
+*/Project Logs for CTR_PAD
+*/Project Outputs for CTR_PAD

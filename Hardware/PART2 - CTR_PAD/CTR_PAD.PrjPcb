@@ -58,40 +58,6 @@ GenerateClassCluster=0
 DocumentUniqueId=HUNBHBDN
 
 [Document2]
-DocumentPath=..\..\..\2021示波器\硬件资料\封装\示波器.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CDEAFEUV
-
-[Document3]
-DocumentPath=..\..\..\2021示波器\硬件资料\封装\示波器.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NNQACRQB
-
-[Document4]
 DocumentPath=CTR_PAD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -107,6 +73,10 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WEQROUFW
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for CTR_PAD\Design Rule Check - CTR_PAD.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
