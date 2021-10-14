@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=5V Pin=USB1-1
+Removed Pin From Net: NetName=DGND Pin=USB1-4
+Removed Pin From Net: NetName=DGND Pin=USB1-4
+Removed Pin From Net: NetName=DGND Pin=USB1-4
+Removed Member From Class: ClassName=CTR_PAD Member=USB1

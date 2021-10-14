@@ -1,10 +1,12 @@
 Protel Design System Design Rule Check
-PCB File : D:\onWorking\2021.10Ê¾²¨Æ÷\06-PCB\PixelOsc\Hardware\PART2 - CTR_PAD\CTR_PAD.PcbDoc
+PCB File : F:\onWorking\2021.10Ê¾²¨Æ÷\06-PCB\PixelOsc\Hardware\PART2 - CTR_PAD\CTR_PAD.PcbDoc
 Date     : 2021/10/14
-Time     : 19:49:21
+Time     : 22:10:49
 
 Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
-Rule Violations :0
+   Violation between Clearance Constraint: (Collision < 5mil) Between Pad S1-(421.181mil,-18.071mil) on Top Layer And Track (90mil,0mil)(2193.465mil,0mil) on Keep-Out Layer 
+   Violation between Clearance Constraint: (Collision < 5mil) Between Pad S1-(681.181mil,-18.071mil) on Top Layer And Track (90mil,0mil)(2193.465mil,0mil) on Keep-Out Layer 
+Rule Violations :2
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
@@ -19,6 +21,6 @@ Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Co
 Rule Violations :0
 
 
-Violations Detected : 0
+Violations Detected : 2
 Waived Violations : 0
 Time Elapsed        : 00:00:01
