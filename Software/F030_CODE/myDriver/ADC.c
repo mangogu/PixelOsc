@@ -168,18 +168,7 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* adcHandle)
 }
 
 /* USER CODE BEGIN 1 */
-void ADC_GetKeyValue(void)
-{
-		HAL_ADC_Start(&hadc);                               //开启ADC	
-		for (int i = 0; i < 5; i++)
-		{
-			HAL_ADC_PollForConversion(&hadc, 100);               //轮询转换
-			printf("%d ",i);
-			printf("%d\n\r", (uint16_t)HAL_ADC_GetValue(&hadc));              //返回最近一次ADC1规则组的转换结果
-		}
-		printf("\r\n");
-		HAL_ADC_Stop(&hadc);
-}
+
 /* USER CODE END 1 */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
