@@ -58,40 +58,6 @@ GenerateClassCluster=0
 DocumentUniqueId=HUNBHBDN
 
 [Document2]
-DocumentPath=..\..\..\2021示波器\硬件资料\封装\示波器.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CDEAFEUV
-
-[Document3]
-DocumentPath=..\..\..\2021示波器\硬件资料\封装\示波器.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NNQACRQB
-
-[Document4]
 DocumentPath=ANALOG_PART.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -108,7 +74,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HZGIUYQW
 
-[Document5]
+[Document3]
 DocumentPath=AtoD_PART.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -124,30 +90,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=STRXIKFG
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for OSC_508_BACK_END\Design Rule Check - BACK_END_PCB_1.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for OSC_508_BACK_END\Design Rule Check - BACK_END_PCB_2.html
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for OSC_508_BACK_END\Design Rule Check - CCof BACK_END_PCB_2_0.html
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for OSC_508_BACK_END\Design Rule Check - Copy of BACK_END_PCB_2_0.html
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for OSC_508_BACK_END\Design Rule Check - OSC_PCB.html
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for OSC_508_BACK_END\Net Status - OSC_PCB.html
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
