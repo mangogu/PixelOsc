@@ -1,5 +1,5 @@
 #include "CONF.h"
 
 
-
-void ADC_GetKeyValue(void);
+void KEY_Init(void);
+void KEY_ScanKeys(void);

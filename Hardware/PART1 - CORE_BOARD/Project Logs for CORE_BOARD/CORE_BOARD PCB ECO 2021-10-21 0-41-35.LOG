@@ -1,0 +1,50 @@
+Removed Pin From Net: NetName=KEY_PWR Pin=R9-2
+Removed Member From Class: ClassName=DIGITAL_PART Member=R19
+Change Component Comment : Designator=R14 Old Comment=1K New Comment=5K
+Change Component Comment : Designator=R15 Old Comment=10K New Comment=20K
+Change Component Comment : Designator=R8 Old Comment=10K New Comment=390K
+Change Component Comment : Designator=R13 Old Comment=75 New Comment=5K
+Change Component Designator: OldDesignator=C10 NewDesignator=C11
+Change Component Designator: OldDesignator=C11 NewDesignator=C12
+Change Component Designator: OldDesignator=C12 NewDesignator=C13
+Change Component Designator: OldDesignator=C13 NewDesignator=C14
+Change Component Designator: OldDesignator=C14 NewDesignator=C15
+Change Component Designator: OldDesignator=C15 NewDesignator=C16
+Change Component Designator: OldDesignator=R10 NewDesignator=R9
+Change Component Designator: OldDesignator=R11 NewDesignator=R10
+Change Component Designator: OldDesignator=R12 NewDesignator=R11
+Change Component Designator: OldDesignator=R13 NewDesignator=R12
+Change Component Designator: OldDesignator=R14 NewDesignator=R13
+Change Component Designator: OldDesignator=R15 NewDesignator=R14
+Change Component Designator: OldDesignator=R16 NewDesignator=R15
+Change Component Designator: OldDesignator=R17 NewDesignator=R16
+Added Component: Designator=C10(C 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=KEY_PWR Pin=C10-1
+Added Pin To Net: NetName=KEY_PWR Pin=R?-1
+Added Pin To Net: NetName=DGND Pin=R?-2
+Added Pin To Net: NetName=NetC10_2 Pin=C10-2
+Added Pin To Net: NetName=NetC10_2 Pin=Q1-1
+Added Pin To Net: NetName=NetC10_2 Pin=R8-2
+Added Net: Name=NetC10_2
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C10 1uF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C12 47uF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C13 100nF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C15 100nF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C16 100nF
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component C19 22uF
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component C21 10uF
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component C23 22uF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R10 10K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R12 5K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R14 20K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R16 10K
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component R18 1K
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component R20 2.2K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R? 20K

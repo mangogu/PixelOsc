@@ -55,7 +55,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=AKOJISCI
+DocumentUniqueId=CLSKOEOK
 
 [Document2]
 DocumentPath=CORE_BOARD.PcbDoc
@@ -90,6 +90,10 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OFTVPJOC
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for CORE_BOARD.\Design Rule Check - CORE_BOARD.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources

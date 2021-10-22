@@ -6,7 +6,7 @@ static volatile uint32_t delayMsCount = 0;
 /* delayms() 的溢出标志 */
 static volatile uint8_t delayMsTimeOutFlag = 0;
 
-/* 定于软件定时器结构体变量 */
+/* 软件定时器结构体变量 */
 static SoftTimerStruct softTimerArray[SYS_TIM_NUM] = {0};
 
 /* 全局运行时间，单位1ms，最长可以表示 24.85天，如果你的产品连续运行时间超过这个数，则必须考虑溢出问题 */
@@ -65,7 +65,10 @@ void Systick_Init(void)
 */
 void SysTick_ISR(void)
 {
-	static uint8_t s_count = 0;
+	/* 10ms中断技术 */
+	static uint8_t count_10ms = 0;
+	/* 100ms中断技术 */
+	static uint8_t count_100ms = 0;
 	uint8_t i;
 	
 	/* 每隔1ms进来1次 （仅用于 delayms） */
@@ -92,11 +95,18 @@ void SysTick_ISR(void)
 
 	myOS_1ms_Func();		/* 每隔1ms调用一次此函数，此函数在 bsp.c */
 
-	if (++s_count >= 10)
+	if (++count_10ms >= 10)
 	{
-		s_count = 0;
+		count_10ms = 0;
 
 		myOS_10ms_Func();	/* 每隔10ms调用一次此函数，此函数在 bsp.c */
+	}
+	
+	if (++count_100ms >= 100)
+	{
+		count_100ms = 0;
+
+		myOS_100ms_Func();	/* 每隔100ms调用一次此函数，此函数在 bsp.c */
 	}
 }
 

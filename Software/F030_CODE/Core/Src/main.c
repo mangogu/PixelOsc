@@ -18,11 +18,8 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
-#include "main.h"
-#include "ADC.h"
-#include "USART.h"
-#include "GPIO.h"
-#include "stdio.h"
+#include "CONF.h"
+
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -89,7 +86,8 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART1_UART_Init();
-  MX_ADC_Init();
+	KEY_Init();
+  
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -100,8 +98,8 @@ int main(void)
   {
     /* USER CODE END WHILE */
 		//printf("111mychar");
-		HAL_Delay(1000);
-		ADC_GetKeyValue();
+		HAL_Delay(5);
+		KEY_ScanKeys();
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

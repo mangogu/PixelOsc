@@ -1,0 +1,414 @@
+Removed Pin From Net: NetName=3V3 Pin=C2-1
+Removed Pin From Net: NetName=DGND Pin=C2-2
+Removed Pin From Net: NetName=NetC3_1 Pin=C3-1
+Removed Pin From Net: NetName=NetC4_1 Pin=C4-1
+Removed Pin From Net: NetName=NetC5_1 Pin=C5-1
+Removed Pin From Net: NetName=DGND Pin=C6-1
+Removed Pin From Net: NetName=NetC6_2 Pin=C6-2
+Removed Pin From Net: NetName=5V Pin=C7-2
+Removed Pin From Net: NetName=LEDK(+) Pin=C8-1
+Removed Pin From Net: NetName=DGND Pin=C8-2
+Removed Pin From Net: NetName=DGND Pin=C9-1
+Removed Pin From Net: NetName=NetC9_2 Pin=C9-2
+Removed Pin From Net: NetName=5V Pin=C10-1
+Removed Pin From Net: NetName=DGND Pin=C10-2
+Removed Pin From Net: NetName=3V3 Pin=C11-1
+Removed Pin From Net: NetName=DGND Pin=C12-1
+Removed Pin From Net: NetName=3V3 Pin=C12-2
+Removed Pin From Net: NetName=NetD1_1 Pin=D1-1
+Removed Pin From Net: NetName=LEDK(+) Pin=D1-2
+Removed Pin From Net: NetName=KEY_PWR Pin=D2-1
+Removed Pin From Net: NetName=NetD2_2 Pin=D2-2
+Removed Pin From Net: NetName=TP_YU Pin=JP1-1
+Removed Pin From Net: NetName=TP_XL Pin=JP1-2
+Removed Pin From Net: NetName=TP_YD Pin=JP1-3
+Removed Pin From Net: NetName=TP_XR Pin=JP1-4
+Removed Pin From Net: NetName=DGND Pin=JP1-5
+Removed Pin From Net: NetName=LCD_DE Pin=JP1-7
+Removed Pin From Net: NetName=LCD_VSYNC Pin=JP1-8
+Removed Pin From Net: NetName=LCD_HSYNC Pin=JP1-9
+Removed Pin From Net: NetName=LCD_ONOFF Pin=JP1-10
+Removed Pin From Net: NetName=LCD_CLK Pin=JP1-11
+Removed Pin From Net: NetName=DGND Pin=JP1-12
+Removed Pin From Net: NetName=LCD_B7 Pin=JP1-13
+Removed Pin From Net: NetName=LCD_B6 Pin=JP1-14
+Removed Pin From Net: NetName=LCD_B5 Pin=JP1-15
+Removed Pin From Net: NetName=LCD_B4 Pin=JP1-16
+Removed Pin From Net: NetName=LCD_B3 Pin=JP1-17
+Removed Pin From Net: NetName=DGND Pin=JP1-18
+Removed Pin From Net: NetName=DGND Pin=JP1-19
+Removed Pin From Net: NetName=DGND Pin=JP1-20
+Removed Pin From Net: NetName=LCD_G7 Pin=JP1-21
+Removed Pin From Net: NetName=LCD_G6 Pin=JP1-22
+Removed Pin From Net: NetName=LCD_G5 Pin=JP1-23
+Removed Pin From Net: NetName=LCD_G4 Pin=JP1-24
+Removed Pin From Net: NetName=LCD_G3 Pin=JP1-25
+Removed Pin From Net: NetName=LCD_G2 Pin=JP1-26
+Removed Pin From Net: NetName=DGND Pin=JP1-27
+Removed Pin From Net: NetName=DGND Pin=JP1-28
+Removed Pin From Net: NetName=LCD_R7 Pin=JP1-29
+Removed Pin From Net: NetName=LCD_R6 Pin=JP1-30
+Removed Pin From Net: NetName=LCD_R5 Pin=JP1-31
+Removed Pin From Net: NetName=LCD_R4 Pin=JP1-32
+Removed Pin From Net: NetName=LCD_R3 Pin=JP1-33
+Removed Pin From Net: NetName=DGND Pin=JP1-34
+Removed Pin From Net: NetName=DGND Pin=JP1-35
+Removed Pin From Net: NetName=DGND Pin=JP1-36
+Removed Pin From Net: NetName=3V3 Pin=JP1-37
+Removed Pin From Net: NetName=DGND Pin=JP1-38
+Removed Pin From Net: NetName=LEDK(+) Pin=JP1-39
+Removed Pin From Net: NetName=LEDK(-) Pin=JP1-40
+Removed Pin From Net: NetName=3V3 Pin=JP2-1
+Removed Pin From Net: NetName=DGND Pin=JP2-2
+Removed Pin From Net: NetName=H7_SWDIO Pin=JP2-3
+Removed Pin From Net: NetName=H7_SWCLK Pin=JP2-4
+Removed Pin From Net: NetName=NetJP2_5 Pin=JP2-5
+Removed Pin From Net: NetName=NetJP2_6 Pin=JP2-6
+Removed Pin From Net: NetName=NetJP3_1 Pin=JP3-1
+Removed Pin From Net: NetName=NetJP3_2 Pin=JP3-2
+Removed Pin From Net: NetName=5V Pin=JP3-3
+Removed Pin From Net: NetName=5V Pin=JP3-4
+Removed Pin From Net: NetName=DGND Pin=JP3-5
+Removed Pin From Net: NetName=DGND Pin=JP3-6
+Removed Pin From Net: NetName=NetJP2_5 Pin=JP3-7
+Removed Pin From Net: NetName=NetJP2_6 Pin=JP3-8
+Removed Pin From Net: NetName=3V3 Pin=JP4-1
+Removed Pin From Net: NetName=NetJP3_1 Pin=JP4-3
+Removed Pin From Net: NetName=DGND Pin=JP4-4
+Removed Pin From Net: NetName=KEY_PWR Pin=K1-1
+Removed Pin From Net: NetName=B+ Pin=K1-2
+Removed Pin From Net: NetName=5V Pin=L1-1
+Removed Pin From Net: NetName=NetD1_1 Pin=L1-2
+Removed Pin From Net: NetName=NetLED1_1 Pin=LED1-1
+Removed Pin From Net: NetName=DGND Pin=LED1-2
+Removed Pin From Net: NetName=5V Pin=LS1-1
+Removed Pin From Net: NetName=NetLS1_2 Pin=LS1-2
+Removed Pin From Net: NetName=DGND Pin=Q1-2
+Removed Pin From Net: NetName=NetQ1_3 Pin=Q1-3
+Removed Pin From Net: NetName=NetQ2_1 Pin=Q2-1
+Removed Pin From Net: NetName=NetC16_1 Pin=Q2-2
+Removed Pin From Net: NetName=5V Pin=Q2-3
+Removed Pin From Net: NetName=NetQ3_1 Pin=Q3-1
+Removed Pin From Net: NetName=DGND Pin=Q3-2
+Removed Pin From Net: NetName=NetQ3_3 Pin=Q3-3
+Removed Pin From Net: NetName=NetQ4_1 Pin=Q4-1
+Removed Pin From Net: NetName=NetLS1_2 Pin=Q4-3
+Removed Pin From Net: NetName=DGND Pin=R1-1
+Removed Pin From Net: NetName=NetR1_2 Pin=R1-2
+Removed Pin From Net: NetName=KEY_PWR Pin=R9-1
+Removed Pin From Net: NetName=NetLED1_1 Pin=R10-1
+Removed Pin From Net: NetName=5V Pin=R10-2
+Removed Member From Class: ClassName=DIGITAL_PART Member=C18
+Change Component Footprint: Designator=LS1 Old Footprint=BUZZER-5*5*2mm New Footprint=LED 0603G
+Change Component Footprint: Designator=C9 Old Footprint=C 0603_L New Footprint=C 0805_L
+Change Component Footprint: Designator=C12 Old Footprint=C 0603_L New Footprint=CD A(3216)
+Change Component Footprint: Designator=C7 Old Footprint=C 0805_L New Footprint=C 0603_L
+Change Component Footprint: Designator=C10 Old Footprint=CD A(3216) New Footprint=C 0603_L
+Change Component Footprint: Designator=JP3 Old Footprint=FPC0.5 2H-WS-8P New Footprint=MX 1.25-WS-6P
+Change Component Footprint: Designator=JP1 Old Footprint=FPC0.5 2H-WS-40P New Footprint=SMA
+Change Component Footprint: Designator=JP4 Old Footprint=HDR2.54-LI-4P New Footprint=FPC0.5 2H-WS-8P
+Change Component Footprint: Designator=LED1 Old Footprint=LED 0603G New Footprint=NR4020
+Change Component Footprint: Designator=JP2 Old Footprint=MX 1.25-WS-6P New Footprint=FPC0.5 2H-WS-40P
+Change Component Footprint: Designator=R1 Old Footprint=R 0603_L New Footprint=SOT23-3N
+Change Component Footprint: Designator=D1 Old Footprint=SMA New Footprint=C 0603_L
+Change Component Footprint: Designator=Q4 Old Footprint=SOT23-3N New Footprint=SOT23-3L
+Change Component Footprint: Designator=K1 Old Footprint=TACT-SWITCH-3*6*3.5MM-SMD New Footprint=HDR2.54-LI-4P
+Change Component Comment : Designator=C6 Old Comment=0.1uF New Comment=10pF
+Change Component Comment : Designator=R9 Old Comment=1K New Comment=10K
+Change Component Comment : Designator=C3 Old Comment=2.2uF New Comment=22uF
+Change Component Comment : Designator=C9 Old Comment=2.2uF New Comment=22uF
+Change Component Comment : Designator=R1 Old Comment=4.99K New Comment=SS8050
+Change Component Comment : Designator=K1 Old Comment=6x6x5 New Comment=HDR-1X4
+Change Component Comment : Designator=R10 Old Comment=10K New Comment=4.99K
+Change Component Comment : Designator=R8 Old Comment=10K New Comment=390K
+Change Component Comment : Designator=C10 Old Comment=10uF New Comment=1uF
+Change Component Comment : Designator=C4 Old Comment=12pF New Comment=2.2uF
+Change Component Comment : Designator=C5 Old Comment=12pF New Comment=10pF
+Change Component Comment : Designator=C7 Old Comment=22uF New Comment=0.1uF
+Change Component Comment : Designator=C2 Old Comment=22uF New Comment=100nF
+Change Component Comment : Designator=L1 Old Comment=22uH New Comment=6x6x5
+Change Component Comment : Designator=R11 Old Comment=47K New Comment=10K
+Change Component Comment : Designator=C11 Old Comment=47uF New Comment=10uF
+Change Component Comment : Designator=C12 Old Comment=100nF New Comment=47uF
+Change Component Comment : Designator=Q2 Old Comment=AO3401 New Comment=SI2302
+Change Component Comment : Designator=JP1 Old Comment=AT043TN24 New Comment=SS34
+Change Component Comment : Designator=LS1 Old Comment=BUZZER New Comment=红色
+Change Component Comment : Designator=JP3 Old Comment=FPC1.0-8P New Comment=HDR-1X6
+Change Component Comment : Designator=JP4 Old Comment=HDR-1X4 New Comment=FPC1.0-8P
+Change Component Comment : Designator=JP2 Old Comment=HDR-1X6 New Comment=AT043TN24
+Change Component Comment : Designator=Q3 Old Comment=SI2302 New Comment=AO3401
+Change Component Comment : Designator=Q1 Old Comment=SI2302 New Comment=BUZZER
+Change Component Comment : Designator=D1 Old Comment=SS34 New Comment=2.2uF
+Change Component Comment : Designator=Q4 Old Comment=SS8050 New Comment=SI2302
+Change Component Comment : Designator=LED1 Old Comment=红色 New Comment=22uH
+Change Component Designator: OldDesignator=C2 NewDesignator=C16
+Change Component Designator: OldDesignator=C3 NewDesignator=C2
+Change Component Designator: OldDesignator=C4 NewDesignator=C3
+Change Component Designator: OldDesignator=C5 NewDesignator=C4
+Change Component Designator: OldDesignator=C6 NewDesignator=C5
+Change Component Designator: OldDesignator=C7 NewDesignator=C6
+Change Component Designator: OldDesignator=C8 NewDesignator=C7
+Change Component Designator: OldDesignator=C9 NewDesignator=C8
+Change Component Designator: OldDesignator=C16 NewDesignator=C17
+Change Component Designator: OldDesignator=C17 NewDesignator=C18
+Change Component Designator: OldDesignator=C18 NewDesignator=C19
+Change Component Designator: OldDesignator=C19 NewDesignator=C20
+Change Component Designator: OldDesignator=C20 NewDesignator=C21
+Change Component Designator: OldDesignator=C21 NewDesignator=C22
+Change Component Designator: OldDesignator=C22 NewDesignator=C23
+Change Component Designator: OldDesignator=C23 NewDesignator=C24
+Change Component Designator: OldDesignator=C24 NewDesignator=C25
+Change Component Designator: OldDesignator=D1 NewDesignator=C9
+Change Component Designator: OldDesignator=D2 NewDesignator=D1
+Change Component Designator: OldDesignator=JP1 NewDesignator=D2
+Change Component Designator: OldDesignator=JP2 NewDesignator=JP1
+Change Component Designator: OldDesignator=JP3 NewDesignator=JP2
+Change Component Designator: OldDesignator=JP4 NewDesignator=JP3
+Change Component Designator: OldDesignator=K1 NewDesignator=JP4
+Change Component Designator: OldDesignator=L1 NewDesignator=K1
+Change Component Designator: OldDesignator=LED1 NewDesignator=L1
+Change Component Designator: OldDesignator=LS1 NewDesignator=LED1
+Change Component Designator: OldDesignator=Q1 NewDesignator=LS1
+Change Component Designator: OldDesignator=Q2 NewDesignator=Q1
+Change Component Designator: OldDesignator=Q3 NewDesignator=Q2
+Change Component Designator: OldDesignator=Q4 NewDesignator=Q3
+Change Component Designator: OldDesignator=R1 NewDesignator=Q4
+Change Component Designator: OldDesignator=R10 NewDesignator=R1
+Change Component Designator: OldDesignator=R11 NewDesignator=R10
+Change Component Designator: OldDesignator=R12 NewDesignator=R11
+Change Component Designator: OldDesignator=R13 NewDesignator=R12
+Change Component Designator: OldDesignator=R14 NewDesignator=R13
+Change Component Designator: OldDesignator=R15 NewDesignator=R14
+Change Component Designator: OldDesignator=R16 NewDesignator=R15
+Change Component Designator: OldDesignator=R17 NewDesignator=R16
+Change Component Designator: OldDesignator=R18 NewDesignator=R17
+Change Component Designator: OldDesignator=R19 NewDesignator=R18
+Change Component Designator: OldDesignator=R20 NewDesignator=R19
+Change Component Designator: OldDesignator=R21 NewDesignator=R20
+Change Component Designator: OldDesignator=R22 NewDesignator=R21
+Change component parameters: Designator = "C10" ("C10"); Footprint = "CD A(3216)"; UniqueID = "\TBGUHDEL" ("\TBGUHDEL")
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C12" ("C12"); Footprint = "C 0603_L"; UniqueID = "\QIOIVEHJ" ("\QIOIVEHJ")
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "贴片钽电容"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Change component parameters: Designator = "JP3" ("JP2"); Footprint = "FPC0.5 2H-WS-8P"; UniqueID = "\GDFQSMVO" ("\GDFQSMVO")
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "6P接插件"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Change component parameters: Designator = "JP4" ("JP3"); Footprint = "HDR2.54-LI-4P"; UniqueID = "\UWVTOQDG" ("\UWVTOQDG")
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "FPC连接器"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Change component parameters: Designator = "K1" ("JP4"); Footprint = "TACT-SWITCH-3*6*3.5MM-SMD"; UniqueID = "\YKTUUNRN" ("\YKTUUNRN")
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "4P接插件"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L1" ("K1"); Footprint = "NR4020"; UniqueID = "\FHZXCJUZ" ("\FHZXCJUZ")
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "贴片6x6轻触开关"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LED1" ("L1"); Footprint = "LED 0603G"; UniqueID = "\YWOROFLT" ("\YWOROFLT")
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "小功率贴片电感"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LS1" ("LED1"); Footprint = "BUZZER-5*5*2mm"; UniqueID = "\OYULFMIB" ("\OYULFMIB")
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "贴片LED"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D1" ("C9"); Footprint = "SMA"; UniqueID = "\NKPJRPJF" ("\NKPJRPJF")
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R1" ("Q4"); Footprint = "R 0603_L"; UniqueID = "\YASIMFZV" ("\YASIMFZV")
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "高频放大-NPN型"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "属性"; Value = "40V 1.5A 1W 100MHZ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Change component parameters: Designator = "JP2" ("JP1"); Footprint = "MX 1.25-WS-6P"; UniqueID = "\XNXFPVDO" ("\XNXFPVDO")
+Change component parameters: Designator = "Q1" ("LS1"); Footprint = "SOT23-3L"; UniqueID = "\YHZJHZNM" ("\YHZJHZNM")
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "蜂鸣器"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Change component parameters: Designator = "JP1" ("D2"); Footprint = "FPC0.5 2H-WS-40P"; UniqueID = "\EHJFIQFW" ("\EHJFIQFW")
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "肖特基二极管"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "属性"; Value = "40V/2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q4" ("Q3"); Footprint = "SOT23-3N"; UniqueID = "\ECZCPKLQ" ("\ECZCPKLQ")
+Added Pin To Net: NetName=3V3 Pin=C2-1
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=NetC4_1 Pin=C4-1
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=DGND Pin=C5-2
+Added Pin To Net: NetName=NetC6_2 Pin=C6-2
+Added Pin To Net: NetName=DGND Pin=C7-1
+Added Pin To Net: NetName=5V Pin=C7-2
+Added Pin To Net: NetName=LEDK(+) Pin=C8-1
+Added Pin To Net: NetName=DGND Pin=C8-2
+Added Pin To Net: NetName=DGND Pin=C9-1
+Added Pin To Net: NetName=NetC9_2 Pin=C9-2
+Added Pin To Net: NetName=KEY_PWR Pin=C10-1
+Added Pin To Net: NetName=5V Pin=C11-1
+Added Pin To Net: NetName=3V3 Pin=C12-1
+Added Pin To Net: NetName=DGND Pin=C12-2
+Added Pin To Net: NetName=DGND Pin=C16-1
+Added Pin To Net: NetName=3V3 Pin=C16-2
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=LEDK(+) Pin=D1-2
+Added Pin To Net: NetName=KEY_PWR Pin=D2-1
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=TP_YU Pin=JP1-1
+Added Pin To Net: NetName=TP_XL Pin=JP1-2
+Added Pin To Net: NetName=TP_YD Pin=JP1-3
+Added Pin To Net: NetName=TP_XR Pin=JP1-4
+Added Pin To Net: NetName=DGND Pin=JP1-5
+Added Pin To Net: NetName=LCD_DE Pin=JP1-7
+Added Pin To Net: NetName=LCD_VSYNC Pin=JP1-8
+Added Pin To Net: NetName=LCD_HSYNC Pin=JP1-9
+Added Pin To Net: NetName=LCD_ONOFF Pin=JP1-10
+Added Pin To Net: NetName=LCD_CLK Pin=JP1-11
+Added Pin To Net: NetName=DGND Pin=JP1-12
+Added Pin To Net: NetName=LCD_B7 Pin=JP1-13
+Added Pin To Net: NetName=LCD_B6 Pin=JP1-14
+Added Pin To Net: NetName=LCD_B5 Pin=JP1-15
+Added Pin To Net: NetName=LCD_B4 Pin=JP1-16
+Added Pin To Net: NetName=LCD_B3 Pin=JP1-17
+Added Pin To Net: NetName=DGND Pin=JP1-18
+Added Pin To Net: NetName=DGND Pin=JP1-19
+Added Pin To Net: NetName=DGND Pin=JP1-20
+Added Pin To Net: NetName=LCD_G7 Pin=JP1-21
+Added Pin To Net: NetName=LCD_G6 Pin=JP1-22
+Added Pin To Net: NetName=LCD_G5 Pin=JP1-23
+Added Pin To Net: NetName=LCD_G4 Pin=JP1-24
+Added Pin To Net: NetName=LCD_G3 Pin=JP1-25
+Added Pin To Net: NetName=LCD_G2 Pin=JP1-26
+Added Pin To Net: NetName=DGND Pin=JP1-27
+Added Pin To Net: NetName=DGND Pin=JP1-28
+Added Pin To Net: NetName=LCD_R7 Pin=JP1-29
+Added Pin To Net: NetName=LCD_R6 Pin=JP1-30
+Added Pin To Net: NetName=LCD_R5 Pin=JP1-31
+Added Pin To Net: NetName=LCD_R4 Pin=JP1-32
+Added Pin To Net: NetName=LCD_R3 Pin=JP1-33
+Added Pin To Net: NetName=DGND Pin=JP1-34
+Added Pin To Net: NetName=DGND Pin=JP1-35
+Added Pin To Net: NetName=DGND Pin=JP1-36
+Added Pin To Net: NetName=3V3 Pin=JP1-37
+Added Pin To Net: NetName=DGND Pin=JP1-38
+Added Pin To Net: NetName=LEDK(+) Pin=JP1-39
+Added Pin To Net: NetName=LEDK(-) Pin=JP1-40
+Added Pin To Net: NetName=3V3 Pin=JP2-1
+Added Pin To Net: NetName=DGND Pin=JP2-2
+Added Pin To Net: NetName=H7_SWDIO Pin=JP2-3
+Added Pin To Net: NetName=H7_SWCLK Pin=JP2-4
+Added Pin To Net: NetName=NetJP2_5 Pin=JP2-5
+Added Pin To Net: NetName=NetJP2_6 Pin=JP2-6
+Added Pin To Net: NetName=NetJP3_1 Pin=JP3-1
+Added Pin To Net: NetName=5V Pin=JP3-3
+Added Pin To Net: NetName=5V Pin=JP3-4
+Added Pin To Net: NetName=DGND Pin=JP3-5
+Added Pin To Net: NetName=DGND Pin=JP3-6
+Added Pin To Net: NetName=NetJP2_5 Pin=JP3-7
+Added Pin To Net: NetName=NetJP2_6 Pin=JP3-8
+Added Pin To Net: NetName=3V3 Pin=JP4-1
+Added Pin To Net: NetName=NetJP3_2 Pin=JP4-2
+Added Pin To Net: NetName=NetJP3_1 Pin=JP4-3
+Added Pin To Net: NetName=DGND Pin=JP4-4
+Added Pin To Net: NetName=KEY_PWR Pin=K1-1
+Added Pin To Net: NetName=B+ Pin=K1-2
+Added Pin To Net: NetName=5V Pin=L1-1
+Added Pin To Net: NetName=NetD1_1 Pin=L1-2
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=DGND Pin=LED1-2
+Added Pin To Net: NetName=5V Pin=LS1-1
+Added Pin To Net: NetName=NetLS1_2 Pin=LS1-2
+Added Pin To Net: NetName=DGND Pin=Q1-2
+Added Pin To Net: NetName=NetQ1_3 Pin=Q1-3
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=NetC16_1 Pin=Q2-2
+Added Pin To Net: NetName=5V Pin=Q2-3
+Added Pin To Net: NetName=NetQ3_1 Pin=Q3-1
+Added Pin To Net: NetName=NetQ3_3 Pin=Q3-3
+Added Pin To Net: NetName=NetQ4_1 Pin=Q4-1
+Added Pin To Net: NetName=DGND Pin=Q4-2
+Added Pin To Net: NetName=NetLS1_2 Pin=Q4-3
+Added Pin To Net: NetName=DGND Pin=R1-1
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetLED1_1 Pin=R9-1
+Added Pin To Net: NetName=5V Pin=R9-2
+Change Net Name : Old Net Name=NetC16_1 New Net Name=NetC17_1
+Change Net Name : Old Net Name=NetC20_1 New Net Name=NetC21_1
+Change Net Name : Old Net Name=NetC21_1 New Net Name=NetC22_1
+Change Net Name : Old Net Name=NetC22_1 New Net Name=NetC23_1
+Change Net Name : Old Net Name=NetC24_1 New Net Name=NetC25_1
+Added Pin To Net: NetName=NetC10_2 Pin=C10-2
+Added Pin To Net: NetName=NetC10_2 Pin=Q1-1
+Added Pin To Net: NetName=NetC10_2 Pin=R8-2
+Added Net: Name=NetC10_2
+Added Member To Class: ClassName=DIGITAL_PART Member=Component 1 FPC1.0-34P
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C1 100nF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C2 22uF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C3 2.2uF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C4 10pF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C5 10pF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C6 0.1uF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C7 22uF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C8 22uF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C9 2.2uF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C10 1uF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C11 10uF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C12 47uF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C13 100nF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C14 100nF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C15 100nF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C16 100nF
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component C17 22uF
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component C19 22uF
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component C21 10uF
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component C23 22uF
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component C24 22uF
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component C25 0.1uF/16V
+Added Member To Class: ClassName=DIGITAL_PART Member=Component D1 SS34
+Added Member To Class: ClassName=DIGITAL_PART Member=Component D2 SS34
+Added Member To Class: ClassName=DIGITAL_PART Member=Component JP1 AT043TN24
+Added Member To Class: ClassName=DIGITAL_PART Member=Component JP2 HDR-1X6
+Added Member To Class: ClassName=DIGITAL_PART Member=Component JP3 FPC1.0-8P
+Added Member To Class: ClassName=DIGITAL_PART Member=Component JP4 HDR-1X4
+Added Member To Class: ClassName=DIGITAL_PART Member=Component K1 6x6x5
+Added Member To Class: ClassName=DIGITAL_PART Member=Component L1 22uH
+Added Member To Class: ClassName=DIGITAL_PART Member=Component LED1 红色
+Added Member To Class: ClassName=DIGITAL_PART Member=Component LS1 BUZZER
+Added Member To Class: ClassName=DIGITAL_PART Member=Component Q1 SI2302
+Added Member To Class: ClassName=DIGITAL_PART Member=Component Q2 AO3401
+Added Member To Class: ClassName=DIGITAL_PART Member=Component Q3 SI2302
+Added Member To Class: ClassName=DIGITAL_PART Member=Component Q4 SS8050
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R1 4.99K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R2 10K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R3 10K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R4 75
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R5 15
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R6 4.99K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R7 4.99K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R8 390K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R9 10K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R10 10K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R11 1K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R12 75
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R13 1K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R14 10K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R15 1K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R16 10K
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component R20 1K
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component R21 2.2K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component SP1 M2铜柱
+Added Member To Class: ClassName=DIGITAL_PART Member=Component SP2 M2铜柱
+Added Member To Class: ClassName=DIGITAL_PART Member=Component SP3 M2铜柱
+Added Member To Class: ClassName=DIGITAL_PART Member=Component SP4 M2铜柱
+Added Member To Class: ClassName=DIGITAL_PART Member=Component U1 W25Q128
+Added Member To Class: ClassName=DIGITAL_PART Member=Component U2 STM32H750VBT6
+Added Member To Class: ClassName=DIGITAL_PART Member=Component U3 CAT4139
+Added Member To Class: ClassName=DIGITAL_PART Member=Component U4 SP6201-3.3
+Added Member To Class: ClassName=DIGITAL_PART Member=Component USB1 USB
+Added Member To Class: ClassName=DIGITAL_PART Member=Component X1 32M

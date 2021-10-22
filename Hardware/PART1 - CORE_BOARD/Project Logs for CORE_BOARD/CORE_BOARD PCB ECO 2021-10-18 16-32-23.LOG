@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetC16_1 Pin=K1-2
+Removed Member From Class: ClassName=DIGITAL_PART Member=JP5
+Change Component Comment : Designator=R8 Old Comment=4.99K New Comment=10K
+Added Pin To Net: NetName=B+ Pin=K1-2
+Added Member To Class: ClassName=DIGITAL_PART Member=Component JP4 HDR-1X4

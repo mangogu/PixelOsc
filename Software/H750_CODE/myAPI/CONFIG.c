@@ -20,3 +20,4 @@ void CONFIG_Init(void)
 	Flash_ReadBuffer(&mydat, 0, 1);
 	
 }
+

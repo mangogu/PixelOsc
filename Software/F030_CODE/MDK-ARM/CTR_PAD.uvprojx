@@ -539,6 +539,16 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>myAPI</GroupName>
+          <Files>
+            <File>
+              <FileName>KEY.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myAPI\KEY.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
