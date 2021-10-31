@@ -1,0 +1,6 @@
+Removed Member From Class: ClassName=ANALOG_PART2 Member=L9
+Change Component Designator: OldDesignator=G? NewDesignator=G1
+Change Component Designator: OldDesignator=L9 NewDesignator=L?
+Change Component Designator: OldDesignator=L31 NewDesignator=L?
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component G1 GDT-90V-3KA
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component L? 10uH

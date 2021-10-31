@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=CHB_COMP Pin=R40-1
+Added Pin To Net: NetName=CHB_COMP Pin=R56-1
+Added Pin To Net: NetName=CHB_COMP Pin=U19-10
+Added Net: Name=CHB_COMP

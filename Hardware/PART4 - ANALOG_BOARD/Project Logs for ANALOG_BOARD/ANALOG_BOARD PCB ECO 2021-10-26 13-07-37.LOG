@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=2CHA_P Pin=TP3-1
+Removed Pin From Net: NetName=2CHA_N Pin=TP6-1
+Removed Pin From Net: NetName=2CHA_P Pin=U16-2
+Removed Pin From Net: NetName=2CHA_N Pin=U16-3
+Removed Member From Class: ClassName=AtoD_PART Member=TP3
+Removed Member From Class: ClassName=AtoD_PART Member=TP6
+Added Pin To Net: NetName=2CHA_N Pin=U16-2
+Added Pin To Net: NetName=2CHA_P Pin=U16-3
+Change Net Name : Old Net Name=2CHA_N New Net Name=2CHA_P
+Change Net Name : Old Net Name=2CHA_P New Net Name=2CHA_N
+Added Room: Name=ANALOG_PART
+Added Room: Name=AtoD_PART

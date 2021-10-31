@@ -1,0 +1,19 @@
+Added Component: Designator=D4(SOT23-3L)
+Add component (AddParameter): Name = "BOM名称"; Value = "肖特基二极管"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "属性"; Value = "40V/2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=D4(SOT23-3L)
+Add component (AddParameter): Name = "BOM名称"; Value = "肖特基二极管"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "属性"; Value = "40V/2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D4-1
+Added Pin To Net: NetName=GND Pin=D4-1
+Added Pin To Net: NetName=GND Pin=D4-2
+Added Pin To Net: NetName=GND Pin=D4-2
+Added Pin To Net: NetName=2CHA_P Pin=D4-3
+Added Pin To Net: NetName=NetD4_3 Pin=D4-3
+Added Member To Class: ClassName=ANALOG_PART Member=Component D4 BAV199
+Added Member To Class: ClassName=AtoD_PART Member=Component D4 BAV199
+Added Member To Class: ClassName=ANALOG_PART Member=Component TP? TEST TP

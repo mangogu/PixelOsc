@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=3V3 Pin=C9-2
+Removed Pin From Net: NetName=3V3 Pin=U6-14
+Removed Member From Class: ClassName=DIGITAL_PART Member=U10
+Added Pin To Net: NetName=5V Pin=C9-2
+Added Pin To Net: NetName=5V Pin=U6-14
+Added Member To Class: ClassName=DIGITAL_PART Member=Component U5 SRV05-4
+Added Member To Class: ClassName=DIGITAL_PART Member=Component U6 CD4011
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component U8 USB-C
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component U9 IP5306

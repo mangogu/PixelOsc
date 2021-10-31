@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=NetC27_1 Pin=U6-2
+Removed Pin From Net: NetName=NetC29_1 Pin=U6-4
+Removed Pin From Net: NetName=NetC29_2 Pin=U6-5
+Removed Pin From Net: NetName=NetC27_2 Pin=U6-7
+Change Component Designator: OldDesignator=U6 NewDesignator=U?
+Added Pin To Net: NetName=NetC29_1 Pin=U?-2
+Added Pin To Net: NetName=NetC27_1 Pin=U?-4
+Added Pin To Net: NetName=NetC27_2 Pin=U?-5
+Added Pin To Net: NetName=NetC29_2 Pin=U?-7
+Added Member To Class: ClassName=ANALOG_PART Member=Component TP? TEST TP
+Added Member To Class: ClassName=ANALOG_PART Member=Component U? G6K-2Y-F-5V

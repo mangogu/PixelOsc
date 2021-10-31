@@ -1,0 +1,24 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C45
+Change Component Designator: OldDesignator=C? NewDesignator=C85
+Change Component Designator: OldDesignator=D? NewDesignator=D4
+Change Component Designator: OldDesignator=D? NewDesignator=D5
+Change Component Designator: OldDesignator=D? NewDesignator=D9
+Change Component Designator: OldDesignator=D? NewDesignator=D10
+Change Component Designator: OldDesignator=R? NewDesignator=R28
+Change Component Designator: OldDesignator=R? NewDesignator=R29
+Change Component Designator: OldDesignator=R? NewDesignator=R55
+Change Component Designator: OldDesignator=R? NewDesignator=R57
+Change Component Designator: OldDesignator=SP? NewDesignator=SP1
+Change Component Designator: OldDesignator=SP? NewDesignator=SP2
+Change Component Designator: OldDesignator=SP? NewDesignator=SP3
+Change Component Designator: OldDesignator=SP? NewDesignator=SP4
+Added Member To Class: ClassName=AtoD_PART Member=Component C45 104
+Added Member To Class: ClassName=AtoD_PART Member=Component D4 BAV199
+Added Member To Class: ClassName=AtoD_PART Member=Component D9 BAV199
+Added Member To Class: ClassName=AtoD_PART Member=Component D10 BAV199
+Added Member To Class: ClassName=AtoD_PART Member=Component R28 1K
+Added Member To Class: ClassName=AtoD_PART Member=Component R29 1K
+Added Member To Class: ClassName=AtoD_PART Member=Component R57 1K
+Added Member To Class: ClassName=AtoD_PART Member=Component SP1 M2Í­Öù
+Added Member To Class: ClassName=AtoD_PART Member=Component SP2 M2Í­Öù
+Added Member To Class: ClassName=AtoD_PART Member=Component SP4 M2Í­Öù

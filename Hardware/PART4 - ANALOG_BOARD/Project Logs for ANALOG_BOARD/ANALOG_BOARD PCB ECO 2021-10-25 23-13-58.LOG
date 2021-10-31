@@ -1,0 +1,40 @@
+Removed Member From Class: ClassName=AtoD_PART Member=C14
+Removed Member From Class: ClassName=AtoD_PART Member=C16
+Removed Member From Class: ClassName=AtoD_PART Member=C33
+Removed Member From Class: ClassName=AtoD_PART Member=C35
+Removed Member From Class: ClassName=AtoD_PART Member=C37
+Removed Member From Class: ClassName=AtoD_PART Member=C39
+Added Member To Class: ClassName=ANALOG_PART Member=Component C17 15PF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C18 22UF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C19 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component C20 22UF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C21 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component C22 22UF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C23 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component C24 0.1uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C25 0.1uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C26 0.1uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C27 22UF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C28 22uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C29 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component C30 10uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C31 10uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C32 47uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C34 2.2uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C36 1uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C38 22uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C40 22uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C42 22uF
+Added Member To Class: ClassName=AtoD_PART Member=Component C44 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C46 10uF/6.3V
+Added Member To Class: ClassName=AtoD_PART Member=Component C48 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C50 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C52 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C54 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component R19 1K
+Added Member To Class: ClassName=ANALOG_PART Member=Component R21 1K
+Added Member To Class: ClassName=ANALOG_PART Member=Component R23 100K
+Added Member To Class: ClassName=ANALOG_PART Member=Component U6 AD8061
+Added Member To Class: ClassName=ANALOG_PART Member=Component U9 SP6201-3.3
+Added Member To Class: ClassName=ANALOG_PART Member=Component U12 LM27762
+Added Member To Class: ClassName=ANALOG_PART Member=Component U14 MCP4725

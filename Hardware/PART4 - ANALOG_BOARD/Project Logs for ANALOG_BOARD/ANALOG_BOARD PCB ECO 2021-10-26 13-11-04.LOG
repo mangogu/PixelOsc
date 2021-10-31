@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=NetC44_1 Pin=U16-10
+Removed Pin From Net: NetName=NetC44_2 Pin=U16-11
+Added Pin To Net: NetName=NetC44_2 Pin=U16-2
+Added Pin To Net: NetName=NetC44_1 Pin=U16-3
+Added Pin To Net: NetName=NetC44_2 Pin=U16-10
+Added Pin To Net: NetName=NetC44_1 Pin=U16-11
+Change Net Name : Old Net Name=NetC44_1 New Net Name=2CHA_N
+Change Net Name : Old Net Name=NetC44_2 New Net Name=2CHA_P
+Added Differential Pair: Name=2CHA

@@ -1,0 +1,38 @@
+Removed Member From Class: ClassName=DIGITAL_PART Member=C19
+Removed Member From Class: ClassName=DIGITAL_PART Member=JP7
+Removed Member From Class: ClassName=DIGITAL_PART Member=R22
+Removed Member From Class: ClassName=DIGITAL_PART Member=R23
+Removed Member From Class: ClassName=DIGITAL_PART Member=U8
+Change Component Footprint: Designator=JP2 Old Footprint=DJ6113-6.3x0.8x13 New Footprint=DJ610-4.8x0.5x14
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C9 100nF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C11 1uF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C13 10uF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C14 100nF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C17 100nF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C18 100nF
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component C20 22uF
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component C22 22uF
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component C24 10uF
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component C26 22uF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component JP2 ¿‰—π≤Â∆¨
+Added Member To Class: ClassName=DIGITAL_PART Member=Component JP3 ¿‰—π≤Â∆¨
+Added Member To Class: ClassName=DIGITAL_PART Member=Component JP4 HDR-1X6
+Added Member To Class: ClassName=DIGITAL_PART Member=Component JP5 FPC1.0-8P
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R4 10K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R5 4.99K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R6 15
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R8 47K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R9 100R
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R12 10K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R13 10K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R14 1K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R15 5K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R16 5K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R17 20K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R18 1K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R19 10K
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component R20 1K
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component R21 1K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component U5 CD4011
+Added Member To Class: ClassName=DIGITAL_PART Member=Component U6 AMS1117-3.0
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component U7 USB-C

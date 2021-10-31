@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=Net1_16 Pin=TP1-1
+Removed Pin From Net: NetName=Net1_15 Pin=TP2-1
+Removed Pin From Net: NetName=Net1_16 Pin=TP5-1
+Removed Pin From Net: NetName=Net1_15 Pin=TP6-1
+Removed Member From Class: ClassName=ANALOG_PART1 Member=TP1
+Removed Member From Class: ClassName=ANALOG_PART1 Member=TP2
+Removed Member From Class: ClassName=ANALOG_PART2 Member=TP5
+Removed Member From Class: ClassName=ANALOG_PART2 Member=TP6
+Change Room Name: Old Name=RoomDefinition New Name=ANALOG_PART2
+Change Room Scope: Old Scope=InComponentClass('Room Definition 2') New Scope=InComponentClass('ANALOG_PART2')

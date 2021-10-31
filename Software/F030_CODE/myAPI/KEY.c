@@ -52,3 +52,4 @@ void KEY_ScanKeys(void)
 	
 	//HAL_ADC_Stop(&hadc);
 }
+

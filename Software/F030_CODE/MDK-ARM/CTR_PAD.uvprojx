@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F030x6</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F0xx_HAL_Driver/Inc;../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F0xx/Include;../Drivers/CMSIS/Include;..\myDriver;..\myAPI</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F0xx_HAL_Driver/Inc;../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F0xx/Include;../Drivers/CMSIS/Include;..\myDriver;..\myAPI;..\myOS</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -536,6 +536,11 @@
               <FileType>1</FileType>
               <FilePath>..\myDriver\USART.c</FilePath>
             </File>
+            <File>
+              <FileName>SYSTICK.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myDriver\SYSTICK.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -545,6 +550,16 @@
               <FileName>KEY.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\myAPI\KEY.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>myOS</GroupName>
+          <Files>
+            <File>
+              <FileName>myOS.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myOS\myOS.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -1,0 +1,84 @@
+Removed Member From Class: ClassName=ANALOG_PART Member=C?
+Removed Member From Class: ClassName=ANALOG_PART Member=L?
+Change Component Designator: OldDesignator=C2 NewDesignator=C3
+Change Component Designator: OldDesignator=C3 NewDesignator=C4
+Change Component Designator: OldDesignator=C4 NewDesignator=C12
+Change Component Designator: OldDesignator=C7 NewDesignator=C8
+Change Component Designator: OldDesignator=C8 NewDesignator=C7
+Change Component Designator: OldDesignator=C12 NewDesignator=C13
+Change Component Designator: OldDesignator=C13 NewDesignator=C14
+Change Component Designator: OldDesignator=C14 NewDesignator=C15
+Change Component Designator: OldDesignator=C15 NewDesignator=C16
+Change Component Designator: OldDesignator=C18 NewDesignator=C19
+Change Component Designator: OldDesignator=C19 NewDesignator=C20
+Change Component Designator: OldDesignator=C20 NewDesignator=C21
+Change Component Designator: OldDesignator=C21 NewDesignator=C22
+Change Component Designator: OldDesignator=C22 NewDesignator=C23
+Change Component Designator: OldDesignator=C23 NewDesignator=C24
+Change Component Designator: OldDesignator=C24 NewDesignator=C25
+Change Component Designator: OldDesignator=C25 NewDesignator=C26
+Change Component Designator: OldDesignator=C26 NewDesignator=C27
+Change Component Designator: OldDesignator=C27 NewDesignator=C28
+Change Component Designator: OldDesignator=C28 NewDesignator=C29
+Change Component Designator: OldDesignator=C29 NewDesignator=C30
+Change Component Designator: OldDesignator=C30 NewDesignator=C31
+Change Component Designator: OldDesignator=C31 NewDesignator=C32
+Change Component Designator: OldDesignator=C32 NewDesignator=C33
+Change Component Designator: OldDesignator=C33 NewDesignator=C34
+Change Component Designator: OldDesignator=C34 NewDesignator=C35
+Change Component Designator: OldDesignator=C35 NewDesignator=C36
+Change Component Designator: OldDesignator=C36 NewDesignator=C37
+Change Component Designator: OldDesignator=C37 NewDesignator=C38
+Change Component Designator: OldDesignator=C38 NewDesignator=C39
+Change Component Designator: OldDesignator=C39 NewDesignator=C40
+Change Component Designator: OldDesignator=C40 NewDesignator=C41
+Change Component Designator: OldDesignator=C41 NewDesignator=C42
+Change Component Designator: OldDesignator=C42 NewDesignator=C43
+Change Component Designator: OldDesignator=C43 NewDesignator=C44
+Change Component Designator: OldDesignator=C44 NewDesignator=C45
+Change Component Designator: OldDesignator=C45 NewDesignator=C46
+Change Component Designator: OldDesignator=C46 NewDesignator=C47
+Change Component Designator: OldDesignator=C47 NewDesignator=C48
+Change Component Designator: OldDesignator=C48 NewDesignator=C49
+Change Component Designator: OldDesignator=C49 NewDesignator=C50
+Change Component Designator: OldDesignator=C50 NewDesignator=C51
+Change Component Designator: OldDesignator=C51 NewDesignator=C52
+Change Component Designator: OldDesignator=C52 NewDesignator=C53
+Change Component Designator: OldDesignator=C53 NewDesignator=C54
+Change Component Designator: OldDesignator=C54 NewDesignator=C55
+Change Component Designator: OldDesignator=C55 NewDesignator=C56
+Change Component Designator: OldDesignator=C? NewDesignator=C2
+Change Component Designator: OldDesignator=C? NewDesignator=C18
+Change Component Designator: OldDesignator=L1 NewDesignator=L2
+Change Component Designator: OldDesignator=L2 NewDesignator=L3
+Change Component Designator: OldDesignator=L3 NewDesignator=L5
+Change Component Designator: OldDesignator=L4 NewDesignator=L6
+Change Component Designator: OldDesignator=L? NewDesignator=L1
+Change Component Designator: OldDesignator=L? NewDesignator=L4
+Change Component Designator: OldDesignator=SP? NewDesignator=SP1
+Change Component Designator: OldDesignator=SP? NewDesignator=SP2
+Change Component Designator: OldDesignator=SP? NewDesignator=SP3
+Change Component Designator: OldDesignator=SP? NewDesignator=SP4
+Change Net Name : Old Net Name=NetC3_1 New Net Name=NetC4_1
+Change Net Name : Old Net Name=NetC3_2 New Net Name=NetC4_2
+Change Net Name : Old Net Name=NetC4_1 New Net Name=NetC12_1
+Change Net Name : Old Net Name=NetC8_1 New Net Name=NetC7_1
+Change Net Name : Old Net Name=NetC12_1 New Net Name=NetC13_1
+Change Net Name : Old Net Name=NetC12_2 New Net Name=NetC13_2
+Change Net Name : Old Net Name=NetC14_1 New Net Name=NetC15_1
+Change Net Name : Old Net Name=NetC14_2 New Net Name=NetC15_2
+Change Net Name : Old Net Name=NetC18_2 New Net Name=NetC19_2
+Change Net Name : Old Net Name=NetC20_2 New Net Name=NetC21_2
+Change Net Name : Old Net Name=NetC24_1 New Net Name=NetC25_1
+Change Net Name : Old Net Name=NetC36_2 New Net Name=NetC37_2
+Change Net Name : Old Net Name=NetC37_1 New Net Name=NetC38_1
+Change Net Name : Old Net Name=NetC37_2 New Net Name=NetC38_2
+Change Net Name : Old Net Name=NetC46_2 New Net Name=NetC47_2
+Change Net Name : Old Net Name=NetC?_2 New Net Name=NetC2_2
+Added Member To Class: ClassName=ANALOG_PART Member=Component C16 360P
+Added Member To Class: ClassName=ANALOG_PART Member=Component C45 0.1uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component L5 10uH
+Added Member To Class: ClassName=ANALOG_PART Member=Component L6 10uH
+Added Member To Class: ClassName=ANALOG_PART Member=Component SP1 M2Í­Öù
+Added Member To Class: ClassName=ANALOG_PART Member=Component SP3 M2Í­Öù
+Added Member To Class: ClassName=ANALOG_PART Member=Component SP4 M2Í­Öù

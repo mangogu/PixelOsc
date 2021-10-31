@@ -1,0 +1,76 @@
+Removed Pin From Net: NetName=Net?_21 Pin=?-21
+Removed Pin From Net: NetName=Net?_22 Pin=?-22
+Removed Pin From Net: NetName=5V Pin=?-33
+Removed Pin From Net: NetName=5V Pin=?-34
+Removed Pin From Net: NetName=DGND Pin=?-35
+Removed Pin From Net: NetName=DGND Pin=?-36
+Removed Pin From Net: NetName=Net?_5 Pin=R7-1
+Removed Pin From Net: NetName=Net?_17 Pin=R31-2
+Removed Pin From Net: NetName=Net?_11 Pin=U11-6
+Removed Pin From Net: NetName=Net?_19 Pin=U13-6
+Removed Pin From Net: NetName=Net?_18 Pin=U14-6
+Removed Pin From Net: NetName=Net?_20 Pin=U15-6
+Removed Pin From Net: NetName=Net?_17 Pin=U16-8
+Removed Pin From Net: NetName=Net?_29 Pin=U16-18
+Removed Pin From Net: NetName=Net?_28 Pin=U16-19
+Removed Pin From Net: NetName=Net?_27 Pin=U16-20
+Removed Pin From Net: NetName=Net?_26 Pin=U16-21
+Removed Pin From Net: NetName=Net?_25 Pin=U16-22
+Removed Pin From Net: NetName=Net?_8 Pin=U16-37
+Removed Pin From Net: NetName=Net?_9 Pin=U16-38
+Removed Pin From Net: NetName=Net?_12 Pin=U16-39
+Removed Pin From Net: NetName=Net?_13 Pin=U16-40
+Removed Pin From Net: NetName=Net?_14 Pin=U16-41
+Removed Pin From Net: NetName=Net?_30 Pin=U16-42
+Removed Pin From Net: NetName=Net?_31 Pin=U16-43
+Removed Pin From Net: NetName=Net?_32 Pin=U16-44
+Added Pin To Net: NetName=DGND Pin=?-1
+Added Pin To Net: NetName=DGND Pin=?-2
+Added Pin To Net: NetName=5V Pin=?-3
+Added Pin To Net: NetName=5V Pin=?-4
+Added Pin To Net: NetName=Net?_22 Pin=?-15
+Added Pin To Net: NetName=Net?_21 Pin=?-16
+Added Pin To Net: NetName=Net?_32 Pin=R7-1
+Added Pin To Net: NetName=Net?_20 Pin=R31-2
+Added Pin To Net: NetName=Net?_26 Pin=U11-6
+Added Pin To Net: NetName=Net?_18 Pin=U13-6
+Added Pin To Net: NetName=Net?_19 Pin=U14-6
+Added Pin To Net: NetName=Net?_17 Pin=U15-6
+Added Pin To Net: NetName=Net?_20 Pin=U16-8
+Added Pin To Net: NetName=Net?_8 Pin=U16-18
+Added Pin To Net: NetName=Net?_9 Pin=U16-19
+Added Pin To Net: NetName=Net?_10 Pin=U16-20
+Added Pin To Net: NetName=Net?_11 Pin=U16-21
+Added Pin To Net: NetName=Net?_12 Pin=U16-22
+Added Pin To Net: NetName=Net?_29 Pin=U16-37
+Added Pin To Net: NetName=Net?_28 Pin=U16-38
+Added Pin To Net: NetName=Net?_25 Pin=U16-39
+Added Pin To Net: NetName=Net?_24 Pin=U16-40
+Added Pin To Net: NetName=Net?_23 Pin=U16-41
+Added Pin To Net: NetName=Net?_7 Pin=U16-42
+Added Pin To Net: NetName=Net?_6 Pin=U16-43
+Added Pin To Net: NetName=Net?_5 Pin=U16-44
+Change Net Name : Old Net Name=Net?_21 New Net Name=Net?_16
+Change Net Name : Old Net Name=Net?_22 New Net Name=Net?_15
+Added Pin To Net: NetName=Net?_21 Pin=?-21
+Added Pin To Net: NetName=Net?_21 Pin=R32-2
+Added Pin To Net: NetName=Net?_21 Pin=U16-9
+Added Net: Name=Net?_21
+Added Pin To Net: NetName=Net?_22 Pin=?-22
+Added Pin To Net: NetName=Net?_22 Pin=R30-2
+Added Pin To Net: NetName=Net?_22 Pin=U16-4
+Added Net: Name=Net?_22
+Added Pin To Net: NetName=Net?_33 Pin=?-33
+Added Pin To Net: NetName=Net?_33 Pin=R12-2
+Added Net: Name=Net?_33
+Added Pin To Net: NetName=Net?_34 Pin=?-34
+Added Pin To Net: NetName=Net?_34 Pin=TP4-1
+Added Pin To Net: NetName=Net?_34 Pin=U16-14
+Added Net: Name=Net?_34
+Added Pin To Net: NetName=Net?_35 Pin=?-35
+Added Pin To Net: NetName=Net?_35 Pin=TP5-1
+Added Pin To Net: NetName=Net?_35 Pin=U16-47
+Added Net: Name=Net?_35
+Added Pin To Net: NetName=Net?_36 Pin=?-36
+Added Pin To Net: NetName=Net?_36 Pin=U16-17
+Added Net: Name=Net?_36

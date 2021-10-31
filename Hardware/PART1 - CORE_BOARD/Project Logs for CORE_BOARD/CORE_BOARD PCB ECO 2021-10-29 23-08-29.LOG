@@ -1,0 +1,65 @@
+Removed Pin From Net: NetName=SCK Pin=1-21
+Removed Pin From Net: NetName=SDA Pin=1-22
+Removed Pin From Net: NetName=5V Pin=1-33
+Removed Pin From Net: NetName=5V Pin=1-34
+Removed Pin From Net: NetName=DGND Pin=1-35
+Removed Pin From Net: NetName=DGND Pin=1-36
+Removed Member From Class: ClassName=DIGITAL_PART Member=1
+Added Pin To Net: NetName=NetU2_1 Pin=U2-1
+Added Net: Name=NetU2_1
+Added Pin To Net: NetName=NetU2_2 Pin=U2-2
+Added Net: Name=NetU2_2
+Added Pin To Net: NetName=NetU2_3 Pin=U2-3
+Added Net: Name=NetU2_3
+Added Pin To Net: NetName=NetU2_4 Pin=U2-4
+Added Net: Name=NetU2_4
+Added Pin To Net: NetName=NetU2_5 Pin=U2-5
+Added Net: Name=NetU2_5
+Added Pin To Net: NetName=NetU2_7 Pin=U2-7
+Added Net: Name=NetU2_7
+Added Pin To Net: NetName=NetU2_8 Pin=U2-8
+Added Net: Name=NetU2_8
+Added Pin To Net: NetName=NetU2_9 Pin=U2-9
+Added Net: Name=NetU2_9
+Added Pin To Net: NetName=NetU2_37 Pin=U2-37
+Added Net: Name=NetU2_37
+Added Pin To Net: NetName=NetU2_53 Pin=U2-53
+Added Net: Name=NetU2_53
+Added Pin To Net: NetName=NetU2_54 Pin=U2-54
+Added Net: Name=NetU2_54
+Added Pin To Net: NetName=NetU2_58 Pin=U2-58
+Added Net: Name=NetU2_58
+Added Pin To Net: NetName=NetU2_61 Pin=U2-61
+Added Net: Name=NetU2_61
+Added Pin To Net: NetName=NetU2_62 Pin=U2-62
+Added Net: Name=NetU2_62
+Added Pin To Net: NetName=NetU2_65 Pin=U2-65
+Added Net: Name=NetU2_65
+Added Pin To Net: NetName=NetU2_66 Pin=U2-66
+Added Net: Name=NetU2_66
+Added Pin To Net: NetName=NetU2_67 Pin=U2-67
+Added Net: Name=NetU2_67
+Added Pin To Net: NetName=NetU2_68 Pin=U2-68
+Added Net: Name=NetU2_68
+Added Pin To Net: NetName=NetU2_69 Pin=U2-69
+Added Net: Name=NetU2_69
+Added Pin To Net: NetName=NetU2_78 Pin=U2-78
+Added Net: Name=NetU2_78
+Added Pin To Net: NetName=NetU2_79 Pin=U2-79
+Added Net: Name=NetU2_79
+Added Pin To Net: NetName=NetU2_80 Pin=U2-80
+Added Net: Name=NetU2_80
+Added Pin To Net: NetName=NetU2_81 Pin=U2-81
+Added Net: Name=NetU2_81
+Added Pin To Net: NetName=NetU2_82 Pin=U2-82
+Added Net: Name=NetU2_82
+Added Pin To Net: NetName=NetU2_83 Pin=U2-83
+Added Net: Name=NetU2_83
+Added Pin To Net: NetName=NetU2_85 Pin=U2-85
+Added Net: Name=NetU2_85
+Added Pin To Net: NetName=NetU2_86 Pin=U2-86
+Added Net: Name=NetU2_86
+Added Pin To Net: NetName=NetU2_97 Pin=U2-97
+Added Net: Name=NetU2_97
+Added Pin To Net: NetName=NetU2_98 Pin=U2-98
+Added Net: Name=NetU2_98

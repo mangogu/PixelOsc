@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetC18_2 Pin=U5-5
+Removed Pin From Net: NetName=GND Pin=U5-7
+Added Pin To Net: NetName=GND Pin=U5-5
+Added Pin To Net: NetName=NetC18_2 Pin=U5-7
+Added Member To Class: ClassName=ANALOG_PART Member=Component TP? TEST TP

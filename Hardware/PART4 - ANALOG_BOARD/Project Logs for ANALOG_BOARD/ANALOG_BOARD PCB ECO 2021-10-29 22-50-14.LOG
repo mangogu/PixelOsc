@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=CHA_OFST_F Pin=U7-1
+Added Pin To Net: NetName=CHA_OFST Pin=U7-1
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component C5 104
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component C28 0.1uF
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component C29 22UF
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component C43 22uF
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component C44 0.1uF
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component C84 0.1uF
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component C85 22UF
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component L5 10uH
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component L10 10uH
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component L14 10uH
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component L33 10uH
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component L35 10uH
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R14 4.99K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R17 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R18 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R23 1K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R49 75
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R50 1K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R55 4.99K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R57 4.99K
+Added Member To Class: ClassName=AtoD_PART Member=Component SP5 M2Í­Öù
+Added Member To Class: ClassName=AtoD_PART Member=Component SP6 M2Í­Öù
+Added Member To Class: ClassName=AtoD_PART Member=Component SP7 M2Í­Öù
+Added Member To Class: ClassName=AtoD_PART Member=Component SP8 M2Í­Öù
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component U13 MCP4725
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component U26 TL431

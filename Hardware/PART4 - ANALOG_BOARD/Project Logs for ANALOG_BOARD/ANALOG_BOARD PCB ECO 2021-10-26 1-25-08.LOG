@@ -1,0 +1,50 @@
+Removed Pin From Net: NetName=GND Pin=C16-1
+Removed Pin From Net: NetName=GND Pin=C17-1
+Removed Pin From Net: NetName=GND Pin=R9-1
+Removed Member From Class: ClassName=ANALOG_PART Member=C46
+Added Component: Designator=SP?(M2)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SP?(M2)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SP?(M2)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SP?(M2)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=SP?-1
+Added Pin To Net: NetName=GND Pin=SP?-1
+Added Pin To Net: NetName=GND Pin=SP?-1
+Added Pin To Net: NetName=GND Pin=SP?-1
+Added Pin To Net: NetName=NetC16_1 Pin=C16-1
+Added Pin To Net: NetName=NetC16_1 Pin=C17-1
+Added Pin To Net: NetName=NetC16_1 Pin=R9-1
+Added Net: Name=NetC16_1
+Added Member To Class: ClassName=ANALOG_PART Member=Component C26 22uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C28 22UF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C30 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component C32 10uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C34 2.2uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C36 4.7uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C38 2.2uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C40 0.1uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C41 22uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C43 22uF
+Added Member To Class: ClassName=AtoD_PART Member=Component C45 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C47 10uF/6.3V
+Added Member To Class: ClassName=AtoD_PART Member=Component C49 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C51 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C53 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component R13 75
+Added Member To Class: ClassName=ANALOG_PART Member=Component R15 4.99K
+Added Member To Class: ClassName=ANALOG_PART Member=Component R17 4.99K
+Added Member To Class: ClassName=ANALOG_PART Member=Component SP? M2铜柱
+Added Member To Class: ClassName=ANALOG_PART Member=Component SP? M2铜柱
+Added Member To Class: ClassName=ANALOG_PART Member=Component SP? M2铜柱
+Added Member To Class: ClassName=ANALOG_PART Member=Component SP? M2铜柱

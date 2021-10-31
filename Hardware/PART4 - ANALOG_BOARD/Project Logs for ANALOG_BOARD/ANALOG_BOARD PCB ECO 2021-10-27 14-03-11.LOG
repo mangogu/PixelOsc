@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=CHA_P Pin=R33-2
+Removed Pin From Net: NetName=Net1_32 Pin=R39-1
+Removed Pin From Net: NetName=Net1_33 Pin=R44-2
+Removed Pin From Net: NetName=CHA_N Pin=R45-2
+Removed Pin From Net: NetName=CHA_N Pin=U21-4
+Removed Pin From Net: NetName=CHA_P Pin=U21-5
+Added Pin To Net: NetName=Net1_31 Pin=R16-2
+Added Pin To Net: NetName=Net1_13 Pin=R39-1
+Added Pin To Net: NetName=Net1_14 Pin=R44-2
+Added Pin To Net: NetName=Net1_30 Pin=R48-2
+Change Net Name : Old Net Name=CALI_RELAY New Net Name=CHA_CALI_RELAY
+Added Pin To Net: NetName=CHB_CALI_RELAY Pin=D8-1
+Added Pin To Net: NetName=CHB_CALI_RELAY Pin=Q4-3
+Added Pin To Net: NetName=CHB_CALI_RELAY Pin=U17-8
+Added Net: Name=CHB_CALI_RELAY
+Added Pin To Net: NetName=CHB_RELAY Pin=D6-1
+Added Pin To Net: NetName=CHB_RELAY Pin=Q3-3
+Added Pin To Net: NetName=CHB_RELAY Pin=U18-8
+Added Net: Name=CHB_RELAY
+Added Pin To Net: NetName=NetR33_2 Pin=R33-2
+Added Pin To Net: NetName=NetR33_2 Pin=U21-5
+Added Net: Name=NetR33_2
+Added Pin To Net: NetName=NetR45_2 Pin=R45-2
+Added Pin To Net: NetName=NetR45_2 Pin=U21-4
+Added Net: Name=NetR45_2
+Change Class Name : Old Net Name=ANALOG_PART2 New Net Name=ANALOG_PART1
+Change Class Name : Old Net Name=ANALOG_PART New Net Name=ANALOG_PART2
+Added Room: Name=ANALOG_PART1

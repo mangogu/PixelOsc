@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=5V Pin=U6-1
+Removed Pin From Net: NetName=NetC27_1 Pin=U6-2
+Removed Pin From Net: NetName=NetR25_2 Pin=U6-3
+Removed Pin From Net: NetName=NetC29_1 Pin=U6-4
+Removed Pin From Net: NetName=NetC29_2 Pin=U6-5
+Removed Pin From Net: NetName=NetU5_6 Pin=U6-6
+Removed Pin From Net: NetName=NetC27_2 Pin=U6-7
+Removed Pin From Net: NetName=CHA_RELAY Pin=U6-8
+Removed Member From Class: ClassName=ANALOG_PART Member=U6
+Added Component: Designator=U?(G6K-2F-Y)
+Added Pin To Net: NetName=5V Pin=U?-1
+Added Pin To Net: NetName=NetC29_1 Pin=U?-2
+Added Pin To Net: NetName=NetR25_2 Pin=U?-3
+Added Pin To Net: NetName=NetC27_1 Pin=U?-4
+Added Pin To Net: NetName=NetC27_2 Pin=U?-5
+Added Pin To Net: NetName=NetU5_6 Pin=U?-6
+Added Pin To Net: NetName=NetC29_2 Pin=U?-7
+Added Pin To Net: NetName=CHA_RELAY Pin=U?-8
+Added Member To Class: ClassName=ANALOG_PART Member=Component TP? TEST TP
+Added Member To Class: ClassName=ANALOG_PART Member=Component U? G6K-2Y-F-5V

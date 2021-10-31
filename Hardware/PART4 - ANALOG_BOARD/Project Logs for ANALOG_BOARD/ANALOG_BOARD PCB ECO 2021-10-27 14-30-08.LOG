@@ -1,0 +1,8 @@
+Added Pin To Net: NetName=FB+1 Pin=R55-1
+Added Pin To Net: NetName=FB+1 Pin=R57-2
+Added Pin To Net: NetName=FB+1 Pin=U28-2
+Added Net: Name=FB+1
+Added Pin To Net: NetName=FB-1 Pin=R58-2
+Added Pin To Net: NetName=FB-1 Pin=R59-1
+Added Pin To Net: NetName=FB-1 Pin=U28-7
+Added Net: Name=FB-1

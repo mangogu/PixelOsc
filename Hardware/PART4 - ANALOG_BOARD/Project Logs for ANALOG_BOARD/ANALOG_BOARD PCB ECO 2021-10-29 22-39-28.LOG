@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetC24_1 Pin=L9-1
+Removed Pin From Net: NetName=NetC80_1 Pin=L31-1
+Removed Member From Class: ClassName=ANALOG_PART1 Member=L9
+Removed Member From Class: ClassName=ANALOG_PART2 Member=L31
+Change Component Designator: OldDesignator=L9 NewDesignator=L?
+Change Component Designator: OldDesignator=L31 NewDesignator=L?
+Added Pin To Net: NetName=NetC24_1 Pin=L?-1
+Added Pin To Net: NetName=NetC80_1 Pin=L?-1
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component L? 10uH
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component L? 10uH

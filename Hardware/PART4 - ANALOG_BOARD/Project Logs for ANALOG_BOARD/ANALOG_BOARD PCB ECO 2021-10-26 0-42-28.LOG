@@ -1,0 +1,76 @@
+Removed Member From Class: ClassName=AtoD_PART Member=C2
+Removed Member From Class: ClassName=AtoD_PART Member=C4
+Removed Member From Class: ClassName=AtoD_PART Member=C6
+Removed Member From Class: ClassName=AtoD_PART Member=C8
+Removed Member From Class: ClassName=AtoD_PART Member=C14
+Removed Member From Class: ClassName=AtoD_PART Member=C15
+Removed Member From Class: ClassName=AtoD_PART Member=C16
+Removed Member From Class: ClassName=AtoD_PART Member=C33
+Removed Member From Class: ClassName=AtoD_PART Member=C35
+Removed Member From Class: ClassName=AtoD_PART Member=C37
+Removed Member From Class: ClassName=AtoD_PART Member=C39
+Removed Member From Class: ClassName=AtoD_PART Member=D2
+Removed Member From Class: ClassName=AtoD_PART Member=D3
+Removed Member From Class: ClassName=AtoD_PART Member=R13
+Removed Member From Class: ClassName=AtoD_PART Member=R14
+Removed Member From Class: ClassName=AtoD_PART Member=R15
+Removed Member From Class: ClassName=AtoD_PART Member=R16
+Removed Member From Class: ClassName=AtoD_PART Member=R17
+Removed Member From Class: ClassName=AtoD_PART Member=U8
+Added Component: Designator=C?(C 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片钽电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3 Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Member To Class: ClassName=ANALOG_PART Member=Component C17 15PF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C18 22UF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C19 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component C20 22UF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C21 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component C22 22UF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C23 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component C24 0.1uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C25 0.1uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C26 0.1uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C27 22UF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C28 22uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C29 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component C30 10uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C31 10uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C32 47uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C33 2.2uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C34 2.2uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C35 4.7uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C36 1uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C38 22uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C40 22uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C42 22uF
+Added Member To Class: ClassName=AtoD_PART Member=Component C44 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C45 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C46 10uF/6.3V
+Added Member To Class: ClassName=AtoD_PART Member=Component C47 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C48 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C49 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C50 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C51 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C52 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C53 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C54 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component C? 22uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component D3 1N4148
+Added Member To Class: ClassName=AtoD_PART Member=Component D4 BAV199
+Added Member To Class: ClassName=AtoD_PART Member=Component D5 BAV199
+Added Member To Class: ClassName=ANALOG_PART Member=Component R16 4.99K
+Added Member To Class: ClassName=ANALOG_PART Member=Component R19 1K
+Added Member To Class: ClassName=ANALOG_PART Member=Component R21 1K
+Added Member To Class: ClassName=ANALOG_PART Member=Component R23 100K
+Added Member To Class: ClassName=AtoD_PART Member=Component R28 1K
+Added Member To Class: ClassName=AtoD_PART Member=Component R29 1K
+Added Member To Class: ClassName=AtoD_PART Member=Component R30 1K
+Added Member To Class: ClassName=AtoD_PART Member=Component R31 1K
+Added Member To Class: ClassName=AtoD_PART Member=Component R32 1K
+Added Member To Class: ClassName=ANALOG_PART Member=Component U9 SP6201-3.3
+Added Member To Class: ClassName=ANALOG_PART Member=Component U12 LM27762
+Added Member To Class: ClassName=ANALOG_PART Member=Component U14 MCP4725
+Added Member To Class: ClassName=AtoD_PART Member=Component U16 AD9288BSTZ-100

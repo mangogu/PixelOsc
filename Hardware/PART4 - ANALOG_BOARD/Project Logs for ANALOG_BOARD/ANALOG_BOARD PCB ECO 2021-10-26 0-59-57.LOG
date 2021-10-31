@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=+3 Pin=C6-1
+Removed Pin From Net: NetName=+3 Pin=C7-2
+Removed Pin From Net: NetName=+3 Pin=C8-1
+Removed Pin From Net: NetName=+3 Pin=C9-2
+Removed Pin From Net: NetName=+3 Pin=U6-5
+Removed Pin From Net: NetName=+3 Pin=U7-3
+Added Component: Designator=L?(L 0603)
+Add component (AddParameter): Name = "BOM名称"; Value = "小功率贴片电感"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=L?(L 0603)
+Add component (AddParameter): Name = "BOM名称"; Value = "小功率贴片电感"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3 Pin=L?-2
+Added Pin To Net: NetName=+3 Pin=L?-2
+Added Pin To Net: NetName=NetC6_1 Pin=C6-1
+Added Pin To Net: NetName=NetC6_1 Pin=C7-2
+Added Pin To Net: NetName=NetC6_1 Pin=L?-1
+Added Pin To Net: NetName=NetC6_1 Pin=U6-5
+Added Net: Name=NetC6_1
+Added Pin To Net: NetName=NetC8_1 Pin=C8-1
+Added Pin To Net: NetName=NetC8_1 Pin=C9-2
+Added Pin To Net: NetName=NetC8_1 Pin=L?-1
+Added Pin To Net: NetName=NetC8_1 Pin=U7-3
+Added Net: Name=NetC8_1
+Added Member To Class: ClassName=ANALOG_PART Member=Component L? 10uH
+Added Member To Class: ClassName=ANALOG_PART Member=Component L? 10uH

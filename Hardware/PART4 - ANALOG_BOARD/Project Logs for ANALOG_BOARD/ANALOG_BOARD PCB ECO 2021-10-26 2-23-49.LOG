@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=GND Pin=U11-2
+Removed Pin From Net: NetName=NetR24_2 Pin=U11-4
+Change Component Footprint: Designator=U11 Old Footprint=SOIC-8 New Footprint=SOP8_L
+Added Pin To Net: NetName=NetR24_2 Pin=U11-2
+Added Pin To Net: NetName=GND Pin=U11-4

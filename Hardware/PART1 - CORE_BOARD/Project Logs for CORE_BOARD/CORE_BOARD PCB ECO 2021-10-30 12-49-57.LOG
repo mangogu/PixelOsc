@@ -1,0 +1,9 @@
+Added Component: Designator=U?(SOT-23-6M)
+Added Pin To Net: NetName=NetR9_2 Pin=U5-4
+Added Pin To Net: NetName=DGND Pin=U?-2
+Added Pin To Net: NetName=WAVE_OUT Pin=JP2-1
+Added Pin To Net: NetName=WAVE_OUT Pin=JP2-1
+Added Pin To Net: NetName=WAVE_OUT Pin=R9-1
+Added Pin To Net: NetName=WAVE_OUT Pin=U?-1
+Added Net: Name=WAVE_OUT
+Added Member To Class: ClassName=DIGITAL_PART Member=Component U? SRV05-4

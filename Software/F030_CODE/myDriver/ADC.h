@@ -17,12 +17,9 @@
   ******************************************************************************
   */
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __ADC_H__
-#define __ADC_H__
+#ifndef __ADC_H
+#define __ADC_H
 
-#ifdef __cplusplus
-extern "C" {
-#endif
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
@@ -44,10 +41,7 @@ void ADC_GetKeyValue(void);
 
 /* USER CODE END Prototypes */
 
-#ifdef __cplusplus
-}
-#endif
 
-#endif /* __ADC_H__ */
+#endif /* __ADC_H */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

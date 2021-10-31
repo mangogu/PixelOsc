@@ -87,6 +87,8 @@ int main(void)
   MX_GPIO_Init();
   MX_USART1_UART_Init();
 	KEY_Init();
+	/* 初始化系统节拍 */
+	Systick_Init();
   
   /* USER CODE BEGIN 2 */
 

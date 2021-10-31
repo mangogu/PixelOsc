@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=OFST_CHA_F Pin=R48-2
+Removed Pin From Net: NetName=OFST_CHA Pin=R51-2
+Removed Pin From Net: NetName=TRIG_VOL Pin=R55-1
+Removed Pin From Net: NetName=VGA_CTR Pin=U19-5
+Removed Pin From Net: NetName=OFST_CHA Pin=U23-1
+Removed Pin From Net: NetName=OFST_CHA Pin=U24-1
+Removed Pin From Net: NetName=TRIG_VOL Pin=U27-1
+Removed Pin From Net: NetName=OFST_CHA_F Pin=U28-1
+Removed Pin From Net: NetName=VGA_CTR Pin=U29-1
+Change Component Designator: OldDesignator=G1 NewDesignator=G?
+Added Pin To Net: NetName=CHB_OFST_F Pin=R48-2
+Added Pin To Net: NetName=CHB_OFST_F Pin=U28-1
+Added Net: Name=CHB_OFST_F
+Added Pin To Net: NetName=CHB_OFST Pin=R51-2
+Added Pin To Net: NetName=CHB_OFST Pin=U23-1
+Added Pin To Net: NetName=CHB_OFST Pin=U24-1
+Added Net: Name=CHB_OFST
+Added Pin To Net: NetName=CHB_TRIG_VOL Pin=R55-1
+Added Pin To Net: NetName=CHB_TRIG_VOL Pin=U27-1
+Added Net: Name=CHB_TRIG_VOL
+Added Pin To Net: NetName=CHB_VGA_CTR Pin=U19-5
+Added Pin To Net: NetName=CHB_VGA_CTR Pin=U29-1
+Added Net: Name=CHB_VGA_CTR

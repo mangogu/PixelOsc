@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=USB_P Pin=U3-6
+Removed Member From Class: ClassName=DIGITAL_PART Member=C18
+Removed Member From Class: ClassName=DIGITAL_PART Member=U6
+Added Pin To Net: NetName=USB_P Pin=U3-3
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C16 100nF
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component C17 22uF
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component C19 22uF
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component C21 10uF
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component C23 22uF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R1 10K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R9 20K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R10 10K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R12 1K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R14 5K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component R16 1K
+Added Member To Class: ClassName=DIGITAL_PART Member=Component U3 SRV05-4
+Added Member To Class: ClassName=DIGITAL_PART Member=Component U4 CAT4139
+Added Member To Class: ClassName=POWER_BANK_PART Member=Component U7 IP5306

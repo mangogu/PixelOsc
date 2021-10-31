@@ -1,0 +1,135 @@
+Removed Member From Class: ClassName=AtoD_PART Member=C85
+Removed Member From Class: ClassName=AtoD_PART Member=R55
+Removed Member From Class: ClassName=AtoD_PART Member=R57
+Change Component Designator: OldDesignator=C46 NewDesignator=C47
+Change Component Designator: OldDesignator=C47 NewDesignator=C48
+Change Component Designator: OldDesignator=C48 NewDesignator=C49
+Change Component Designator: OldDesignator=C49 NewDesignator=C50
+Change Component Designator: OldDesignator=C50 NewDesignator=C51
+Change Component Designator: OldDesignator=C51 NewDesignator=C52
+Change Component Designator: OldDesignator=C52 NewDesignator=C53
+Change Component Designator: OldDesignator=C53 NewDesignator=C54
+Change Component Designator: OldDesignator=C54 NewDesignator=C55
+Change Component Designator: OldDesignator=C55 NewDesignator=C56
+Change Component Designator: OldDesignator=C56 NewDesignator=C57
+Change Component Designator: OldDesignator=C57 NewDesignator=C58
+Change Component Designator: OldDesignator=C58 NewDesignator=C59
+Change Component Designator: OldDesignator=C59 NewDesignator=C60
+Change Component Designator: OldDesignator=C60 NewDesignator=C61
+Change Component Designator: OldDesignator=C61 NewDesignator=C62
+Change Component Designator: OldDesignator=C62 NewDesignator=C63
+Change Component Designator: OldDesignator=C63 NewDesignator=C64
+Change Component Designator: OldDesignator=C64 NewDesignator=C65
+Change Component Designator: OldDesignator=C65 NewDesignator=C66
+Change Component Designator: OldDesignator=C66 NewDesignator=C67
+Change Component Designator: OldDesignator=C67 NewDesignator=C68
+Change Component Designator: OldDesignator=C68 NewDesignator=C69
+Change Component Designator: OldDesignator=C69 NewDesignator=C70
+Change Component Designator: OldDesignator=C70 NewDesignator=C71
+Change Component Designator: OldDesignator=C71 NewDesignator=C72
+Change Component Designator: OldDesignator=C72 NewDesignator=C73
+Change Component Designator: OldDesignator=C73 NewDesignator=C74
+Change Component Designator: OldDesignator=C74 NewDesignator=C75
+Change Component Designator: OldDesignator=C75 NewDesignator=C76
+Change Component Designator: OldDesignator=C76 NewDesignator=C77
+Change Component Designator: OldDesignator=C77 NewDesignator=C78
+Change Component Designator: OldDesignator=C78 NewDesignator=C79
+Change Component Designator: OldDesignator=C79 NewDesignator=C80
+Change Component Designator: OldDesignator=C80 NewDesignator=C81
+Change Component Designator: OldDesignator=C81 NewDesignator=C82
+Change Component Designator: OldDesignator=C82 NewDesignator=C83
+Change Component Designator: OldDesignator=C83 NewDesignator=C84
+Change Component Designator: OldDesignator=C84 NewDesignator=C85
+Change Component Designator: OldDesignator=C85 NewDesignator=C46
+Change Component Designator: OldDesignator=C94 NewDesignator=C87
+Change Component Designator: OldDesignator=C95 NewDesignator=C88
+Change Component Designator: OldDesignator=C96 NewDesignator=C89
+Change Component Designator: OldDesignator=C97 NewDesignator=C90
+Change Component Designator: OldDesignator=C98 NewDesignator=C91
+Change Component Designator: OldDesignator=C99 NewDesignator=C92
+Change Component Designator: OldDesignator=D6 NewDesignator=D8
+Change Component Designator: OldDesignator=D7 NewDesignator=D9
+Change Component Designator: OldDesignator=D8 NewDesignator=D10
+Change Component Designator: OldDesignator=D9 NewDesignator=D6
+Change Component Designator: OldDesignator=D10 NewDesignator=D7
+Change Component Designator: OldDesignator=JP3 NewDesignator=JP2
+Change Component Designator: OldDesignator=R30 NewDesignator=R32
+Change Component Designator: OldDesignator=R31 NewDesignator=R33
+Change Component Designator: OldDesignator=R32 NewDesignator=R34
+Change Component Designator: OldDesignator=R33 NewDesignator=R35
+Change Component Designator: OldDesignator=R34 NewDesignator=R36
+Change Component Designator: OldDesignator=R35 NewDesignator=R37
+Change Component Designator: OldDesignator=R36 NewDesignator=R38
+Change Component Designator: OldDesignator=R37 NewDesignator=R39
+Change Component Designator: OldDesignator=R38 NewDesignator=R40
+Change Component Designator: OldDesignator=R39 NewDesignator=R41
+Change Component Designator: OldDesignator=R40 NewDesignator=R42
+Change Component Designator: OldDesignator=R41 NewDesignator=R43
+Change Component Designator: OldDesignator=R42 NewDesignator=R44
+Change Component Designator: OldDesignator=R43 NewDesignator=R45
+Change Component Designator: OldDesignator=R44 NewDesignator=R46
+Change Component Designator: OldDesignator=R45 NewDesignator=R47
+Change Component Designator: OldDesignator=R46 NewDesignator=R48
+Change Component Designator: OldDesignator=R47 NewDesignator=R49
+Change Component Designator: OldDesignator=R48 NewDesignator=R50
+Change Component Designator: OldDesignator=R49 NewDesignator=R51
+Change Component Designator: OldDesignator=R50 NewDesignator=R52
+Change Component Designator: OldDesignator=R51 NewDesignator=R53
+Change Component Designator: OldDesignator=R52 NewDesignator=R54
+Change Component Designator: OldDesignator=R53 NewDesignator=R55
+Change Component Designator: OldDesignator=R54 NewDesignator=R56
+Change Component Designator: OldDesignator=R55 NewDesignator=R30
+Change Component Designator: OldDesignator=R56 NewDesignator=R57
+Change Component Designator: OldDesignator=R57 NewDesignator=R31
+Change Component Designator: OldDesignator=U26 NewDesignator=U25
+Change Component Designator: OldDesignator=U27 NewDesignator=U26
+Change Component Designator: OldDesignator=U29 NewDesignator=U27
+Change Component Designator: OldDesignator=U30 NewDesignator=U28
+Change Component Designator: OldDesignator=U31 NewDesignator=U29
+Added Component: Designator=G1(GDT-1812)
+Added Component: Designator=G2(GDT-1812)
+Added Pin To Net: NetName=GND Pin=G1-1
+Added Pin To Net: NetName=NetC2_1 Pin=G1-2
+Added Pin To Net: NetName=GND Pin=G2-1
+Added Pin To Net: NetName=NetC57_1 Pin=G2-2
+Change Net Name : Old Net Name=NetC46_2 New Net Name=NetC47_2
+Change Net Name : Old Net Name=NetC56_2 New Net Name=NetC57_2
+Change Net Name : Old Net Name=NetC57_1 New Net Name=NetC58_1
+Change Net Name : Old Net Name=NetC57_2 New Net Name=NetC58_2
+Change Net Name : Old Net Name=NetC58_2 New Net Name=NetC59_2
+Change Net Name : Old Net Name=NetC59_1 New Net Name=NetC60_1
+Change Net Name : Old Net Name=NetC60_1 New Net Name=NetC61_1
+Change Net Name : Old Net Name=NetC63_1 New Net Name=NetC64_1
+Change Net Name : Old Net Name=NetC65_1 New Net Name=NetC66_1
+Change Net Name : Old Net Name=NetC66_1 New Net Name=NetC67_1
+Change Net Name : Old Net Name=NetC66_2 New Net Name=NetC67_2
+Change Net Name : Old Net Name=NetC68_1 New Net Name=NetC69_1
+Change Net Name : Old Net Name=NetC68_2 New Net Name=NetC69_2
+Change Net Name : Old Net Name=NetC70_2 New Net Name=NetC71_2
+Change Net Name : Old Net Name=NetC72_2 New Net Name=NetC73_2
+Change Net Name : Old Net Name=NetC74_2 New Net Name=NetC75_2
+Change Net Name : Old Net Name=NetC76_2 New Net Name=NetC77_2
+Change Net Name : Old Net Name=NetC78_1 New Net Name=NetC79_1
+Change Net Name : Old Net Name=NetC79_1 New Net Name=NetC80_1
+Change Net Name : Old Net Name=NetC81_1 New Net Name=NetC82_1
+Change Net Name : Old Net Name=NetC83_1 New Net Name=NetC84_1
+Change Net Name : Old Net Name=NetC94_1 New Net Name=NetC87_1
+Change Net Name : Old Net Name=NetC96_1 New Net Name=NetC89_1
+Change Net Name : Old Net Name=NetC98_1 New Net Name=NetC91_1
+Change Net Name : Old Net Name=NetD7_3 New Net Name=NetD9_3
+Change Net Name : Old Net Name=NetR33_1 New Net Name=NetR35_1
+Change Net Name : Old Net Name=NetR34_1 New Net Name=NetR36_1
+Change Net Name : Old Net Name=NetR37_1 New Net Name=NetR39_1
+Change Net Name : Old Net Name=NetR39_2 New Net Name=NetR41_2
+Change Net Name : Old Net Name=NetR40_2 New Net Name=NetR42_2
+Change Net Name : Old Net Name=NetR42_2 New Net Name=NetR44_2
+Change Net Name : Old Net Name=NetR46_1 New Net Name=NetR48_1
+Change Net Name : Old Net Name=NetR49_1 New Net Name=NetR51_1
+Change Net Name : Old Net Name=NetR52_1 New Net Name=NetR54_1
+Change Net Name : Old Net Name=NetR53_2 New Net Name=NetR55_2
+Change Net Name : Old Net Name=NetR56_2 New Net Name=NetR57_2
+Added Member To Class: ClassName=AtoD_PART Member=Component C56 104
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component G1 GDT-90V-3KA
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component G2 GDT-90V-3KA
+Added Member To Class: ClassName=AtoD_PART Member=Component R33 1K
+Added Member To Class: ClassName=AtoD_PART Member=Component R34 1K

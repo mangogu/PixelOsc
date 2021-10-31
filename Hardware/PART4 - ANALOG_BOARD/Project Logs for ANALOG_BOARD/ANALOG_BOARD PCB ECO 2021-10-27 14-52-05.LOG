@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=C30 Old Footprint=CD A(3216) New Footprint=C 0603_L
+Change Component Footprint: Designator=C32 Old Footprint=CD A(3216) New Footprint=C 0603_L
+Added Member To Class: ClassName=AtoD_PART Member=Component SP? M2Í­Öù
+Added Member To Class: ClassName=AtoD_PART Member=Component SP? M2Í­Öù
+Added Member To Class: ClassName=AtoD_PART Member=Component SP? M2Í­Öù
+Added Room: Name=ANALOG_PART2

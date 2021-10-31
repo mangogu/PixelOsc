@@ -1,0 +1,8 @@
+Added Pin To Net: NetName=GND Pin=1-1
+Added Pin To Net: NetName=GND Pin=1-2
+Added Pin To Net: NetName=GND Pin=C30-2
+Added Pin To Net: NetName=GND Pin=C32-2
+Added Pin To Net: NetName=GND Pin=C33-1
+Added Pin To Net: NetName=GND Pin=U9-2
+Change Net Name : Old Net Name=GND New Net Name=DGND
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component C30 10uF

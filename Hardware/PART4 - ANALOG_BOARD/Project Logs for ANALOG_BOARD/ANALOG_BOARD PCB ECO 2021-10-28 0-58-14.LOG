@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=1V5REF Pin=C86-1
+Removed Pin From Net: NetName=1V5REF Pin=R52-2
+Removed Pin From Net: NetName=1V5REF Pin=R53-2
+Removed Pin From Net: NetName=1V5REF Pin=R54-2
+Removed Pin From Net: NetName=1V5REF Pin=U23-2
+Removed Pin From Net: NetName=1V5REF Pin=U25-1
+Added Pin To Net: NetName=1V5REF_2 Pin=C86-1
+Added Pin To Net: NetName=1V5REF_2 Pin=R52-2
+Added Pin To Net: NetName=1V5REF_2 Pin=R53-2
+Added Pin To Net: NetName=1V5REF_2 Pin=R54-2
+Added Pin To Net: NetName=1V5REF_2 Pin=U23-2
+Added Pin To Net: NetName=1V5REF_2 Pin=U25-1
+Added Net: Name=1V5REF_2

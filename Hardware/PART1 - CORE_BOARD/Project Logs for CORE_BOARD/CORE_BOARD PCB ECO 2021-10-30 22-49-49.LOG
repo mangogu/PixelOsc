@@ -1,0 +1,8 @@
+Removed Member From Class: ClassName=DIGITAL_PART Member=U?
+Change Component Designator: OldDesignator=U5 NewDesignator=U6
+Change Component Designator: OldDesignator=U6 NewDesignator=U7
+Change Component Designator: OldDesignator=U7 NewDesignator=U8
+Change Component Designator: OldDesignator=U8 NewDesignator=U9
+Change Component Designator: OldDesignator=U9 NewDesignator=U10
+Change Component Designator: OldDesignator=U? NewDesignator=U5
+Added Member To Class: ClassName=DIGITAL_PART Member=Component U7 AMS1117-3.0

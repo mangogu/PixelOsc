@@ -1,0 +1,24 @@
+Added Component: Designator=SP5(M2)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SP6(M2)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SP7(M2)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SP8(M2)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=SP5-1
+Added Pin To Net: NetName=GND Pin=SP6-1
+Added Pin To Net: NetName=GND Pin=SP7-1
+Added Pin To Net: NetName=GND Pin=SP8-1
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component SP5 M2铜柱
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component SP6 M2铜柱
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component SP7 M2铜柱
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component SP8 M2铜柱

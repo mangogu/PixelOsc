@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=CHA_N Pin=R55-1
+Removed Pin From Net: NetName=CHA_P Pin=R57-1
+Added Pin To Net: NetName=CHB_N Pin=R45-2
+Added Pin To Net: NetName=CHB_N Pin=R55-1
+Added Pin To Net: NetName=CHB_N Pin=U21-4
+Added Net: Name=CHB_N
+Added Pin To Net: NetName=CHB_P Pin=R33-2
+Added Pin To Net: NetName=CHB_P Pin=R57-1
+Added Pin To Net: NetName=CHB_P Pin=U21-5
+Added Net: Name=CHB_P
+Added Differential Pair: Name=CHB

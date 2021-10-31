@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=NetC24_1 Pin=L9-1
+Removed Pin From Net: NetName=NetC80_1 Pin=L31-1
+Change Component Designator: OldDesignator=G? NewDesignator=G1
+Change Component Designator: OldDesignator=L9 NewDesignator=L31
+Change Component Designator: OldDesignator=L31 NewDesignator=L9
+Added Pin To Net: NetName=NetC24_1 Pin=L9-1
+Added Pin To Net: NetName=NetC80_1 Pin=L31-1
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component L9 10uH
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component L31 10uH

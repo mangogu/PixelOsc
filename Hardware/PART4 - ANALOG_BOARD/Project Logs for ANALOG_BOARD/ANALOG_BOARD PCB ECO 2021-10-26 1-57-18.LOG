@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=NetC12_1 Pin=U3-4
+Removed Member From Class: ClassName=ANALOG_PART Member=C47
+Added Member To Class: ClassName=ANALOG_PART Member=Component C2 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component C4 22NF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C8 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component C12 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component C14 15PF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C18 20P
+Added Member To Class: ClassName=ANALOG_PART Member=Component C20 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component C22 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component C24 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component C26 0.1uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C27 22uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C29 22UF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C31 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component C33 10uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C35 2.2uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C37 4.7uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C39 2.2uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C41 0.1uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C42 22uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C44 22uF
+Added Member To Class: ClassName=AtoD_PART Member=Component C46 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C48 10uF/6.3V
+Added Member To Class: ClassName=AtoD_PART Member=Component C50 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C52 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C54 104
+Added Member To Class: ClassName=ANALOG_PART Member=Component L1 10uH
+Added Member To Class: ClassName=ANALOG_PART Member=Component L2 10uH
+Added Member To Class: ClassName=ANALOG_PART Member=Component L3 10uH
+Added Member To Class: ClassName=ANALOG_PART Member=Component L4 10uH
+Added Member To Class: ClassName=ANALOG_PART Member=Component SP2 M2Í­Öù

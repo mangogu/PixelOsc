@@ -1,0 +1,212 @@
+Removed Pin From Net: NetName=DGND Pin=1-1
+Removed Pin From Net: NetName=DGND Pin=1-2
+Removed Pin From Net: NetName=5V Pin=1-3
+Removed Pin From Net: NetName=5V Pin=1-4
+Removed Pin From Net: NetName=Net1_5 Pin=1-5
+Removed Pin From Net: NetName=Net1_6 Pin=1-6
+Removed Pin From Net: NetName=Net1_7 Pin=1-7
+Removed Pin From Net: NetName=Net1_8 Pin=1-8
+Removed Pin From Net: NetName=Net1_9 Pin=1-9
+Removed Pin From Net: NetName=Net1_10 Pin=1-10
+Removed Pin From Net: NetName=Net1_11 Pin=1-11
+Removed Pin From Net: NetName=Net1_12 Pin=1-12
+Removed Pin From Net: NetName=Net1_13 Pin=1-13
+Removed Pin From Net: NetName=Net1_14 Pin=1-14
+Removed Pin From Net: NetName=Net1_15 Pin=1-15
+Removed Pin From Net: NetName=Net1_16 Pin=1-16
+Removed Pin From Net: NetName=Net1_17 Pin=1-17
+Removed Pin From Net: NetName=Net1_18 Pin=1-18
+Removed Pin From Net: NetName=Net1_19 Pin=1-19
+Removed Pin From Net: NetName=Net1_20 Pin=1-20
+Removed Pin From Net: NetName=Net1_21 Pin=1-21
+Removed Pin From Net: NetName=Net1_22 Pin=1-22
+Removed Pin From Net: NetName=Net1_23 Pin=1-23
+Removed Pin From Net: NetName=Net1_24 Pin=1-24
+Removed Pin From Net: NetName=Net1_27 Pin=1-27
+Removed Pin From Net: NetName=Net1_28 Pin=1-28
+Removed Pin From Net: NetName=Net1_29 Pin=1-29
+Removed Pin From Net: NetName=Net1_30 Pin=1-30
+Removed Pin From Net: NetName=Net1_31 Pin=1-31
+Removed Pin From Net: NetName=Net1_32 Pin=1-32
+Removed Pin From Net: NetName=Net1_33 Pin=1-33
+Removed Pin From Net: NetName=Net1_34 Pin=1-34
+Removed Pin From Net: NetName=Net1_35 Pin=1-35
+Removed Pin From Net: NetName=Net1_36 Pin=1-36
+Removed Pin From Net: NetName=DGND Pin=G1-1
+Removed Pin From Net: NetName=NetC2_1 Pin=G1-2
+Removed Pin From Net: NetName=DGND Pin=G2-1
+Removed Pin From Net: NetName=NetC58_1 Pin=G2-2
+Removed Pin From Net: NetName=Net1_32 Pin=R7-1
+Removed Pin From Net: NetName=Net1_33 Pin=R12-2
+Removed Pin From Net: NetName=Net1_31 Pin=R15-2
+Removed Pin From Net: NetName=Net1_22 Pin=R32-2
+Removed Pin From Net: NetName=Net1_20 Pin=R33-2
+Removed Pin From Net: NetName=Net1_13 Pin=R41-1
+Removed Pin From Net: NetName=Net1_14 Pin=R46-2
+Removed Pin From Net: NetName=Net1_30 Pin=R49-2
+Removed Pin From Net: NetName=Net1_22 Pin=U16-4
+Removed Pin From Net: NetName=Net1_20 Pin=U16-8
+Removed Pin From Net: NetName=Net1_34 Pin=U16-14
+Removed Pin From Net: NetName=Net1_36 Pin=U16-17
+Removed Pin From Net: NetName=Net1_8 Pin=U16-18
+Removed Pin From Net: NetName=Net1_9 Pin=U16-19
+Removed Pin From Net: NetName=Net1_10 Pin=U16-20
+Removed Pin From Net: NetName=Net1_11 Pin=U16-21
+Removed Pin From Net: NetName=Net1_12 Pin=U16-22
+Removed Pin From Net: NetName=Net1_29 Pin=U16-37
+Removed Pin From Net: NetName=Net1_28 Pin=U16-38
+Removed Pin From Net: NetName=Net1_24 Pin=U16-40
+Removed Pin From Net: NetName=Net1_23 Pin=U16-41
+Removed Pin From Net: NetName=Net1_7 Pin=U16-42
+Removed Pin From Net: NetName=Net1_6 Pin=U16-43
+Removed Pin From Net: NetName=Net1_5 Pin=U16-44
+Removed Pin From Net: NetName=Net1_35 Pin=U16-47
+Removed Pin From Net: NetName=Net1_27 Pin=U25-6
+Removed Member From Class: ClassName=ANALOG_PART2 Member=L9
+Added Component: Designator=1(FPC0.5 2H-WS-40P)
+Add component (AddParameter): Name = "BOM名称"; Value = "FPC连接器"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=C93(C 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=IC1(DIP16-300)
+Add component (AddParameter): Name = "BOM名称"; Value = "138译码器"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Net1_5 Pin=1-5
+Added Pin To Net: NetName=Net1_6 Pin=1-6
+Added Pin To Net: NetName=Net1_7 Pin=1-7
+Added Pin To Net: NetName=Net1_8 Pin=1-8
+Added Pin To Net: NetName=Net1_9 Pin=1-9
+Added Pin To Net: NetName=Net1_10 Pin=1-10
+Added Pin To Net: NetName=Net1_11 Pin=1-11
+Added Pin To Net: NetName=Net1_12 Pin=1-12
+Added Pin To Net: NetName=Net1_13 Pin=1-13
+Added Pin To Net: NetName=Net1_14 Pin=1-14
+Added Pin To Net: NetName=Net1_17 Pin=1-17
+Added Pin To Net: NetName=Net1_18 Pin=1-18
+Added Pin To Net: NetName=Net1_19 Pin=1-19
+Added Pin To Net: NetName=Net1_20 Pin=1-20
+Added Pin To Net: NetName=Net1_21 Pin=1-21
+Added Pin To Net: NetName=Net1_22 Pin=1-22
+Added Pin To Net: NetName=Net1_23 Pin=1-23
+Added Pin To Net: NetName=Net1_24 Pin=1-24
+Added Pin To Net: NetName=Net1_16 Pin=1-25
+Added Pin To Net: NetName=Net1_15 Pin=1-26
+Added Pin To Net: NetName=Net1_27 Pin=1-27
+Added Pin To Net: NetName=Net1_28 Pin=1-28
+Added Pin To Net: NetName=Net1_29 Pin=1-29
+Added Pin To Net: NetName=Net1_30 Pin=1-30
+Added Pin To Net: NetName=Net1_31 Pin=1-31
+Added Pin To Net: NetName=Net1_32 Pin=1-32
+Added Pin To Net: NetName=Net1_33 Pin=1-33
+Added Pin To Net: NetName=Net1_34 Pin=1-34
+Added Pin To Net: NetName=Net1_35 Pin=1-35
+Added Pin To Net: NetName=Net1_36 Pin=1-36
+Added Pin To Net: NetName=5V Pin=1-37
+Added Pin To Net: NetName=5V Pin=1-38
+Added Pin To Net: NetName=DGND Pin=1-39
+Added Pin To Net: NetName=DGND Pin=1-40
+Added Pin To Net: NetName=DGND Pin=C93-1
+Added Pin To Net: NetName=+3 Pin=C93-2
+Added Pin To Net: NetName=NetC2_1 Pin=G1-1
+Added Pin To Net: NetName=DGND Pin=G1-2
+Added Pin To Net: NetName=NetC58_1 Pin=G2-1
+Added Pin To Net: NetName=DGND Pin=G2-2
+Added Pin To Net: NetName=Net1_6 Pin=IC1-1
+Added Pin To Net: NetName=Net1_5 Pin=IC1-2
+Added Pin To Net: NetName=DGND Pin=IC1-4
+Added Pin To Net: NetName=DGND Pin=IC1-5
+Added Pin To Net: NetName=+3 Pin=IC1-6
+Added Pin To Net: NetName=DGND Pin=IC1-8
+Added Pin To Net: NetName=+3 Pin=IC1-16
+Added Pin To Net: NetName=Net1_10 Pin=R7-1
+Added Pin To Net: NetName=Net1_9 Pin=R12-2
+Added Pin To Net: NetName=Net1_11 Pin=R15-2
+Added Pin To Net: NetName=Net1_20 Pin=R32-2
+Added Pin To Net: NetName=Net1_22 Pin=R33-2
+Added Pin To Net: NetName=Net1_23 Pin=R41-1
+Added Pin To Net: NetName=Net1_24 Pin=R46-2
+Added Pin To Net: NetName=Net1_14 Pin=R49-2
+Added Pin To Net: NetName=Net1_20 Pin=U16-4
+Added Pin To Net: NetName=Net1_22 Pin=U16-8
+Added Pin To Net: NetName=Net1_8 Pin=U16-14
+Added Pin To Net: NetName=Net1_33 Pin=U16-18
+Added Pin To Net: NetName=Net1_32 Pin=U16-19
+Added Pin To Net: NetName=Net1_31 Pin=U16-20
+Added Pin To Net: NetName=Net1_30 Pin=U16-21
+Added Pin To Net: NetName=Net1_29 Pin=U16-22
+Added Pin To Net: NetName=Net1_28 Pin=U16-23
+Added Pin To Net: NetName=Net1_27 Pin=U16-24
+Added Pin To Net: NetName=Net1_12 Pin=U16-37
+Added Pin To Net: NetName=Net1_13 Pin=U16-38
+Added Pin To Net: NetName=Net1_17 Pin=U16-39
+Added Pin To Net: NetName=Net1_18 Pin=U16-40
+Added Pin To Net: NetName=Net1_19 Pin=U16-41
+Added Pin To Net: NetName=Net1_34 Pin=U16-42
+Added Pin To Net: NetName=Net1_35 Pin=U16-43
+Added Pin To Net: NetName=Net1_36 Pin=U16-44
+Added Pin To Net: NetName=Net1_7 Pin=U16-47
+Change Net Name : Old Net Name=Net1_15 New Net Name=Net1_26
+Change Net Name : Old Net Name=Net1_16 New Net Name=Net1_25
+Added Pin To Net: NetName=Net1_3 Pin=1-3
+Added Pin To Net: NetName=Net1_3 Pin=U16-17
+Added Net: Name=Net1_3
+Added Pin To Net: NetName=Net1_4 Pin=1-4
+Added Pin To Net: NetName=Net1_4 Pin=IC1-3
+Added Net: Name=Net1_4
+Added Pin To Net: NetName=Net1_15 Pin=1-15
+Added Pin To Net: NetName=Net1_15 Pin=U25-6
+Added Net: Name=Net1_15
+Added Pin To Net: NetName=Net1_16 Pin=1-16
+Added Pin To Net: NetName=Net1_16 Pin=U11-6
+Added Net: Name=Net1_16
+Added Pin To Net: NetName=NetIC1_10 Pin=IC1-10
+Added Pin To Net: NetName=NetIC1_10 Pin=U28-6
+Added Net: Name=NetIC1_10
+Added Pin To Net: NetName=NetIC1_11 Pin=IC1-11
+Added Pin To Net: NetName=NetIC1_11 Pin=U27-6
+Added Net: Name=NetIC1_11
+Added Pin To Net: NetName=NetIC1_12 Pin=IC1-12
+Added Pin To Net: NetName=NetIC1_12 Pin=U29-6
+Added Net: Name=NetIC1_12
+Added Pin To Net: NetName=NetIC1_13 Pin=IC1-13
+Added Pin To Net: NetName=NetIC1_13 Pin=U13-6
+Added Net: Name=NetIC1_13
+Added Pin To Net: NetName=NetIC1_14 Pin=IC1-14
+Added Pin To Net: NetName=NetIC1_14 Pin=U15-6
+Added Net: Name=NetIC1_14
+Added Pin To Net: NetName=NetIC1_15 Pin=IC1-15
+Added Pin To Net: NetName=NetIC1_15 Pin=U14-6
+Added Net: Name=NetIC1_15
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component C5 104
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component C28 0.1uF
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component C29 22UF
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component C43 22uF
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component C44 0.1uF
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component C84 0.1uF
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component C85 22UF
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component C93 100nF
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component IC1 74HC138
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component L5 10uH
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component L10 10uH
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component L14 10uH
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component L31 10uH
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component L33 10uH
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component L35 10uH
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R14 4.99K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R17 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R18 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R23 1K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R49 75
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R50 1K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R55 4.99K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R57 4.99K
+Added Member To Class: ClassName=AtoD_PART Member=Component SP5 M2铜柱
+Added Member To Class: ClassName=AtoD_PART Member=Component SP6 M2铜柱
+Added Member To Class: ClassName=AtoD_PART Member=Component SP7 M2铜柱
+Added Member To Class: ClassName=AtoD_PART Member=Component SP8 M2铜柱
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component U13 MCP4725
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component U26 TL431

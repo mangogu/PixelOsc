@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=D2 Old Footprint=SMA New Footprint=SOD-523_L
+Change Component Comment : Designator=D2 Old Comment=SS34 New Comment=1N4148
+Change component parameters: Designator = "D2" ("D2"); Footprint = "SMA"; UniqueID = "\AGTULHPL" ("\AGTULHPL")
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "高速开关二极管"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C11 10uF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component C12 10uF
+Added Member To Class: ClassName=DIGITAL_PART Member=Component U5 AMS1117-3.0

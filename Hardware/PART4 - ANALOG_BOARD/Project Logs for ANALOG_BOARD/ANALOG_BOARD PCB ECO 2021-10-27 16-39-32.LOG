@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=2CHB_P Pin=U16-2
+Removed Pin From Net: NetName=2CHB_N Pin=U16-3
+Added Pin To Net: NetName=2CHB_N Pin=U16-2
+Added Pin To Net: NetName=2CHB_P Pin=U16-3
+Change Net Name : Old Net Name=CHB_N New Net Name=CHB_P
+Change Net Name : Old Net Name=CHB_P New Net Name=CHB_N

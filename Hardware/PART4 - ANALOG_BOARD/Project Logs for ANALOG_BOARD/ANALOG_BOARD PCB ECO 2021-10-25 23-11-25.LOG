@@ -1,0 +1,33 @@
+Added Component: Designator=TP?(TEST TP1.4_B)
+Add component (AddParameter): Name = "BOM名称"; Value = "测试环"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(TEST TP1.4_B)
+Add component (AddParameter): Name = "BOM名称"; Value = "测试环"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(TEST TP1.4_B)
+Add component (AddParameter): Name = "BOM名称"; Value = "测试环"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(TEST TP1.4_B)
+Add component (AddParameter): Name = "BOM名称"; Value = "测试环"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(TEST TP1.4_B)
+Add component (AddParameter): Name = "BOM名称"; Value = "测试环"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(TEST TP1.4_B)
+Add component (AddParameter): Name = "BOM名称"; Value = "测试环"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=2CHA_N Pin=TP?-1
+Added Pin To Net: NetName=2CHA_P Pin=TP?-1
+Added Pin To Net: NetName=NetTP?_1 Pin=TP?-1
+Added Member To Class: ClassName=ANALOG_PART Member=Component TP? TEST TP
+Added Member To Class: ClassName=ANALOG_PART Member=Component TP? TEST TP
+Added Member To Class: ClassName=AtoD_PART Member=Component TP? TEST TP
+Added Member To Class: ClassName=AtoD_PART Member=Component TP? TEST TP
+Added Member To Class: ClassName=AtoD_PART Member=Component TP? TEST TP
+Added Member To Class: ClassName=AtoD_PART Member=Component TP? TEST TP

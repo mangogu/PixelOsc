@@ -1,0 +1,20 @@
+Removed Member From Class: ClassName=ANALOG_PART Member=C46
+Change Component Designator: OldDesignator=C60 NewDesignator=C61
+Change Component Designator: OldDesignator=C61 NewDesignator=C60
+Change Net Name : Old Net Name=NetC61_1 New Net Name=NetC60_1
+Change Class Name : Old Net Name=Room Definition 1 New Net Name=ANALOG_PART2
+Added Member To Class: ClassName=ANALOG_PART Member=Component C33 10nF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C35 2.2uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C37 1uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C39 22uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C41 22uF
+Added Member To Class: ClassName=ANALOG_PART Member=Component C43 22uF
+Added Member To Class: ClassName=AtoD_PART Member=Component C45 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C47 10uF/6.3V
+Added Member To Class: ClassName=AtoD_PART Member=Component C48 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C50 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C53 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C54 104
+Added Member To Class: ClassName=AtoD_PART Member=Component D4 BAV199
+Added Member To Class: ClassName=AtoD_PART Member=Component R28 1K
+Added Member To Class: ClassName=AtoD_PART Member=Component TP4 TEST TP

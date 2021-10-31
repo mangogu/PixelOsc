@@ -1,0 +1,46 @@
+Removed Pin From Net: NetName=+3 Pin=U16-13
+Removed Pin From Net: NetName=D3V Pin=U16-15
+Removed Pin From Net: NetName=D3V Pin=U16-28
+Removed Pin From Net: NetName=+3 Pin=U16-30
+Removed Pin From Net: NetName=+3 Pin=U16-31
+Removed Pin From Net: NetName=D3V Pin=U16-33
+Removed Pin From Net: NetName=D3V Pin=U16-46
+Removed Pin From Net: NetName=+3 Pin=U16-48
+Added Pin To Net: NetName=A3V_1 Pin=C47-2
+Added Pin To Net: NetName=A3V_1 Pin=L15-2
+Added Pin To Net: NetName=A3V_1 Pin=U16-48
+Added Net: Name=A3V_1
+Added Pin To Net: NetName=A3V_2 Pin=C48-2
+Added Pin To Net: NetName=A3V_2 Pin=L16-2
+Added Pin To Net: NetName=A3V_2 Pin=U16-13
+Added Net: Name=A3V_2
+Added Pin To Net: NetName=A3V_3 Pin=C49-2
+Added Pin To Net: NetName=A3V_3 Pin=L17-2
+Added Pin To Net: NetName=A3V_3 Pin=U16-30
+Added Net: Name=A3V_3
+Added Pin To Net: NetName=A3V_4 Pin=C50-2
+Added Pin To Net: NetName=A3V_4 Pin=L18-2
+Added Pin To Net: NetName=A3V_4 Pin=U16-31
+Added Net: Name=A3V_4
+Added Pin To Net: NetName=D3V_1 Pin=C51-2
+Added Pin To Net: NetName=D3V_1 Pin=L19-2
+Added Pin To Net: NetName=D3V_1 Pin=U16-15
+Added Net: Name=D3V_1
+Added Pin To Net: NetName=D3V_2 Pin=C52-2
+Added Pin To Net: NetName=D3V_2 Pin=L20-2
+Added Pin To Net: NetName=D3V_2 Pin=U16-28
+Added Net: Name=D3V_2
+Added Pin To Net: NetName=D3V_3 Pin=C53-2
+Added Pin To Net: NetName=D3V_3 Pin=L21-2
+Added Pin To Net: NetName=D3V_3 Pin=U16-33
+Added Net: Name=D3V_3
+Added Pin To Net: NetName=D3V_4 Pin=C54-2
+Added Pin To Net: NetName=D3V_4 Pin=L22-2
+Added Pin To Net: NetName=D3V_4 Pin=U16-46
+Added Net: Name=D3V_4
+Added Member To Class: ClassName=AtoD_PART Member=Component C51 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C52 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C53 104
+Added Member To Class: ClassName=AtoD_PART Member=Component C54 104
+Added Member To Class: ClassName=AtoD_PART Member=Component L15 10uH
+Added Member To Class: ClassName=AtoD_PART Member=Component L16 10uH

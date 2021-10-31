@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=+3 Pin=C26-1
+Removed Pin From Net: NetName=+3 Pin=C27-1
+Removed Pin From Net: NetName=+3 Pin=U8-5
+Change Component Designator: OldDesignator=L? NewDesignator=L14
+Added Component: Designator=L13(L 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "小功率贴片电感"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3 Pin=L13-2
+Added Pin To Net: NetName=NetC26_1 Pin=C26-1
+Added Pin To Net: NetName=NetC26_1 Pin=C27-1
+Added Pin To Net: NetName=NetC26_1 Pin=L13-1
+Added Pin To Net: NetName=NetC26_1 Pin=U8-5
+Added Net: Name=NetC26_1
+Added Member To Class: ClassName=ANALOG_PART Member=Component L13 10uH
