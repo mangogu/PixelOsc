@@ -100,8 +100,8 @@ int main(void)
   {
     /* USER CODE END WHILE */
 		//printf("111mychar");
-		HAL_Delay(5);
-		KEY_ScanKeys();
+		HAL_Delay(0);
+		HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_11);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

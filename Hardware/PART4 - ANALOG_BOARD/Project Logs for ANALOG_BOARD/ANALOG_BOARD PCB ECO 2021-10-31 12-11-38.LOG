@@ -1,0 +1,47 @@
+Removed Pin From Net: NetName=DGND Pin=?-3
+Removed Pin From Net: NetName=DGND Pin=?-4
+Change Component Designator: OldDesignator=? NewDesignator=1
+Added Component: Designator=R58(R 0805_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=DGND Pin=R58-1
+Change Net Name : Old Net Name=Net?_7 New Net Name=Net1_7
+Change Net Name : Old Net Name=Net?_8 New Net Name=Net1_8
+Change Net Name : Old Net Name=Net?_9 New Net Name=Net1_9
+Change Net Name : Old Net Name=Net?_10 New Net Name=Net1_10
+Change Net Name : Old Net Name=Net?_11 New Net Name=Net1_11
+Change Net Name : Old Net Name=Net?_12 New Net Name=Net1_12
+Change Net Name : Old Net Name=Net?_13 New Net Name=Net1_13
+Change Net Name : Old Net Name=Net?_14 New Net Name=Net1_14
+Change Net Name : Old Net Name=Net?_15 New Net Name=Net1_15
+Change Net Name : Old Net Name=Net?_16 New Net Name=Net1_16
+Change Net Name : Old Net Name=Net?_17 New Net Name=Net1_17
+Change Net Name : Old Net Name=Net?_18 New Net Name=Net1_18
+Change Net Name : Old Net Name=Net?_19 New Net Name=Net1_19
+Change Net Name : Old Net Name=Net?_20 New Net Name=Net1_20
+Change Net Name : Old Net Name=Net?_21 New Net Name=Net1_21
+Change Net Name : Old Net Name=Net?_22 New Net Name=Net1_22
+Change Net Name : Old Net Name=Net?_23 New Net Name=Net1_23
+Change Net Name : Old Net Name=Net?_24 New Net Name=Net1_24
+Change Net Name : Old Net Name=Net?_25 New Net Name=Net1_25
+Change Net Name : Old Net Name=Net?_26 New Net Name=Net1_26
+Change Net Name : Old Net Name=Net?_27 New Net Name=Net1_27
+Change Net Name : Old Net Name=Net?_28 New Net Name=Net1_28
+Change Net Name : Old Net Name=Net?_29 New Net Name=Net1_29
+Change Net Name : Old Net Name=Net?_30 New Net Name=Net1_30
+Change Net Name : Old Net Name=Net?_31 New Net Name=Net1_31
+Change Net Name : Old Net Name=Net?_32 New Net Name=Net1_32
+Change Net Name : Old Net Name=Net?_33 New Net Name=Net1_33
+Change Net Name : Old Net Name=Net?_34 New Net Name=Net1_34
+Change Net Name : Old Net Name=Net?_35 New Net Name=Net1_35
+Change Net Name : Old Net Name=Net?_36 New Net Name=Net1_36
+Change Net Name : Old Net Name=Net?_37 New Net Name=Net1_37
+Change Net Name : Old Net Name=Net?_38 New Net Name=Net1_38
+Change Net Name : Old Net Name=Net?_39 New Net Name=Net1_39
+Change Net Name : Old Net Name=Net?_40 New Net Name=Net1_40
+Added Pin To Net: NetName=Net1_3 Pin=1-3
+Added Pin To Net: NetName=Net1_3 Pin=1-4
+Added Pin To Net: NetName=Net1_3 Pin=R58-2
+Added Net: Name=Net1_3
+Added Member To Class: ClassName=AtoD_PART Member=Component R58 0R

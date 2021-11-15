@@ -1,0 +1,61 @@
+Change Component Footprint: Designator=U1 Old Footprint=G6K-2F-Y New Footprint=HFD3-SMD
+Change Component Footprint: Designator=U2 Old Footprint=G6K-2F-Y New Footprint=HFD3-SMD
+Change Component Footprint: Designator=U17 Old Footprint=G6K-2F-Y New Footprint=HFD3-SMD
+Change Component Footprint: Designator=U18 Old Footprint=G6K-2F-Y New Footprint=HFD3-SMD
+Change Component Comment : Designator=R5 Old Comment=1K New Comment=1K 精密
+Change Component Comment : Designator=R8 Old Comment=1K New Comment=1K 精密
+Change Component Comment : Designator=R39 Old Comment=1K New Comment=1K 精密
+Change Component Comment : Designator=R42 Old Comment=1K New Comment=1K 精密
+Change Component Comment : Designator=R1 Old Comment=1K New Comment=1K 精密电阻
+Change Component Comment : Designator=R13 Old Comment=1K New Comment=1K 精密电阻
+Change Component Comment : Designator=R22 Old Comment=4.99K New Comment=4.99K 精密电阻
+Change Component Comment : Designator=R24 Old Comment=4.99K New Comment=4.99K 精密电阻
+Change Component Comment : Designator=R55 Old Comment=4.99K New Comment=4.99K 精密电阻
+Change Component Comment : Designator=R57 Old Comment=4.99K New Comment=4.99K 精密电阻
+Change Component Comment : Designator=U2 Old Comment=G6K-2Y-F-5V New Comment=G6K-2Y-F-3V
+Change Component Comment : Designator=U18 Old Comment=G6K-2Y-F-5V New Comment=G6K-2Y-F-3V
+Added Component: Designator=JP1(SMA-KE-LI)
+Add component (AddParameter): Name = "BOM名称"; Value = "SMA-2.4G射频天线接口"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=JP2(SMA-KE-LI)
+Add component (AddParameter): Name = "BOM名称"; Value = "SMA-2.4G射频天线接口"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SP2(M2)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SP3(M2)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SP4(M2)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SP5(M2)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC2_1 Pin=JP1-1
+Added Pin To Net: NetName=DGND Pin=JP1-2
+Added Pin To Net: NetName=DGND Pin=JP1-2
+Added Pin To Net: NetName=DGND Pin=JP1-3
+Added Pin To Net: NetName=DGND Pin=JP1-3
+Added Pin To Net: NetName=NetC58_1 Pin=JP2-1
+Added Pin To Net: NetName=DGND Pin=JP2-2
+Added Pin To Net: NetName=DGND Pin=JP2-2
+Added Pin To Net: NetName=DGND Pin=JP2-3
+Added Pin To Net: NetName=DGND Pin=JP2-3
+Added Pin To Net: NetName=DGND Pin=SP2-1
+Added Pin To Net: NetName=DGND Pin=SP3-1
+Added Pin To Net: NetName=DGND Pin=SP4-1
+Added Pin To Net: NetName=DGND Pin=SP5-1
+Added Member To Class: ClassName=AtoD_PART Member=Component 1 FPC1.0-40P
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component JP1 SMA
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component JP2 SMA
+Added Member To Class: ClassName=AtoD_PART Member=Component SP2 M2铜柱
+Added Member To Class: ClassName=AtoD_PART Member=Component SP3 M2铜柱
+Added Member To Class: ClassName=AtoD_PART Member=Component SP4 M2铜柱
+Added Member To Class: ClassName=AtoD_PART Member=Component SP5 M2铜柱

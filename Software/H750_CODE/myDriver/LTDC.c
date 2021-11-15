@@ -2,8 +2,7 @@
 	包含头文件*/
 #include "LTDC.h"
 
-/*LTDC Initialize Structure
-	LTDC 初始化结构体*/
+/*LTDC 初始化结构体*/
 LTDC_HandleTypeDef hltdc;
 
 /*LTDC Initialize

@@ -45,6 +45,8 @@
 #define WELCOME_WINDOW_COLOR_CHAR			BLACK
 
 /* 包含头文件 */
+/* C标准库头文件 */
+#include "stdio.h"
 /* HAL库头文件 */
 #include "stm32h7xx_hal.h"
 /* 驱动层头文件 */
@@ -53,6 +55,8 @@
 #include "TIM.h"
 #include "SPI.h"
 #include "SYSTICK.h"
+#include "USART.h"
+//#include "IIC.h"
 /* 中间层头文件 */
 #include "LCD.h"
 #include "FLASH.h"

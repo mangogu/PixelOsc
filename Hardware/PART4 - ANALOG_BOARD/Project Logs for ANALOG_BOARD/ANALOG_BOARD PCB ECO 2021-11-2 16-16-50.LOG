@@ -1,0 +1,328 @@
+Change Component DesignItemId : Designator=L1 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L2 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L3 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L4 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L5 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L6 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L7 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L8 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L9 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L10 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L11 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L12 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L13 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L14 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L23 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L24 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L25 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L26 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L27 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L28 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L29 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L30 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L31 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L32 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L33 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L34 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L35 Old DesignItemId=L New DesignItemId=B
+Change Component DesignItemId : Designator=L36 Old DesignItemId=L New DesignItemId=B
+Change Component Footprint: Designator=L1 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L2 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L3 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L4 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L5 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L6 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L7 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L8 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L9 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L10 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L11 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L12 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L13 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L14 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L23 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L24 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L25 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L26 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L27 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L28 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L29 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L30 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L31 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L32 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L33 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L34 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L35 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Footprint: Designator=L36 Old Footprint=L 0603_L New Footprint=B 0603_L
+Change Component Comment : Designator=R5 Old Comment=1K New Comment=1K 精密
+Change Component Comment : Designator=R8 Old Comment=1K New Comment=1K 精密
+Change Component Comment : Designator=R39 Old Comment=1K New Comment=1K 精密
+Change Component Comment : Designator=R42 Old Comment=1K New Comment=1K 精密
+Change Component Comment : Designator=R1 Old Comment=1K New Comment=1K 精密电阻
+Change Component Comment : Designator=R13 Old Comment=1K New Comment=1K 精密电阻
+Change Component Comment : Designator=R22 Old Comment=4.99K New Comment=4.99K 精密电阻
+Change Component Comment : Designator=R24 Old Comment=4.99K New Comment=4.99K 精密电阻
+Change Component Comment : Designator=R55 Old Comment=4.99K New Comment=4.99K 精密电阻
+Change Component Comment : Designator=R57 Old Comment=4.99K New Comment=4.99K 精密电阻
+Change Component Comment : Designator=L1 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L2 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L3 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L4 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L5 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L6 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L7 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L8 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L9 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L10 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L11 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L12 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L13 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L14 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L23 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L24 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L25 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L26 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L27 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L28 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L29 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L30 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L31 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L32 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L33 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L34 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L35 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=L36 Old Comment=10uH New Comment=1K
+Change Component Comment : Designator=U2 Old Comment=G6K-2Y-F-5V New Comment=G6K-2Y-F-3V
+Change Component Comment : Designator=U18 Old Comment=G6K-2Y-F-5V New Comment=G6K-2Y-F-3V
+Change Component Designator: OldDesignator=C45 NewDesignator=C53
+Change Component Designator: OldDesignator=C46 NewDesignator=C56
+Change Component Designator: OldDesignator=C47 NewDesignator=C54
+Change Component Designator: OldDesignator=C48 NewDesignator=C55
+Change Component Designator: OldDesignator=C49 NewDesignator=C45
+Change Component Designator: OldDesignator=C50 NewDesignator=C47
+Change Component Designator: OldDesignator=C51 NewDesignator=C49
+Change Component Designator: OldDesignator=C52 NewDesignator=C51
+Change Component Designator: OldDesignator=C53 NewDesignator=C46
+Change Component Designator: OldDesignator=C54 NewDesignator=C48
+Change Component Designator: OldDesignator=C55 NewDesignator=C50
+Change Component Designator: OldDesignator=C56 NewDesignator=C52
+Change Component Designator: OldDesignator=C61 NewDesignator=C62
+Change Component Designator: OldDesignator=C62 NewDesignator=C61
+Change Component Designator: OldDesignator=C87 NewDesignator=C90
+Change Component Designator: OldDesignator=C88 NewDesignator=C91
+Change Component Designator: OldDesignator=C89 NewDesignator=C92
+Change Component Designator: OldDesignator=C90 NewDesignator=C93
+Change Component Designator: OldDesignator=C91 NewDesignator=C88
+Change Component Designator: OldDesignator=C92 NewDesignator=C89
+Change Component Designator: OldDesignator=C93 NewDesignator=C87
+Change Component Designator: OldDesignator=L1 NewDesignator=B1
+Change Component Designator: OldDesignator=L2 NewDesignator=B2
+Change Component Designator: OldDesignator=L3 NewDesignator=B3
+Change Component Designator: OldDesignator=L4 NewDesignator=B4
+Change Component Designator: OldDesignator=L5 NewDesignator=B5
+Change Component Designator: OldDesignator=L6 NewDesignator=B6
+Change Component Designator: OldDesignator=L7 NewDesignator=B7
+Change Component Designator: OldDesignator=L8 NewDesignator=B8
+Change Component Designator: OldDesignator=L9 NewDesignator=B9
+Change Component Designator: OldDesignator=L10 NewDesignator=B10
+Change Component Designator: OldDesignator=L11 NewDesignator=B11
+Change Component Designator: OldDesignator=L12 NewDesignator=B12
+Change Component Designator: OldDesignator=L13 NewDesignator=B13
+Change Component Designator: OldDesignator=L14 NewDesignator=B14
+Change Component Designator: OldDesignator=L15 NewDesignator=L1
+Change Component Designator: OldDesignator=L16 NewDesignator=L3
+Change Component Designator: OldDesignator=L17 NewDesignator=L5
+Change Component Designator: OldDesignator=L18 NewDesignator=L7
+Change Component Designator: OldDesignator=L19 NewDesignator=L2
+Change Component Designator: OldDesignator=L20 NewDesignator=L4
+Change Component Designator: OldDesignator=L21 NewDesignator=L6
+Change Component Designator: OldDesignator=L22 NewDesignator=L8
+Change Component Designator: OldDesignator=L23 NewDesignator=B15
+Change Component Designator: OldDesignator=L24 NewDesignator=B16
+Change Component Designator: OldDesignator=L25 NewDesignator=B17
+Change Component Designator: OldDesignator=L26 NewDesignator=B18
+Change Component Designator: OldDesignator=L27 NewDesignator=B19
+Change Component Designator: OldDesignator=L28 NewDesignator=B20
+Change Component Designator: OldDesignator=L29 NewDesignator=B21
+Change Component Designator: OldDesignator=L30 NewDesignator=B22
+Change Component Designator: OldDesignator=L31 NewDesignator=B23
+Change Component Designator: OldDesignator=L32 NewDesignator=B24
+Change Component Designator: OldDesignator=L33 NewDesignator=B25
+Change Component Designator: OldDesignator=L34 NewDesignator=B26
+Change Component Designator: OldDesignator=L35 NewDesignator=B27
+Change Component Designator: OldDesignator=L36 NewDesignator=B28
+Change Component Designator: OldDesignator=R30 NewDesignator=R31
+Change Component Designator: OldDesignator=R31 NewDesignator=R34
+Change Component Designator: OldDesignator=R32 NewDesignator=R30
+Change Component Designator: OldDesignator=R33 NewDesignator=R32
+Change Component Designator: OldDesignator=R34 NewDesignator=R33
+Change Component Designator: OldDesignator=R35 NewDesignator=R36
+Change Component Designator: OldDesignator=R36 NewDesignator=R37
+Change Component Designator: OldDesignator=R37 NewDesignator=R38
+Change Component Designator: OldDesignator=R38 NewDesignator=R39
+Change Component Designator: OldDesignator=R39 NewDesignator=R40
+Change Component Designator: OldDesignator=R40 NewDesignator=R41
+Change Component Designator: OldDesignator=R41 NewDesignator=R42
+Change Component Designator: OldDesignator=R42 NewDesignator=R43
+Change Component Designator: OldDesignator=R43 NewDesignator=R44
+Change Component Designator: OldDesignator=R44 NewDesignator=R45
+Change Component Designator: OldDesignator=R45 NewDesignator=R46
+Change Component Designator: OldDesignator=R46 NewDesignator=R47
+Change Component Designator: OldDesignator=R47 NewDesignator=R48
+Change Component Designator: OldDesignator=R48 NewDesignator=R49
+Change Component Designator: OldDesignator=R49 NewDesignator=R50
+Change Component Designator: OldDesignator=R50 NewDesignator=R51
+Change Component Designator: OldDesignator=R51 NewDesignator=R52
+Change Component Designator: OldDesignator=R52 NewDesignator=R53
+Change Component Designator: OldDesignator=R53 NewDesignator=R54
+Change Component Designator: OldDesignator=R54 NewDesignator=R55
+Change Component Designator: OldDesignator=R55 NewDesignator=R56
+Change Component Designator: OldDesignator=R56 NewDesignator=R57
+Change Component Designator: OldDesignator=R57 NewDesignator=R58
+Change Component Designator: OldDesignator=R58 NewDesignator=R35
+Change Component Designator: OldDesignator=U27 NewDesignator=U28
+Change Component Designator: OldDesignator=U28 NewDesignator=U29
+Change Component Designator: OldDesignator=U29 NewDesignator=U27
+Change Component Description : Designator=B1 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B2 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B3 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B4 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B5 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B6 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B7 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B8 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B9 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B10 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B11 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B12 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B13 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B14 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B15 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B16 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B17 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B18 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B19 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B20 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B21 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B22 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B23 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B24 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B25 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B26 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B27 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change Component Description : Designator=B28 Old Description=小功率贴片电感 New Description=贴片磁珠
+Change component parameters: Designator = "L1" ("L1"); Footprint = "L 0603_L"; UniqueID = "\YDQIUQNN" ("\YDQIUQNN")
+Change component parameters: Designator = "L2" ("L2"); Footprint = "L 0603_L"; UniqueID = "\KBOFFURA" ("\KBOFFURA")
+Change component parameters: Designator = "L3" ("L3"); Footprint = "L 0603_L"; UniqueID = "\VCOYEYTS" ("\VCOYEYTS")
+Change component parameters: Designator = "L4" ("L4"); Footprint = "L 0603_L"; UniqueID = "\PJPDDFLR" ("\PJPDDFLR")
+Change component parameters: Designator = "L5" ("L5"); Footprint = "L 0603_L"; UniqueID = "\RDBEZTPB" ("\RDBEZTPB")
+Change component parameters: Designator = "L6" ("L6"); Footprint = "L 0603_L"; UniqueID = "\NJURFANR" ("\NJURFANR")
+Change component parameters: Designator = "L7" ("L7"); Footprint = "L 0603_L"; UniqueID = "\ZPHKJODQ" ("\ZPHKJODQ")
+Change component parameters: Designator = "L8" ("L8"); Footprint = "L 0603_L"; UniqueID = "\DZJAOULA" ("\DZJAOULA")
+Change component parameters: Designator = "L9" ("L9"); Footprint = "L 0603_L"; UniqueID = "\WLSFMMIC" ("\WLSFMMIC")
+Change component parameters: Designator = "L10" ("L10"); Footprint = "L 0603_L"; UniqueID = "\ZBNCHJGF" ("\ZBNCHJGF")
+Change component parameters: Designator = "L11" ("L11"); Footprint = "L 0603_L"; UniqueID = "\OADLISZR" ("\OADLISZR")
+Change component parameters: Designator = "L12" ("L12"); Footprint = "L 0603_L"; UniqueID = "\FSQLTCFB" ("\FSQLTCFB")
+Change component parameters: Designator = "L13" ("L13"); Footprint = "L 0603_L"; UniqueID = "\BAZXDMUD" ("\BAZXDMUD")
+Change component parameters: Designator = "L14" ("L14"); Footprint = "L 0603_L"; UniqueID = "\OUROSJBW" ("\OUROSJBW")
+Change component parameters: Designator = "L23" ("L23"); Footprint = "L 0603_L"; UniqueID = "\DZHISYPZ" ("\DZHISYPZ")
+Change component parameters: Designator = "L24" ("L24"); Footprint = "L 0603_L"; UniqueID = "\LLYIHGYW" ("\LLYIHGYW")
+Change component parameters: Designator = "L25" ("L25"); Footprint = "L 0603_L"; UniqueID = "\CJHDCPJD" ("\CJHDCPJD")
+Change component parameters: Designator = "L26" ("L26"); Footprint = "L 0603_L"; UniqueID = "\IPERQWLR" ("\IPERQWLR")
+Change component parameters: Designator = "L27" ("L27"); Footprint = "L 0603_L"; UniqueID = "\STAUHPJV" ("\STAUHPJV")
+Change component parameters: Designator = "L28" ("L28"); Footprint = "L 0603_L"; UniqueID = "\CRRZAVDS" ("\CRRZAVDS")
+Change component parameters: Designator = "L29" ("L29"); Footprint = "L 0603_L"; UniqueID = "\KUUKFXUP" ("\KUUKFXUP")
+Change component parameters: Designator = "L30" ("L30"); Footprint = "L 0603_L"; UniqueID = "\PPLLSEFM" ("\PPLLSEFM")
+Change component parameters: Designator = "L31" ("L31"); Footprint = "L 0603_L"; UniqueID = "\VAHRJXXS" ("\VAHRJXXS")
+Change component parameters: Designator = "L32" ("L32"); Footprint = "L 0603_L"; UniqueID = "\NFVIYTUL" ("\NFVIYTUL")
+Change component parameters: Designator = "L33" ("L33"); Footprint = "L 0603_L"; UniqueID = "\BNOKGGEJ" ("\BNOKGGEJ")
+Change component parameters: Designator = "L34" ("L34"); Footprint = "L 0603_L"; UniqueID = "\ZFBRKQZE" ("\ZFBRKQZE")
+Change component parameters: Designator = "L35" ("L35"); Footprint = "L 0603_L"; UniqueID = "\ZMCIOZXW" ("\ZMCIOZXW")
+Change component parameters: Designator = "L36" ("L36"); Footprint = "L 0603_L"; UniqueID = "\CHPISXMJ" ("\CHPISXMJ")
+Added Component: Designator=JP1(SMA-KE-LI)
+Add component (AddParameter): Name = "BOM名称"; Value = "SMA-2.4G射频天线接口"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=JP2(SMA-KE-LI)
+Add component (AddParameter): Name = "BOM名称"; Value = "SMA-2.4G射频天线接口"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SP2(M2)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SP3(M2)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SP4(M2)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SP5(M2)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC2_1 Pin=JP1-1
+Added Pin To Net: NetName=DGND Pin=JP1-2
+Added Pin To Net: NetName=DGND Pin=JP1-2
+Added Pin To Net: NetName=DGND Pin=JP1-3
+Added Pin To Net: NetName=DGND Pin=JP1-3
+Added Pin To Net: NetName=NetC58_1 Pin=JP2-1
+Added Pin To Net: NetName=DGND Pin=JP2-2
+Added Pin To Net: NetName=DGND Pin=JP2-2
+Added Pin To Net: NetName=DGND Pin=JP2-3
+Added Pin To Net: NetName=DGND Pin=JP2-3
+Added Pin To Net: NetName=DGND Pin=SP2-1
+Added Pin To Net: NetName=DGND Pin=SP3-1
+Added Pin To Net: NetName=DGND Pin=SP4-1
+Added Pin To Net: NetName=DGND Pin=SP5-1
+Added Pin To Net: NetName=DGND Pin=U16-1
+Added Pin To Net: NetName=DGND Pin=U16-34
+Change Net Name : Old Net Name=NetC1_2 New Net Name=NetB1_2
+Change Net Name : Old Net Name=NetC4_1 New Net Name=NetB2_1
+Change Net Name : Old Net Name=NetC6_1 New Net Name=NetB3_1
+Change Net Name : Old Net Name=NetC8_1 New Net Name=NetB5_1
+Change Net Name : Old Net Name=NetC10_1 New Net Name=NetB4_1
+Change Net Name : Old Net Name=NetC17_2 New Net Name=NetB6_2
+Change Net Name : Old Net Name=NetC19_2 New Net Name=NetB7_2
+Change Net Name : Old Net Name=NetC21_2 New Net Name=NetB8_2
+Change Net Name : Old Net Name=NetC24_1 New Net Name=NetB9_1
+Change Net Name : Old Net Name=NetC26_1 New Net Name=NetB10_1
+Change Net Name : Old Net Name=NetC28_1 New Net Name=NetB11_1
+Change Net Name : Old Net Name=NetC39_1 New Net Name=NetB14_2
+Change Net Name : Old Net Name=NetC41_1 New Net Name=NetB12_2
+Change Net Name : Old Net Name=NetC43_1 New Net Name=NetB13_2
+Change Net Name : Old Net Name=NetC47_2 New Net Name=NetC54_2
+Change Net Name : Old Net Name=NetC57_2 New Net Name=NetB15_2
+Change Net Name : Old Net Name=NetC60_1 New Net Name=NetB16_1
+Change Net Name : Old Net Name=NetC61_1 New Net Name=NetB17_1
+Change Net Name : Old Net Name=NetC64_1 New Net Name=NetB18_1
+Change Net Name : Old Net Name=NetC66_1 New Net Name=NetB19_1
+Change Net Name : Old Net Name=NetC73_2 New Net Name=NetB20_2
+Change Net Name : Old Net Name=NetC75_2 New Net Name=NetB21_2
+Change Net Name : Old Net Name=NetC77_2 New Net Name=NetB22_2
+Change Net Name : Old Net Name=NetC80_1 New Net Name=NetB23_1
+Change Net Name : Old Net Name=NetC82_1 New Net Name=NetB24_1
+Change Net Name : Old Net Name=NetC84_1 New Net Name=NetB25_1
+Change Net Name : Old Net Name=NetC87_1 New Net Name=NetB27_2
+Change Net Name : Old Net Name=NetC89_1 New Net Name=NetB28_2
+Change Net Name : Old Net Name=NetC91_1 New Net Name=NetB26_2
+Change Net Name : Old Net Name=NetR35_1 New Net Name=NetR36_1
+Change Net Name : Old Net Name=NetR36_1 New Net Name=NetR37_1
+Change Net Name : Old Net Name=NetR39_1 New Net Name=NetR40_1
+Change Net Name : Old Net Name=NetR41_2 New Net Name=NetR42_2
+Change Net Name : Old Net Name=NetR42_2 New Net Name=NetR43_2
+Change Net Name : Old Net Name=NetR44_2 New Net Name=NetR45_2
+Change Net Name : Old Net Name=NetR50_1 New Net Name=NetR51_1
+Change Net Name : Old Net Name=NetR52_1 New Net Name=NetR53_1
+Change Net Name : Old Net Name=NetR53_2 New Net Name=NetR54_2
+Change Net Name : Old Net Name=NetR55_1 New Net Name=NetR56_1
+Change Net Name : Old Net Name=NetR56_2 New Net Name=NetR57_2
+Added Member To Class: ClassName=AtoD_PART Member=Component 1 FPC1.0-40P
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component JP1 SMA
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component JP2 SMA
+Added Member To Class: ClassName=AtoD_PART Member=Component SP2 M2铜柱
+Added Member To Class: ClassName=AtoD_PART Member=Component SP3 M2铜柱
+Added Member To Class: ClassName=AtoD_PART Member=Component SP4 M2铜柱
+Added Member To Class: ClassName=AtoD_PART Member=Component SP5 M2铜柱

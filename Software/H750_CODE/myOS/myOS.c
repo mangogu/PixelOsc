@@ -6,6 +6,9 @@ void myOs_DevInit(void)
 	/* 打开电源 */
 	GPIO_DevInit();
 	
+	/* 初始化串口 */
+	MX_USART2_UART_Init();
+	
 	CONFIG_Init();
 	
 	/* 初始化模拟部分 */

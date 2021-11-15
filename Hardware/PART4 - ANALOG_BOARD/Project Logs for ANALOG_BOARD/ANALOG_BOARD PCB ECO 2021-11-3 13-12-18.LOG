@@ -1,0 +1,14 @@
+Added Component: Designator=R30(R 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR30_1 Pin=R30-1
+Added Pin To Net: NetName=NetR30_1 Pin=U6-1
+Added Pin To Net: NetName=NetR30_1 Pin=U7-8
+Added Net: Name=NetR30_1
+Added Pin To Net: NetName=NetR30_2 Pin=R30-2
+Added Pin To Net: NetName=NetR30_2 Pin=U6-4
+Added Net: Name=NetR30_2
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component JP1 SMA
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component JP2 SMA
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R30 1K

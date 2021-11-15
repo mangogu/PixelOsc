@@ -1,0 +1,7 @@
+Change Component Comment : Designator=R36 Old Comment=1K New Comment=1K 精密电阻
+Change Component Comment : Designator=R48 Old Comment=1K New Comment=1K 精密电阻
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component JP1 SMA
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component JP2 SMA
+Added Room: Name=ANALOG_PART1
+Added Room: Name=ANALOG_PART2
+Added Room: Name=AtoD_PART

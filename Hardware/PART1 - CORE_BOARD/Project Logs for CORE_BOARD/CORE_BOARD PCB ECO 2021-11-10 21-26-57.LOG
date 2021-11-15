@@ -1,0 +1,4 @@
+Change Component Comment : Designator=R22 Old Comment=2.2K New Comment=2K
+Change Component Comment : Designator=R24 Old Comment=2.2K New Comment=2K
+Added Pin To Net: NetName=DGND Pin=Q3-2
+Added Pin To Net: NetName=DGND Pin=R17-1

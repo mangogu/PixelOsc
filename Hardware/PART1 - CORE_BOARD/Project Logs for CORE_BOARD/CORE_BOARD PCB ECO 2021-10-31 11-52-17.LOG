@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=DGND Pin=C14-1
+Removed Pin From Net: NetName=5V Pin=C14-2
+Removed Member From Class: ClassName=DIGITAL_PART Member=C14

@@ -142,8 +142,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NNQACRQB
 
+[Document7]
+DocumentPath=ANALOG_BOARD.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for ANALOG_BOARD\Design Rule Check - ANALOG_BOARD.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=MessageListReport.html
 DItemRevisionGUID=
 
 [Configuration1]
@@ -161,7 +182,7 @@ AutoOpenFile=-1
 AutoOpenOutJob=-1
 
 [Generic_SmartPDFSettings]
-ProjectMode=0
+ProjectMode=-1
 ZoomPrecision=50
 AddNetsInformation=-1
 AddNetPins=-1
@@ -1069,23 +1090,23 @@ Type124=1
 Type125=1
 
 [ERC Connection Matrix]
-L1=NNNNNNNNNNNWNNNWW
-L2=NNWNNNNWWWNWNWNWN
-L3=NWEENEEEENEWNEEWN
-L4=NNENNNWEENNWNENWN
-L5=NNNNNNNNNNNNNNNNN
-L6=NNENNNNEENNWNENWN
-L7=NNEWNNWEENNWNENWN
-L8=NWEENEENEEENNEENN
-L9=NWEENEEEENEWNEEWW
-L10=NWNNNNNENNEWNNEWN
-L11=NNENNNNEEENWNENWN
-L12=WWWWNWWNWWWNWWWNN
-L13=NNNNNNNNNNNWNNNWW
-L14=NWEENEEEENEWNEEWW
-L15=NNENNNNEEENWNENWW
-L16=WWWWNWWNWWWNWWWNW
-L17=WNNNNNNNWNNNWWWWN
+L1=NNNNNNNNNNNWNNNWF
+L2=NNWNNNNWWWNWNWNWF
+L3=NWEENEEEENEWNEEWF
+L4=NNENNNWEENNWNENWF
+L5=NNNNNNNNNNNNNNNNF
+L6=NNENNNNEENNWNENWF
+L7=NNEWNNWEENNWNENWF
+L8=NWEENEENEEENNEENF
+L9=NWEENEEEENEWNEEWF
+L10=NWNNNNNENNEWNNEWF
+L11=NNENNNNEEENWNENWF
+L12=WWWWNWWNWWWNWWWNF
+L13=NNNNNNNNNNNWNNNWF
+L14=NWEENEEEENEWNEEWF
+L15=NNENNNNEEENWNENWF
+L16=WWWWNWWNWWWNWWWNF
+L17=FFFFFFFFFFFFFFFFF
 
 [Annotate]
 SortOrder=3
@@ -1115,8 +1136,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=示波器.SchLib
-ComponentDesignItemID0=GDT-90V-3KA
-ComponentSymbolReference0=GDT-90V-3KA
+ComponentDesignItemID0=G6K-2Y-F-5V
+ComponentSymbolReference0=G6K-2Y-F-5V
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1143,7 +1164,7 @@ ParameterUpdate3=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=GDT-1812
+ModelName0=G6K-2F-Y
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]

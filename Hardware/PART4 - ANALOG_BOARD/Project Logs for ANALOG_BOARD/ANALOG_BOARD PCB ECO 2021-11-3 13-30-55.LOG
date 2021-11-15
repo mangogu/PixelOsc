@@ -1,0 +1,10 @@
+Added Pin To Net: NetName=DGND Pin=JP1-2
+Added Pin To Net: NetName=DGND Pin=JP1-2
+Added Pin To Net: NetName=DGND Pin=JP1-3
+Added Pin To Net: NetName=DGND Pin=JP1-3
+Added Pin To Net: NetName=DGND Pin=JP2-2
+Added Pin To Net: NetName=DGND Pin=JP2-2
+Added Pin To Net: NetName=DGND Pin=JP2-3
+Added Pin To Net: NetName=DGND Pin=JP2-3
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component JP1 SMA
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component JP2 SMA
