@@ -29,6 +29,7 @@ int main(void)
   while (1)
   {
 		MX_USB_HOST_Process();
+		printf("okok\n\r");
 //		if(Appli_state == APPLICATION_READY)//U盘已经加载完成
 //    {
 //			if(status == 0)//U盘加载后只运行一次

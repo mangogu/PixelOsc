@@ -18,5 +18,6 @@ void TIM_Buzzer_Init(uint16_t hz);
 void TIM_Buzzer_Run(void);
 void TIM_Buzzer_ConfigThenRun(uint16_t hz);
 void TIM_Buzzer_Stop(void);
+void TIM_Wave_InitThenRun(uint16_t hz);
 #endif
 

@@ -51,7 +51,7 @@ typedef __packed struct
     //RGBQUAD RGB_MASK[3];            //调色板用于存放RGB掩码.
 }BITMAPINFO; 
 
-void createBMP(void);
+void snapShot(void);
 
 
 #endif

@@ -86,7 +86,7 @@ struct bottomStructDef bottomStruct =
 struct FontStructDef menuFont = 		/* 定义一个字体结构体变量，用于设置字体参数 */
 {
 	/* 设置字体属性 */
-	.FontCode = FC_ST_24,		/* 字体选择宋体16点阵，高16x宽15) */
+	.FontCode = FC_ST_16,		/* 字体选择宋体16点阵，高16x宽15) */
 	.FrontColor = WHITE,	/* 字体颜色设置为白色 */
 	.BackColor = BLACK,	 	/* 文字背景颜色，透明 */
 	.Space = 0				/* 字符水平间距, 单位 = 像素 */
@@ -333,7 +333,7 @@ void drawWelcomeWin(uint8_t layer)
 	/* 显示文字 */
 	menuFont.BackColor = WELCOME_WINDOW_COLOR_TOP;
 	menuFont.FrontColor = WELCOME_WINDOW_COLOR_CHAR;
-	dispStrEx(WELCOME_WINDOW_X, WELCOME_WINDOW_Y, "123", &menuFont,	0, ALIGN_LEFT, 1);
+	dispStrEx(WELCOME_WINDOW_X, WELCOME_WINDOW_Y, "111222333", &menuFont,	0, ALIGN_LEFT, 1);
 }
 	
 

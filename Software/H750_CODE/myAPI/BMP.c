@@ -8,7 +8,7 @@ extern FILINFO USBHfno;
 extern FRESULT fresult;  	// result
 extern UINT br, bw;  			// File read/write count
 
-void createBMP(void)
+void snapShot(void)
 {	   	
  	BITMAPINFO bmp;			//bmp头	 
 	uint8_t* pixelPtr;  //像素指针
@@ -55,8 +55,10 @@ void createBMP(void)
 //		bmp.RGB_MASK[2].rgbRed = 0;
 //		bmp.RGB_MASK[2].rgbReserved = 0;
 
-		//写文件头进文件  
+		/* 写文件头 */
 		fresult = f_write(&USBHFile,(uint8_t *)&bmp,sizeof(bmp),&bw);//写入BMP首部  f_write(&USBHFile, bmp, sizeof(bmp), &bw);
+		
+		/* 写文件 */
 		pixelPtr = (uint8_t *)L1_GRAM_ADDR;
 		for(i = 0; i<480; i++)
 		{

@@ -10,7 +10,7 @@
 #define GUI_THICKNESS 		2				/* 间隙大小 */
 #define TEXT_LEN					12			/* 文本长度 */
 
-#define MENU_WIDTH 				160			/* 菜单宽 */
+#define MENU_WIDTH 				120			/* 菜单宽 */
 #define MENU_HEIGHT 			70			/* 菜单高 */
 #define MENU_COLOR_1 			GREY_L	/* 菜单颜色1 */
 #define MENU_COLOR_2 			BLACK		/* 菜单颜色2 */

@@ -124,7 +124,7 @@ static void USBH_UserProcess  (USBH_HandleTypeDef *phost, uint8_t id)
 
   Scan_USB("/");   // scan for files and directories
 	
-	createBMP();
+	snapShot();
 	
   break;
 

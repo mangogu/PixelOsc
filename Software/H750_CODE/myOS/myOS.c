@@ -15,6 +15,9 @@ void myOs_DevInit(void)
 	/* 初始化USBHOST */
   MX_USB_HOST_Init();
 	
+	/* 初始化校准方波信号 */
+	TIM_Wave_InitThenRun(1000);
+	
 	CONFIG_Init();
 	
 	/* 初始化模拟部分 */
