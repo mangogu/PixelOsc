@@ -19,10 +19,10 @@
 #define L1_GRAM_ADDR 0x24000000
 #define L2_GRAM_ADDR 
 
-
 /* RGB to HEX转换 */
 #define RGB2HEX(r,g,b)  ((r << 16) | (g << 8) | (b))
 
+extern const uint32_t osc_color_table[256];
 //色彩表
 #define COLOR_TABLE_L8         	 \
 {                              	 \
@@ -158,7 +158,6 @@ struct FontStructDef
 	/* 文字间距，单位 = 像素 */
 	uint16_t Space;		
 };
-
 
 
 /**********************函数声明**********************/

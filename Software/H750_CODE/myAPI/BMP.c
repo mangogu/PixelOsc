@@ -11,6 +11,9 @@ extern UINT br, bw;  			// File read/write count
 void createBMP(void)
 {	   	
  	BITMAPINFO bmp;			//bmp头	 
+	uint8_t* pixelPtr;  //像素指针
+	uint32_t i;					//循环变量
+	uint8_t r,g,b;			//色彩
 	//打开文件，若不存在就创建
 	fresult = f_open(&USBHFile, "mypic.bmp", FA_OPEN_ALWAYS | FA_WRITE | FA_READ);
 	//文件打开成功
@@ -54,6 +57,18 @@ void createBMP(void)
 
 		//写文件头进文件  
 		fresult = f_write(&USBHFile,(uint8_t *)&bmp,sizeof(bmp),&bw);//写入BMP首部  f_write(&USBHFile, bmp, sizeof(bmp), &bw);
+		pixelPtr = (uint8_t *)L1_GRAM_ADDR;
+		for(i = 0; i<800*480; i++)
+		{
+			r = osc_color_table[*pixelPtr] >> 16;
+			g = osc_color_table[*pixelPtr] >> 8;
+			b = osc_color_table[*pixelPtr];
+			fresult = f_write(&USBHFile,(uint8_t *)&b,sizeof(uint8_t),&bw);
+			fresult = f_write(&USBHFile,(uint8_t *)&g,sizeof(uint8_t),&bw);
+			fresult = f_write(&USBHFile,(uint8_t *)&r,sizeof(uint8_t),&bw);
+			pixelPtr++;
+		}
+		
 		fresult = f_close(&USBHFile);
 	}
 }
