@@ -8,27 +8,48 @@
 #include "CTR.h"
 #include "demo_spi_flash.h"
 
+#include "stdlib.h"
+
 
 void SystemClock_Config(void);
-
+void MX_USB_HOST_Process(void);
 
 int main(void)
 {
+	
+	extern ApplicationTypeDef Appli_state;
+	uint8_t status = 0;
+	
   HAL_Init();
 
   SystemClock_Config();
 	
 	myOs_DevInit();
 
-
   while (1)
   {
-		//printf("test!!!");
+		MX_USB_HOST_Process();
+//		if(Appli_state == APPLICATION_READY)//U盘已经加载完成
+//    {
+//			if(status == 0)//U盘加载后只运行一次
+//      {
+//				status = 1;
+//				retUSBH=f_mount(&USBHFatFS, (TCHAR const*)USBHPath, 1);
+//				if(retUSBH==FR_OK)
+//				{
+//					HAL_UART_Transmit(&huart2,(uint8_t*)"挂载U盘成功!\r\n",14,100);
+//				}
+//			}
+//		}
   }
 
 }
 
 
+/**
+  * @brief System Clock Configuration
+  * @retval None
+  */
 void SystemClock_Config(void)
 {
   RCC_OscInitTypeDef RCC_OscInitStruct = {0};
@@ -55,7 +76,7 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.PLL.PLLM = 4;
   RCC_OscInitStruct.PLL.PLLN = 120;
   RCC_OscInitStruct.PLL.PLLP = 2;
-  RCC_OscInitStruct.PLL.PLLQ = 5;
+  RCC_OscInitStruct.PLL.PLLQ = 20;
   RCC_OscInitStruct.PLL.PLLR = 2;
   RCC_OscInitStruct.PLL.PLLRGE = RCC_PLL1VCIRANGE_3;
   RCC_OscInitStruct.PLL.PLLVCOSEL = RCC_PLL1VCOWIDE;

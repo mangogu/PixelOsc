@@ -324,7 +324,7 @@
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>1</uC99>
-            <uGnu>1</uGnu>
+            <uGnu>0</uGnu>
             <useXO>0</useXO>
             <v6Lang>1</v6Lang>
             <v6LangP>1</v6LangP>
@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32H750xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32H7xx_HAL_Driver/Inc;../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32H7xx/Include;../Drivers/CMSIS/Include;..\myDriver;..\myMiddile;..\myAPI;..\myFonts;..\myOS</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32H7xx_HAL_Driver/Inc;../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32H7xx/Include;../Drivers/CMSIS/Include;..\myDriver;..\myMiddile;..\myAPI;..\myFonts;..\myOS;..\myDriver\Cube_Driver\ST\STM32_USB_Host_Library\Class\MSC\Inc;..\myDriver\Cube_Driver\ST\STM32_USB_Host_Library\Core\Inc;..\myDriver\Cube_Driver\Third_Party\FatFs\src;..\myMiddile\FATFS\App;..\myMiddile\FATFS\Target;..\myMiddile\USBHOST\App;..\myMiddile\USBHOST\Target</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -531,6 +531,11 @@
               <FileType>1</FileType>
               <FilePath>..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart_ex.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32h7xx_hal_hcd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hcd.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -540,6 +545,11 @@
               <FileName>system_stm32h7xx.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/system_stm32h7xx.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32h7xx_ll_usb.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_usb.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -616,6 +626,16 @@
               <FileType>1</FileType>
               <FilePath>..\myAPI\CONFIG.c</FilePath>
             </File>
+            <File>
+              <FileName>FILE.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myAPI\FILE.c</FilePath>
+            </File>
+            <File>
+              <FileName>BMP.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myAPI\BMP.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -675,6 +695,116 @@
               <FileName>myOS.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\myOS\myOS.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>myDriver_FatFs</GroupName>
+          <Files>
+            <File>
+              <FileName>diskio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myDriver\Cube_Driver\Third_Party\FatFs\src\diskio.c</FilePath>
+            </File>
+            <File>
+              <FileName>ff.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myDriver\Cube_Driver\Third_Party\FatFs\src\ff.c</FilePath>
+            </File>
+            <File>
+              <FileName>ff_gen_drv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myDriver\Cube_Driver\Third_Party\FatFs\src\ff_gen_drv.c</FilePath>
+            </File>
+            <File>
+              <FileName>syscall.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myDriver\Cube_Driver\Third_Party\FatFs\src\option\syscall.c</FilePath>
+            </File>
+            <File>
+              <FileName>cc936.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myDriver\Cube_Driver\Third_Party\FatFs\src\option\cc936.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>myDriver_USB_Host_Lib</GroupName>
+          <Files>
+            <File>
+              <FileName>usbh_core.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myDriver\Cube_Driver\ST\STM32_USB_Host_Library\Core\Src\usbh_core.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbh_ctlreq.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myDriver\Cube_Driver\ST\STM32_USB_Host_Library\Core\Src\usbh_ctlreq.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbh_ioreq.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myDriver\Cube_Driver\ST\STM32_USB_Host_Library\Core\Src\usbh_ioreq.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbh_pipes.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myDriver\Cube_Driver\ST\STM32_USB_Host_Library\Core\Src\usbh_pipes.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbh_msc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myDriver\Cube_Driver\ST\STM32_USB_Host_Library\Class\MSC\Src\usbh_msc.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbh_msc_bot.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myDriver\Cube_Driver\ST\STM32_USB_Host_Library\Class\MSC\Src\usbh_msc_bot.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbh_msc_scsi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myDriver\Cube_Driver\ST\STM32_USB_Host_Library\Class\MSC\Src\usbh_msc_scsi.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>myMiddle_FatFs_Target</GroupName>
+          <Files>
+            <File>
+              <FileName>usbh_diskio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myMiddile\FATFS\Target\usbh_diskio.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>myMiddle_FatFs_App</GroupName>
+          <Files>
+            <File>
+              <FileName>fatfs.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myMiddile\FATFS\App\fatfs.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>myMiddle_USBHOST_Target</GroupName>
+          <Files>
+            <File>
+              <FileName>usbh_conf.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myMiddile\USBHOST\Target\usbh_conf.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>myMiddle_USBHOST_App</GroupName>
+          <Files>
+            <File>
+              <FileName>usb_host.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myMiddile\USBHOST\App\usb_host.c</FilePath>
             </File>
           </Files>
         </Group>

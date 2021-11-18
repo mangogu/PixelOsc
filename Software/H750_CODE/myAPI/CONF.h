@@ -1,5 +1,5 @@
-#ifndef CONF_H
-#define CONF_H
+#ifndef __CONF_H
+#define __CONF_H
 
 /* 全局变量 */
 #define OFF_TIME 					2				/* 关机按键时长（单位：秒） */
@@ -47,6 +47,7 @@
 /* 包含头文件 */
 /* C标准库头文件 */
 #include "stdio.h"
+#include "string.h"
 /* HAL库头文件 */
 #include "stm32h7xx_hal.h"
 /* 驱动层头文件 */
@@ -60,10 +61,14 @@
 /* 中间层头文件 */
 #include "LCD.h"
 #include "FLASH.h"
+#include "fatfs.h"
+#include "usb_host.h"
 /* 应用层头文件 */
 #include "GUI.h"
 #include "CTR.h"
 #include "CONFIG.h"
+#include "FILE.h"
+#include "BMP.h"
 /* 系统层头文件 */
 #include "myOS.h"
 

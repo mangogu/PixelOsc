@@ -9,6 +9,12 @@ void myOs_DevInit(void)
 	/* 初始化串口 */
 	MX_USART2_UART_Init();
 	
+	/* 初始化FATFS */
+	MX_FATFS_Init();
+	
+	/* 初始化USBHOST */
+  MX_USB_HOST_Init();
+	
 	CONFIG_Init();
 	
 	/* 初始化模拟部分 */
