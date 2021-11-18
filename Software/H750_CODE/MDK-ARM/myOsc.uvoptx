@@ -152,9 +152,9 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>74</LineNumber>
+          <LineNumber>76</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134263944</Address>
+          <Address>134263960</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -163,7 +163,7 @@
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\myAPI\BMP.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\myOsc\../myAPI/BMP.c\74</Expression>
+          <Expression>\\myOsc\../myAPI/BMP.c\76</Expression>
         </Bp>
         <Bp>
           <Number>1</Number>
@@ -181,12 +181,65 @@
           <ExecCommand></ExecCommand>
           <Expression>\\myOsc\../myAPI/BMP.c\61</Expression>
         </Bp>
+        <Bp>
+          <Number>2</Number>
+          <Type>0</Type>
+          <LineNumber>65</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>..\myAPI\BMP.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>3</Number>
+          <Type>0</Type>
+          <LineNumber>73</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>..\myAPI\BMP.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>4</Number>
+          <Type>0</Type>
+          <LineNumber>75</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>..\myAPI\BMP.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
       </Breakpoint>
       <WatchWindow1>
         <Ww>
           <count>0</count>
           <WinNumber>1</WinNumber>
           <ItemText>bmp.bmfHeader.bfSize,0x10</ItemText>
+        </Ww>
+        <Ww>
+          <count>1</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>pixelPtr,0x0A</ItemText>
         </Ww>
       </WatchWindow1>
       <WatchWindow2>
