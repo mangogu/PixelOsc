@@ -13,7 +13,7 @@ TIM_HandleTypeDef htim5;
 /* 更改LCD背光亮度 */
 void TIM_LcdBright_Config(uint8_t val)
 {
-	htim3.Instance->CCR1 = val;
+	htim3.Instance->CCR2 = val;
 }
 
 //设置并开启LCD背光亮度

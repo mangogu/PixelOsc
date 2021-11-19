@@ -47,7 +47,7 @@ void myOs_DevInit(void)
 		/* 如果需要处理串口 */
 		if(rxStatus&0x8000)
 		{
-			printf("%d",cmdProcess());
+			cmdProcess();
 		}
 	}
 	
