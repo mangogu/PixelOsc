@@ -1,4 +1,4 @@
-#include "CTR.h"
+#include "CONF.h"
 
 void analog_init(void)
 {
@@ -7,6 +7,9 @@ void analog_init(void)
 	
 	/* 选择校准模式 */
 	CHA_calibrate(CH_CALI_NORMAL);
+	
+	/* 初始化校准方波信号 */
+	TIM_Wave_InitThenRun(1000);
 }
 
 void CHA_couple(uint8_t mode)

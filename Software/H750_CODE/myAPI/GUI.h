@@ -1,7 +1,6 @@
 #ifndef GUI_H
 #define GUI_H
 
-#include "LCD.h"
 #include "CONF.h"
 
 /* ³£ÓÃÑÕÉ« */
@@ -118,5 +117,6 @@ void drawMenu(uint8_t layer);
 										uint8_t layer);
 void drawBottomLine(uint8_t layer);
 void drawWelcomeWin(uint8_t layer);
+void drawShutDownMsg(uint8_t layer);
 
 #endif

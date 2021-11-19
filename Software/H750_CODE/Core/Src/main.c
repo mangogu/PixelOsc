@@ -18,7 +18,6 @@ int main(void)
 {
 	
 	extern ApplicationTypeDef Appli_state;
-	uint8_t status = 0;
 	
   HAL_Init();
 

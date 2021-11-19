@@ -636,6 +636,11 @@
               <FileType>1</FileType>
               <FilePath>..\myAPI\BMP.c</FilePath>
             </File>
+            <File>
+              <FileName>CMD.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myAPI\CMD.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

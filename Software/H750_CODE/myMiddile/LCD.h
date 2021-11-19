@@ -22,7 +22,7 @@
 /* RGB to HEX×ª»» */
 #define RGB2HEX(r,g,b)  ((r << 16) | (g << 8) | (b))
 
-extern const uint32_t osc_color_table[256];
+extern uint32_t osc_color_table[256];
 //É«²Ê±í
 #define COLOR_TABLE_L8         	 \
 {                              	 \

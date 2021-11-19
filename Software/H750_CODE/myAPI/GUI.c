@@ -1,5 +1,4 @@
-#include "GUI.h"
-
+#include "CONF.h"
 
 /* 当前框架 */
 uint8_t curFrame;
@@ -322,6 +321,7 @@ void drawBottomLine(uint8_t layer)
 	GUI_drawLabel(labelX,	myLcd.height - 1 - GUI_THICKNESS - BOTTOMLINE_HEIGHT,	&(bottomStruct.label_4),	(selectLab>>4)&0x01,	1);	
 }
 
+/* 绘制欢迎页面 */
 void drawWelcomeWin(uint8_t layer)
 {
 	/* 绘制阴影 */
@@ -335,11 +335,23 @@ void drawWelcomeWin(uint8_t layer)
 	menuFont.FrontColor = WELCOME_WINDOW_COLOR_CHAR;
 	dispStrEx(WELCOME_WINDOW_X, WELCOME_WINDOW_Y, "111222333", &menuFont,	0, ALIGN_LEFT, 1);
 }
-	
+
+/* 绘制关机提示 */
+void drawShutDownMsg(uint8_t layer)
+{
+	/* 清屏 */
+	clearLcd(MAIN_BACK_COLOR, 1);
+	/* 载入颜色 */
+	menuFont.BackColor = MAIN_BACK_COLOR;
+	menuFont.FrontColor = OFF_MSG_COLOR;
+	/* 绘制文字 */
+	dispStrEx(260, 200, "Please release key to shut down...", &menuFont,	0, ALIGN_LEFT, 1);
+}
 
 void test01(void)
 {
-	
+
+	extern LTDC_HandleTypeDef hltdc;
 	clearLcd(MAIN_BACK_COLOR, 1);
 	
 	curMenuPage = &measureStruct;
@@ -374,14 +386,13 @@ void test01(void)
 	drawBottomLine(1);
 	HAL_Delay(500);
 	
-	drawRect(10,10,4,4,WHITE,1);
+	osc_color_table[0] = RGB2HEX(0, 127, 255);
+	//配置CLUT转换
+//	HAL_LTDC_ConfigCLUT(&hltdc,(unsigned int * )osc_color_table,256,LTDC_LAYER_1);
 	
-	 fill_By_DMA2D(	10,
-										 10,
-										 4, 
-										 4,
-											WHITE,
-										 1);
+//	drawRect(10,10,4,4,WHITE,1);
+//	
+//	drawShutDownMsg(1);
 	
 }
 

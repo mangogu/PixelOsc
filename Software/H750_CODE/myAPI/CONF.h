@@ -2,11 +2,12 @@
 #define __CONF_H
 
 /* 全局变量 */
-#define OFF_TIME 					2				/* 关机按键时长（单位：秒） */
+#define OFF_TIME 					1				/* 关机按键时长（单位：秒） */
 #define OFF_WAIT 					1				/* 关机按键使能延迟（单位：秒） */
+#define OFF_MSG_COLOR 		WHITE		/* 关机提示文字颜色 */
 
 
-#define MAIN_BACK_COLOR		BLUE		/* 主背景色 */
+#define MAIN_BACK_COLOR		BLACK		/* 主背景色 */
 #define GUI_THICKNESS 		2				/* 间隙大小 */
 #define TEXT_LEN					12			/* 文本长度 */
 
@@ -69,6 +70,7 @@
 #include "CONFIG.h"
 #include "FILE.h"
 #include "BMP.h"
+#include "CMD.h"
 /* 系统层头文件 */
 #include "myOS.h"
 

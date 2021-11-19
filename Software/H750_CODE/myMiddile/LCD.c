@@ -4,7 +4,7 @@
 /********************全局变量********************/
 
 /* 定义色彩表 */
-const uint32_t osc_color_table[256] = COLOR_TABLE_L8;
+uint32_t osc_color_table[256] = COLOR_TABLE_L8;
 
 /* 定义所使用的的屏幕 */
 #ifdef LCD_TYPE_800_480

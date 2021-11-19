@@ -1,6 +1,6 @@
 /*Include Files
 	包含头文件*/
-#include "LTDC.h"
+#include "CONF.h"
 
 /*LTDC 初始化结构体*/
 LTDC_HandleTypeDef hltdc;
@@ -55,9 +55,6 @@ void MX_LTDC_Init(void)
   {
     Error_Handler();
   }
-	
-	//声明色彩表
-	extern const unsigned int osc_color_table[256];
 	
 	//配置CLUT转换
 	HAL_LTDC_ConfigCLUT(&hltdc,(unsigned int * )osc_color_table,256,LTDC_LAYER_1);

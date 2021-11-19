@@ -1,10 +1,21 @@
 #include "CONF.h"
 
+/* isDown = 0:未关机 isDown = 1:已关机 */
+uint8_t isDown = 0;
 
 void myOs_DevInit(void)
 {
 	/* 打开电源 */
 	GPIO_DevInit();
+	
+	/* 点亮屏幕 */
+	Lcd_Init();
+	
+	/* 初始化系统节拍 */
+	Systick_Init();
+	
+	/* 初始化外部FLASH */
+	CONFIG_Init();
 	
 	/* 初始化串口 */
 	MX_USART2_UART_Init();
@@ -15,25 +26,35 @@ void myOs_DevInit(void)
 	/* 初始化USBHOST */
   MX_USB_HOST_Init();
 	
-	/* 初始化校准方波信号 */
-	TIM_Wave_InitThenRun(1000);
-	
-	CONFIG_Init();
-	
 	/* 初始化模拟部分 */
 	analog_init();
 	
-	/* 点亮屏幕 */
-	Lcd_Init();
-	
-	/* 初始化系统节拍 */
-	Systick_Init();
-	
-	DemoSpiFlash();
+	//DemoSpiFlash();
 	
 	test01();
+	
+	while(1)
+	{
+		/* 检测关机 */
+		if(isDown)
+		{
+			/* 显示关机提示 */
+			drawShutDownMsg(1);
+			/* 等待 */
+			while(1);
+		}
+		
+		/* 如果需要处理串口 */
+		if(rxStatus&0x8000)
+		{
+			printf("%d",cmdProcess());
+		}
+	}
+	
+	
 }
 
+/* 定时中断函数 */
 void myOS_1ms_Func(void)
 {
 	
@@ -46,9 +67,14 @@ void myOS_10ms_Func(void)
 
 void myOS_100ms_Func(void)
 {
+	/* 检测关机 */
+	shutDownPower();
+}
+
+/* 检测关机 */
+void shutDownPower(void)
+{
 	static uint8_t clickCount = 0;
-	/* isDown = 0:未关机 isDown = 1:已关机 */
-	static uint8_t isDown = 0;
 	/* everRelease = 0:按键未释放 everRelease = 1:按键释放过 */
 	static uint8_t everRelease = 0;
 	/* 获取系统运行时长 */
@@ -77,9 +103,6 @@ void myOS_100ms_Func(void)
 	
 	if(clickCount >= OFF_TIME*10)
 	{
-		/* 关机 */
-		isDown = 1;
-		
 		/* 关闭电源 -> 设置IO : PC4 为浮空输入，高阻态 */
 		GPIO_InitTypeDef GPIO_InitStruct = {0};
 		GPIO_InitStruct.Pin = GPIO_PIN_4;
@@ -87,6 +110,8 @@ void myOS_100ms_Func(void)
 		GPIO_InitStruct.Pull = GPIO_NOPULL;
 		GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
 		HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+		/* 关机 */
+		isDown = 1;
 	}
 }
 
