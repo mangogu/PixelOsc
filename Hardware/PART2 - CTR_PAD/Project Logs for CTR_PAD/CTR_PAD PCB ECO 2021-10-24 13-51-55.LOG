@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=PB0 Pin=U5-9
+Removed Pin From Net: NetName=PB1 Pin=U5-12
+Added Component: Designator=JP1(MX 1.25-WS-4P)
+Add component (AddParameter): Name = "BOM名称"; Value = "4P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=JP1-1
+Added Pin To Net: NetName=DGND Pin=JP1-2
+Added Pin To Net: NetName=SWDIO Pin=JP1-3
+Added Pin To Net: NetName=SWCLK Pin=JP1-4
+Added Pin To Net: NetName=PB1 Pin=U5-9
+Added Pin To Net: NetName=PB0 Pin=U5-12
+Change Net Name : Old Net Name=PB11_1 New Net Name=PA11_1
+Change Net Name : Old Net Name=PB11_2 New Net Name=PA11_2
+Change Net Name : Old Net Name=PB12_1 New Net Name=PA12_1
+Change Net Name : Old Net Name=PB12_2 New Net Name=PA12_2
+Added Pin To Net: NetName=PB0_1 Pin=U5-14
+Added Net: Name=PB0_1
+Added Pin To Net: NetName=PB0_2 Pin=U5-13
+Added Net: Name=PB0_2
+Added Pin To Net: NetName=PB1_1 Pin=U5-11
+Added Net: Name=PB1_1
+Added Pin To Net: NetName=PB1_2 Pin=U5-10
+Added Net: Name=PB1_2
+Added Member To Class: ClassName=CTR_PAD Member=Component JP1 HDR-1X4

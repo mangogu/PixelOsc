@@ -65,9 +65,11 @@ void Systick_Init(void)
 */
 void SysTick_ISR(void)
 {
-	/* 10ms中断技术 */
+	/* 5ms中断计数 */
+	static uint8_t count_5ms = 0;
+	/* 10ms中断计数 */
 	static uint8_t count_10ms = 0;
-	/* 100ms中断技术 */
+	/* 100ms中断计数 */
 	static uint8_t count_100ms = 0;
 	uint8_t i;
 	
@@ -94,6 +96,13 @@ void SysTick_ISR(void)
 	}
 
 	myOS_1ms_Func();		/* 每隔1ms调用一次此函数，此函数在 bsp.c */
+	
+	if (++count_5ms >= 5)
+	{
+		count_5ms = 0;
+
+		myOS_5ms_Func();	/* 每隔10ms调用一次此函数，此函数在 bsp.c */
+	}
 
 	if (++count_10ms >= 10)
 	{
@@ -427,5 +436,3 @@ void bsp_Idle(void)
 	/* 例如 uIP 协议，可以插入uip轮询函数 */
 	//TOUCH_CapScan();
 }
-
-

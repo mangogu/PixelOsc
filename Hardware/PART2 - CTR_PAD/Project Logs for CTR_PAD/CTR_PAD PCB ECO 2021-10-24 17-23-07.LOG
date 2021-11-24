@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=PB5_1 Pin=U6-2
+Removed Pin From Net: NetName=PB5_2 Pin=U6-3
+Removed Pin From Net: NetName=PB4_1 Pin=U6-5
+Removed Pin From Net: NetName=PB4_2 Pin=U6-6
+Removed Pin From Net: NetName=PB3_2 Pin=U6-10
+Removed Pin From Net: NetName=PB3_1 Pin=U6-11
+Removed Pin From Net: NetName=PA15_2 Pin=U6-13
+Removed Pin From Net: NetName=PA15_1 Pin=U6-14
+Added Pin To Net: NetName=PA4_1 Pin=U6-14
+Added Net: Name=PA4_1
+Added Pin To Net: NetName=PA4_2 Pin=U6-13
+Added Net: Name=PA4_2
+Added Pin To Net: NetName=PA5_1 Pin=U6-11
+Added Net: Name=PA5_1
+Added Pin To Net: NetName=PA5_2 Pin=U6-10
+Added Net: Name=PA5_2
+Added Pin To Net: NetName=PA6_1 Pin=U6-2
+Added Net: Name=PA6_1
+Added Pin To Net: NetName=PA6_2 Pin=U6-3
+Added Net: Name=PA6_2
+Added Pin To Net: NetName=PA7_1 Pin=U6-5
+Added Net: Name=PA7_1
+Added Pin To Net: NetName=PA7_2 Pin=U6-6
+Added Net: Name=PA7_2

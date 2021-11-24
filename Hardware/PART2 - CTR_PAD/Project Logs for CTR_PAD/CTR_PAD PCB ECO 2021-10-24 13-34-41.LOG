@@ -1,0 +1,12 @@
+Change Component Designator: OldDesignator=KEY? NewDesignator=KEY1
+Change Component Designator: OldDesignator=KEY? NewDesignator=KEY2
+Change Component Designator: OldDesignator=KEY? NewDesignator=KEY3
+Change Component Designator: OldDesignator=KEY? NewDesignator=KEY4
+Change Component Designator: OldDesignator=U? NewDesignator=U4
+Change Component Designator: OldDesignator=U? NewDesignator=U5
+Change Component Designator: OldDesignator=U? NewDesignator=U6
+Added Member To Class: ClassName=CTR_PAD Member=Component KEY1 KEY-5D
+Added Member To Class: ClassName=CTR_PAD Member=Component KEY2 KEY-5D
+Added Member To Class: ClassName=CTR_PAD Member=Component KEY4 KEY-5D
+Added Member To Class: ClassName=CTR_PAD Member=Component U4 CH440
+Added Member To Class: ClassName=CTR_PAD Member=Component U6 CH440

@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=F5 Pin=KEY1-3
+Removed Pin From Net: NetName=F5 Pin=KEY2-3
+Removed Pin From Net: NetName=F5 Pin=KEY3-3
+Removed Pin From Net: NetName=F5 Pin=KEY4-3
+Added Pin To Net: NetName=3V3 Pin=KEY1-3
+Added Pin To Net: NetName=3V3 Pin=KEY2-3
+Added Pin To Net: NetName=3V3 Pin=KEY3-3
+Added Pin To Net: NetName=3V3 Pin=KEY4-3
+Added Member To Class: ClassName=CTR_PAD Member=Component R3 103

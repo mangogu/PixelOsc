@@ -1,0 +1,10 @@
+Added Pin To Net: NetName=PB4_1 Pin=U?-6
+Added Pin To Net: NetName=PB3_1 Pin=U?-7
+Added Pin To Net: NetName=PB5_1 Pin=U?-8
+Added Pin To Net: NetName=PB3_2_L Pin=U?-14
+Added Net: Name=PB3_2_L
+Added Pin To Net: NetName=PB4_1_L Pin=U?-15
+Added Net: Name=PB4_1_L
+Added Pin To Net: NetName=PB5_2_L Pin=U?-13
+Added Net: Name=PB5_2_L
+Added Member To Class: ClassName=CTR_PAD Member=Component U? 74HC573

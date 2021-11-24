@@ -2,8 +2,8 @@
 
 # PCB Log Files
 /Hardware/*/History/
-/Hardware/*/Project Logs for CTR_PAD/
-/Hardware/*/Project Outputs for CTR_PAD/
+/Hardware/*/Project Logs for CTR/
+/Hardware/*/Project Outputs for CTR/
 /Hardware/*/Project Project Logs for CORE_BOARD/
 /Hardware/*/*.zip
 /Hardware/*/*.htm
@@ -12,4 +12,4 @@
 
 # MDK Object Files
 /Software/*/MDK-ARM/myOsc/
-/Software/*/MDK-ARM/CTR_PAD/
+/Software/*/MDK-ARM/CTR/

@@ -1,0 +1,26 @@
+Added Pin To Net: NetName=PB4_1 Pin=KEY1-1
+Added Pin To Net: NetName=PB5_1 Pin=KEY2-1
+Added Pin To Net: NetName=PB3_1 Pin=KEY3-1
+Added Pin To Net: NetName=PA15_1 Pin=KEY4-1
+Added Pin To Net: NetName=NetKEY1_2 Pin=KEY1-2
+Added Pin To Net: NetName=NetKEY1_2 Pin=KEY2-2
+Added Pin To Net: NetName=NetKEY1_2 Pin=KEY3-2
+Added Pin To Net: NetName=NetKEY1_2 Pin=KEY4-2
+Added Net: Name=NetKEY1_2
+Added Pin To Net: NetName=NetKEY1_3 Pin=KEY1-3
+Added Pin To Net: NetName=NetKEY1_3 Pin=KEY2-3
+Added Pin To Net: NetName=NetKEY1_3 Pin=KEY3-3
+Added Pin To Net: NetName=NetKEY1_3 Pin=KEY4-3
+Added Net: Name=NetKEY1_3
+Added Pin To Net: NetName=NetKEY1_4 Pin=KEY1-4
+Added Pin To Net: NetName=NetKEY1_4 Pin=KEY2-4
+Added Pin To Net: NetName=NetKEY1_4 Pin=KEY3-4
+Added Pin To Net: NetName=NetKEY1_4 Pin=KEY4-4
+Added Net: Name=NetKEY1_4
+Added Pin To Net: NetName=NetKEY2_5 Pin=KEY2-5
+Added Pin To Net: NetName=NetKEY2_5 Pin=KEY4-5
+Added Net: Name=NetKEY2_5
+Added Pin To Net: NetName=NetKEY2_6 Pin=KEY2-6
+Added Pin To Net: NetName=NetKEY2_6 Pin=KEY4-6
+Added Net: Name=NetKEY2_6
+Added Member To Class: ClassName=CTR_PAD Member=Component KEY3 KEY-5D

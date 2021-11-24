@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=3V3 Pin=K7-2
+Removed Pin From Net: NetName=3V3 Pin=KEY1-3
+Removed Pin From Net: NetName=3V3 Pin=KEY2-3
+Removed Pin From Net: NetName=3V3 Pin=KEY3-3
+Removed Pin From Net: NetName=3V3 Pin=KEY4-3
+Removed Pin From Net: NetName=F4 Pin=R16-5
+Removed Pin From Net: NetName=F3 Pin=R16-6
+Removed Pin From Net: NetName=RST Pin=R17-4
+Removed Pin From Net: NetName=3V3 Pin=R17-5
+Removed Pin From Net: NetName=3V3 Pin=R17-7
+Removed Pin From Net: NetName=F4 Pin=R17-8
+Removed Member From Class: ClassName=CTR_PAD Member=R17
+Added Component: Designator=R?(R 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=R16-5
+Added Pin To Net: NetName=F4 Pin=R16-6
+Added Pin To Net: NetName=3V3 Pin=R?-1
+Added Pin To Net: NetName=F3 Pin=R?-1
+Added Pin To Net: NetName=F4 Pin=R?-2
+Added Pin To Net: NetName=RST Pin=R?-2
+Added Pin To Net: NetName=F5 Pin=K7-2
+Added Pin To Net: NetName=F5 Pin=KEY1-3
+Added Pin To Net: NetName=F5 Pin=KEY2-3
+Added Pin To Net: NetName=F5 Pin=KEY3-3
+Added Pin To Net: NetName=F5 Pin=KEY4-3
+Added Pin To Net: NetName=F5 Pin=R16-3
+Added Pin To Net: NetName=F5 Pin=R16-4
+Added Net: Name=F5
+Added Member To Class: ClassName=CTR_PAD Member=Component R? 10K
+Added Member To Class: ClassName=CTR_PAD Member=Component R? 20K

@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=PB4_1 Pin=KEY1-1
+Removed Pin From Net: NetName=PB5_1 Pin=KEY2-1
+Removed Pin From Net: NetName=PB3_1 Pin=KEY3-1
+Removed Pin From Net: NetName=PA15_1 Pin=KEY4-1
+Added Pin To Net: NetName=PB0_2 Pin=KEY1-1
+Added Pin To Net: NetName=PA11_2 Pin=KEY2-1
+Added Pin To Net: NetName=PB3_2 Pin=KEY2-5
+Added Pin To Net: NetName=PA12_2 Pin=KEY2-6
+Added Pin To Net: NetName=PB1_2 Pin=KEY3-1
+Added Pin To Net: NetName=PA6_2 Pin=KEY4-1
+Added Pin To Net: NetName=PB3_2 Pin=KEY4-5
+Added Pin To Net: NetName=PA12_2 Pin=KEY4-6
+Added Pin To Net: NetName=NetKEY1_2 Pin=U4-3
+Added Pin To Net: NetName=NetKEY1_3 Pin=U4-6
+Added Pin To Net: NetName=NetKEY1_4 Pin=U4-13
+Change Net Name : Old Net Name=NetKEY1_2 New Net Name=PB5_2
+Change Net Name : Old Net Name=NetKEY1_3 New Net Name=PB4_2
+Change Net Name : Old Net Name=NetKEY1_4 New Net Name=PA15_2

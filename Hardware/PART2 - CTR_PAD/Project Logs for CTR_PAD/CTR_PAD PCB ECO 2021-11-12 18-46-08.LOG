@@ -1,0 +1,16 @@
+Added Member To Class: ClassName=CTR_PAD Member=Component C5 10nF
+Added Member To Class: ClassName=CTR_PAD Member=Component C7 100nF
+Added Member To Class: ClassName=CTR_PAD Member=Component C9 100nF
+Added Member To Class: ClassName=CTR_PAD Member=Component C11 100nF
+Added Member To Class: ClassName=CTR_PAD Member=Component K4 6x6x5
+Added Member To Class: ClassName=CTR_PAD Member=Component K5 6x6x5
+Added Member To Class: ClassName=CTR_PAD Member=Component K7 6x6x5
+Added Member To Class: ClassName=CTR_PAD Member=Component LED2 ºìÉ«
+Added Member To Class: ClassName=CTR_PAD Member=Component LED3 RGB-3528
+Added Member To Class: ClassName=CTR_PAD Member=Component LED4 ºìÉ«
+Added Member To Class: ClassName=CTR_PAD Member=Component R3 4.7K
+Added Member To Class: ClassName=CTR_PAD Member=Component R4 330
+Added Member To Class: ClassName=CTR_PAD Member=Component R6 4.7K
+Added Member To Class: ClassName=CTR_PAD Member=Component R7 4.7K
+Added Member To Class: ClassName=CTR_PAD Member=Component U1 CH440
+Added Member To Class: ClassName=CTR_PAD Member=Component U5 STM32F030K6_T

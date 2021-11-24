@@ -1,0 +1,31 @@
+Change Component Designator: OldDesignator=JP2 NewDesignator=JP3
+Change Component Designator: OldDesignator=JP3 NewDesignator=JP2
+Change Component Designator: OldDesignator=K6 NewDesignator=K8
+Change Component Designator: OldDesignator=K7 NewDesignator=K6
+Change Component Designator: OldDesignator=K8 NewDesignator=K7
+Change Component Designator: OldDesignator=R1 NewDesignator=R5
+Change Component Designator: OldDesignator=R4 NewDesignator=R8
+Change Component Designator: OldDesignator=R5 NewDesignator=R9
+Change Component Designator: OldDesignator=R6 NewDesignator=R10
+Change Component Designator: OldDesignator=R7 NewDesignator=R13
+Change Component Designator: OldDesignator=R8 NewDesignator=R16
+Change Component Designator: OldDesignator=R9 NewDesignator=R6
+Change Component Designator: OldDesignator=R10 NewDesignator=R7
+Change Component Designator: OldDesignator=R11 NewDesignator=R1
+Change Component Designator: OldDesignator=R12 NewDesignator=R4
+Change Component Designator: OldDesignator=R13 NewDesignator=R11
+Change Component Designator: OldDesignator=R14 NewDesignator=R12
+Change Component Designator: OldDesignator=R15 NewDesignator=R14
+Change Component Designator: OldDesignator=R16 NewDesignator=R15
+Added Member To Class: ClassName=CTR_PAD Member=Component JP3 HDR-1X4
+Added Member To Class: ClassName=CTR_PAD Member=Component K7 6x6x5
+Added Member To Class: ClassName=CTR_PAD Member=Component K8 6x6x5
+Added Member To Class: ClassName=CTR_PAD Member=Component R1 5M
+Added Member To Class: ClassName=CTR_PAD Member=Component R4 5M
+Added Member To Class: ClassName=CTR_PAD Member=Component R5 4.7K
+Added Member To Class: ClassName=CTR_PAD Member=Component R8 4.7K
+Added Member To Class: ClassName=CTR_PAD Member=Component R9 4.7K
+Added Member To Class: ClassName=CTR_PAD Member=Component R11 5M
+Added Member To Class: ClassName=CTR_PAD Member=Component R13 4.7K
+Added Member To Class: ClassName=CTR_PAD Member=Component R14 5M
+Added Member To Class: ClassName=CTR_PAD Member=Component R16 4.7K

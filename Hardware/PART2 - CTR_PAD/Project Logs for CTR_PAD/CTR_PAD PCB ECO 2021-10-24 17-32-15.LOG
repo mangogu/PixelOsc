@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=PB3_2 Pin=KEY1-5
+Added Pin To Net: NetName=PA12_2 Pin=KEY1-6
+Added Pin To Net: NetName=PB3_2 Pin=KEY3-5
+Added Pin To Net: NetName=PA12_2 Pin=KEY3-6

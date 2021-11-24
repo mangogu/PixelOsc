@@ -1,0 +1,12 @@
+Added Pin To Net: NetName=3V3 Pin=K7-2
+Added Pin To Net: NetName=3V3 Pin=KEY1-3
+Added Pin To Net: NetName=3V3 Pin=KEY2-3
+Added Pin To Net: NetName=3V3 Pin=KEY3-3
+Added Pin To Net: NetName=3V3 Pin=KEY4-3
+Added Pin To Net: NetName=3V3 Pin=R?-1
+Added Pin To Net: NetName=RST Pin=R?-2
+Added Pin To Net: NetName=NetR16_3 Pin=R16-3
+Added Pin To Net: NetName=NetR16_3 Pin=R16-4
+Added Net: Name=NetR16_3
+Added Member To Class: ClassName=CTR_PAD Member=Component R? 20K
+Added Member To Class: ClassName=CTR_PAD Member=Component R? 10K

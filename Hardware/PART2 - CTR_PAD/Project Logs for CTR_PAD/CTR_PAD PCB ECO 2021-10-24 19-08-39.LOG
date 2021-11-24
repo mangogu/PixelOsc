@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=PA4_1 Pin=LED3-1
+Removed Pin From Net: NetName=PA5_1 Pin=LED5-1
+Removed Pin From Net: NetName=PA7_1 Pin=R18-1
+Removed Pin From Net: NetName=PA6_1 Pin=R19-1
+Added Component: Designator=U?(TSSOP20_L)
+Added Pin To Net: NetName=DGND Pin=U?-1
+Added Pin To Net: NetName=PA6_1 Pin=U?-2
+Added Pin To Net: NetName=PA7_1 Pin=U?-3
+Added Pin To Net: NetName=PA4_1 Pin=U?-4
+Added Pin To Net: NetName=PA5_1 Pin=U?-5
+Added Pin To Net: NetName=DGND Pin=U?-10
+Added Pin To Net: NetName=PA3 Pin=U?-11
+Added Pin To Net: NetName=3V3 Pin=U?-20
+Added Pin To Net: NetName=PA4_1_L Pin=LED3-1
+Added Pin To Net: NetName=PA4_1_L Pin=U?-17
+Added Net: Name=PA4_1_L
+Added Pin To Net: NetName=PA5_1_L Pin=LED5-1
+Added Pin To Net: NetName=PA5_1_L Pin=U?-16
+Added Net: Name=PA5_1_L
+Added Pin To Net: NetName=PA6_1_L Pin=R19-1
+Added Pin To Net: NetName=PA6_1_L Pin=U?-19
+Added Net: Name=PA6_1_L
+Added Pin To Net: NetName=PA7_1_L Pin=R18-1
+Added Pin To Net: NetName=PA7_1_L Pin=U?-18
+Added Net: Name=PA7_1_L
+Added Member To Class: ClassName=CTR_PAD Member=Component U? 74HC573

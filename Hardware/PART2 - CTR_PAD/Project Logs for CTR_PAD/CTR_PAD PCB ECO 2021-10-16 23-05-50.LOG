@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=3V3 Pin=K8-2
+Removed Pin From Net: NetName=3V3 Pin=KEY1-3
+Removed Pin From Net: NetName=3V3 Pin=KEY2-3
+Removed Pin From Net: NetName=3V3 Pin=KEY3-3
+Removed Pin From Net: NetName=3V3 Pin=KEY4-3
+Removed Pin From Net: NetName=F4 Pin=R2-3
+Removed Pin From Net: NetName=F4 Pin=R2-4
+Removed Pin From Net: NetName=3V3 Pin=R2-5
+Added Component: Designator=R?(RCA-8P4R-0603)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片网络排阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=F4 Pin=R2-5
+Added Pin To Net: NetName=3V3 Pin=R?-7
+Added Pin To Net: NetName=F4 Pin=R?-8
+Added Pin To Net: NetName=F5 Pin=K8-2
+Added Pin To Net: NetName=F5 Pin=KEY1-3
+Added Pin To Net: NetName=F5 Pin=KEY2-3
+Added Pin To Net: NetName=F5 Pin=KEY3-3
+Added Pin To Net: NetName=F5 Pin=KEY4-3
+Added Pin To Net: NetName=F5 Pin=R?-1
+Added Pin To Net: NetName=F5 Pin=R?-2
+Added Net: Name=F5
+Added Pin To Net: NetName=NetR2_3 Pin=R2-3
+Added Pin To Net: NetName=NetR2_3 Pin=R2-4
+Added Net: Name=NetR2_3
+Added Member To Class: ClassName=CTR_PAD Member=Component R? 103

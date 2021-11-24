@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=DGND Pin=C8-1
+Removed Pin From Net: NetName=A3V3 Pin=C8-2
+Removed Pin From Net: NetName=3V3 Pin=L1-1
+Removed Pin From Net: NetName=A3V3 Pin=L1-2
+Removed Member From Class: ClassName=CTR_PAD Member=C8
+Removed Member From Class: ClassName=CTR_PAD Member=L1
+Added Member To Class: ClassName=CTR_PAD Member=Component U? 74HC573

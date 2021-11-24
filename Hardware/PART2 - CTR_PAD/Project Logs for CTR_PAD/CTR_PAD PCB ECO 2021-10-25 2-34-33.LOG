@@ -1,0 +1,17 @@
+Added Component: Designator=C?(C 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=DGND Pin=C?-1
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=U7-4
+Added Net: Name=NetC?_2
+Added Member To Class: ClassName=CTR_PAD Member=Component C? 10nF
+Added Member To Class: ClassName=CTR_PAD Member=Component K4 6x6x5
+Added Member To Class: ClassName=CTR_PAD Member=Component K5 6x6x5
+Added Member To Class: ClassName=CTR_PAD Member=Component K8 6x6x5
+Added Member To Class: ClassName=CTR_PAD Member=Component KEY2 KEY-5D
+Added Member To Class: ClassName=CTR_PAD Member=Component LED4 红色
+Added Member To Class: ClassName=CTR_PAD Member=Component LED5 红色
+Added Member To Class: ClassName=CTR_PAD Member=Component U3 CH440
+Added Member To Class: ClassName=CTR_PAD Member=Component U4 CH440

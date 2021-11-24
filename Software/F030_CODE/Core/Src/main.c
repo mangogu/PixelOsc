@@ -18,8 +18,8 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
+#include "main.h"
 #include "CONF.h"
-
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -48,6 +48,7 @@
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
+
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -76,33 +77,19 @@ int main(void)
 
   /* USER CODE END Init */
 
-  /* Configure the system clock */
+  /* 配置系统时钟 */
   SystemClock_Config();
 
-  /* USER CODE BEGIN SysInit */
-
-  /* USER CODE END SysInit */
-
-  /* Initialize all configured peripherals */
-  MX_GPIO_Init();
-  MX_USART1_UART_Init();
-	KEY_Init();
+  GPIO_DevInit();
+	LED_Init();
+	MX_USART1_UART_Init();
+	
 	/* 初始化系统节拍 */
 	Systick_Init();
-  
-  /* USER CODE BEGIN 2 */
 
-  /* USER CODE END 2 */
-
-  /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
   while (1)
   {
-    /* USER CODE END WHILE */
-		//printf("111mychar");
-		HAL_Delay(0);
-		HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_11);
-    /* USER CODE BEGIN 3 */
+		//SWITCH_CheckStatus();
   }
   /* USER CODE END 3 */
 }
@@ -115,15 +102,13 @@ void SystemClock_Config(void)
 {
   RCC_OscInitTypeDef RCC_OscInitStruct = {0};
   RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
-  RCC_PeriphCLKInitTypeDef PeriphClkInit = {0};
+	RCC_PeriphCLKInitTypeDef PeriphClkInit = {0};
 
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI14|RCC_OSCILLATORTYPE_HSE;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
   RCC_OscInitStruct.HSEState = RCC_HSE_ON;
-  RCC_OscInitStruct.HSI14State = RCC_HSI14_ON;
-  RCC_OscInitStruct.HSI14CalibrationValue = 16;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
   RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL6;
@@ -144,7 +129,7 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
-  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_USART1;
+	PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_USART1;
   PeriphClkInit.Usart1ClockSelection = RCC_USART1CLKSOURCE_PCLK1;
   if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
   {
@@ -152,29 +137,7 @@ void SystemClock_Config(void)
   }
 }
 
-/* USER CODE BEGIN 4 */
-//uint16_t Get_Adc(uint32_t ch) 
-//{
-//	 ADC_ChannelConfTypeDef ADC1_ChanConf;
-//	 
-//	 ADC1_ChanConf.Channel=ch; //通道
-//	 ADC1_ChanConf.Rank=1; //第 1 个序列，序列 1
-//	 ADC1_ChanConf.SamplingTime=ADC_SAMPLETIME_239CYCLES_5; //采样时间 
-//	 HAL_ADC_ConfigChannel(&ADC1_Handler,&ADC1_ChanConf); //通道配置
-//	 HAL_ADC_Start(&ADC1_Handler); //开启 ADC
-//	 HAL_ADC_PollForConversion(&ADC1_Handler,10); //轮询转换
-//	return (u16)HAL_ADC_GetValue(&ADC1_Handler);
-//	//返回最近一次 ADC1 规则组的转换结果
-//}
 
-
-
-/* USER CODE END 4 */
-
-/**
-  * @brief  This function is executed in case of error occurrence.
-  * @retval None
-  */
 void Error_Handler(void)
 {
   /* USER CODE BEGIN Error_Handler_Debug */

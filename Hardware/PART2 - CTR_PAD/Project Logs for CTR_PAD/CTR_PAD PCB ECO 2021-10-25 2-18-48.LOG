@@ -1,0 +1,53 @@
+Removed Pin From Net: NetName=DGND Pin=C8-1
+Removed Pin From Net: NetName=3V3 Pin=C8-2
+Removed Pin From Net: NetName=DGND Pin=C9-1
+Removed Pin From Net: NetName=3V3 Pin=C9-2
+Removed Pin From Net: NetName=DGND Pin=C10-1
+Removed Pin From Net: NetName=3V3 Pin=C10-2
+Removed Pin From Net: NetName=DGND Pin=C11-1
+Removed Pin From Net: NetName=3V3 Pin=C11-2
+Removed Member From Class: ClassName=CTR_PAD Member=C8
+Removed Member From Class: ClassName=CTR_PAD Member=C9
+Removed Member From Class: ClassName=CTR_PAD Member=C10
+Removed Member From Class: ClassName=CTR_PAD Member=C11
+Removed Member From Class: ClassName=CTR_PAD Member=U7
+Change Component Designator: OldDesignator=K2 NewDesignator=K4
+Change Component Designator: OldDesignator=K3 NewDesignator=K5
+Change Component Designator: OldDesignator=K4 NewDesignator=K2
+Change Component Designator: OldDesignator=K5 NewDesignator=K8
+Change Component Designator: OldDesignator=K7 NewDesignator=K3
+Change Component Designator: OldDesignator=K8 NewDesignator=K7
+Change Component Designator: OldDesignator=KEY1 NewDesignator=KEY2
+Change Component Designator: OldDesignator=KEY2 NewDesignator=KEY1
+Change Component Designator: OldDesignator=LED1 NewDesignator=LED3
+Change Component Designator: OldDesignator=LED3 NewDesignator=LED5
+Change Component Designator: OldDesignator=LED4 NewDesignator=LED1
+Change Component Designator: OldDesignator=LED5 NewDesignator=LED4
+Change Component Designator: OldDesignator=R2 NewDesignator=R15
+Change Component Designator: OldDesignator=R3 NewDesignator=R19
+Change Component Designator: OldDesignator=R4 NewDesignator=R18
+Change Component Designator: OldDesignator=R5 NewDesignator=R21
+Change Component Designator: OldDesignator=R6 NewDesignator=R14
+Change Component Designator: OldDesignator=R7 NewDesignator=R17
+Change Component Designator: OldDesignator=R8 NewDesignator=R22
+Change Component Designator: OldDesignator=R9 NewDesignator=R16
+Change Component Designator: OldDesignator=R10 NewDesignator=R20
+Change Component Designator: OldDesignator=U2 NewDesignator=U4
+Change Component Designator: OldDesignator=U3 NewDesignator=U5
+Change Component Designator: OldDesignator=U4 NewDesignator=U6
+Change Component Designator: OldDesignator=U5 NewDesignator=U?
+Change Component Designator: OldDesignator=U6 NewDesignator=U2
+Change Component Designator: OldDesignator=U7 NewDesignator=U3
+Change Net Name : Old Net Name=NetLED1_2 New Net Name=NetLED3_2
+Change Net Name : Old Net Name=NetLED3_2 New Net Name=NetLED5_2
+Change Net Name : Old Net Name=NetLED4_2 New Net Name=NetLED1_2
+Change Net Name : Old Net Name=NetLED5_2 New Net Name=NetLED4_2
+Added Member To Class: ClassName=CTR_PAD Member=Component K4 6x6x5
+Added Member To Class: ClassName=CTR_PAD Member=Component K5 6x6x5
+Added Member To Class: ClassName=CTR_PAD Member=Component K8 6x6x5
+Added Member To Class: ClassName=CTR_PAD Member=Component KEY2 KEY-5D
+Added Member To Class: ClassName=CTR_PAD Member=Component LED4 ºìÉ«
+Added Member To Class: ClassName=CTR_PAD Member=Component LED5 ºìÉ«
+Added Member To Class: ClassName=CTR_PAD Member=Component U4 CH440
+Added Member To Class: ClassName=CTR_PAD Member=Component U5 CH440
+Added Member To Class: ClassName=CTR_PAD Member=Component U? 74HC573

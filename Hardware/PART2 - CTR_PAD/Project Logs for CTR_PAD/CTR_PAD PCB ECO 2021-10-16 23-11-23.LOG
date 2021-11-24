@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=RST Pin=R3-1
+Removed Pin From Net: NetName=3V3 Pin=R3-2
+Removed Member From Class: ClassName=CTR_PAD Member=R?
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Added Pin To Net: NetName=RST Pin=R3-4
+Added Pin To Net: NetName=3V3 Pin=R3-5

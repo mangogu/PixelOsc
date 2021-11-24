@@ -1,0 +1,40 @@
+Removed Pin From Net: NetName=PB0 Pin=LED1-1
+Removed Pin From Net: NetName=PB1 Pin=LED1-2
+Removed Pin From Net: NetName=DGND Pin=R5-2
+Change Component Comment : Designator=R5 Old Comment=4.7K New Comment=330
+Change Component Designator: OldDesignator=R6 NewDesignator=R7
+Change Component Designator: OldDesignator=R7 NewDesignator=R8
+Change Component Designator: OldDesignator=R8 NewDesignator=R9
+Change Component Designator: OldDesignator=R9 NewDesignator=R10
+Change Component Designator: OldDesignator=R10 NewDesignator=R11
+Change Component Designator: OldDesignator=R11 NewDesignator=R12
+Change Component Designator: OldDesignator=R12 NewDesignator=R13
+Change Component Designator: OldDesignator=R13 NewDesignator=R14
+Change Component Designator: OldDesignator=R14 NewDesignator=R15
+Change Component Designator: OldDesignator=R15 NewDesignator=R16
+Change Component Designator: OldDesignator=R16 NewDesignator=R17
+Change Component Designator: OldDesignator=R17 NewDesignator=R18
+Change Component Designator: OldDesignator=R18 NewDesignator=R19
+Added Component: Designator=R6(R 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=LED1-4
+Added Pin To Net: NetName=PB0 Pin=R5-1
+Added Pin To Net: NetName=PB1 Pin=R6-1
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_1 Pin=R5-2
+Added Net: Name=NetLED1_1
+Added Pin To Net: NetName=NetLED1_2 Pin=LED1-2
+Added Pin To Net: NetName=NetLED1_2 Pin=R6-2
+Added Net: Name=NetLED1_2
+Added Member To Class: ClassName=CTR_PAD Member=Component JP2 FPC1.0-8P
+Added Member To Class: ClassName=CTR_PAD Member=Component K7 6x6x5
+Added Member To Class: ClassName=CTR_PAD Member=Component K8 6x6x5
+Added Member To Class: ClassName=CTR_PAD Member=Component R4 5M
+Added Member To Class: ClassName=CTR_PAD Member=Component R5 330
+Added Member To Class: ClassName=CTR_PAD Member=Component R8 5M
+Added Member To Class: ClassName=CTR_PAD Member=Component R9 4.7K
+Added Member To Class: ClassName=CTR_PAD Member=Component R13 5M
+Added Member To Class: ClassName=CTR_PAD Member=Component R15 5M
+Added Member To Class: ClassName=CTR_PAD Member=Component R19 5M

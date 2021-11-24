@@ -1,0 +1,15 @@
+Change Net Name : Old Net Name=F5 New Net Name=NetR17_1
+Added Member To Class: ClassName=CTR_PAD Member=Component JP2 HDR-1X4
+Added Member To Class: ClassName=CTR_PAD Member=Component K3 6x6x5
+Added Member To Class: ClassName=CTR_PAD Member=Component R1 10K
+Added Member To Class: ClassName=CTR_PAD Member=Component R2 10K
+Added Member To Class: ClassName=CTR_PAD Member=Component R3 330
+Added Member To Class: ClassName=CTR_PAD Member=Component R7 5M
+Added Member To Class: ClassName=CTR_PAD Member=Component R8 4.7K
+Added Member To Class: ClassName=CTR_PAD Member=Component R9 4.7K
+Added Member To Class: ClassName=CTR_PAD Member=Component R10 5M
+Added Member To Class: ClassName=CTR_PAD Member=Component R13 4.7K
+Added Member To Class: ClassName=CTR_PAD Member=Component R14 5M
+Added Member To Class: ClassName=CTR_PAD Member=Component R16 103
+Added Member To Class: ClassName=CTR_PAD Member=Component R18 5M
+Added Member To Class: ClassName=CTR_PAD Member=Component R19 5M

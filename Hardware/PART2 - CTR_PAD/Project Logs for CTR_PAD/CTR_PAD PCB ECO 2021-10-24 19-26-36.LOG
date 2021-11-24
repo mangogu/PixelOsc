@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=PA11 Pin=LED1-1
+Removed Pin From Net: NetName=PA12 Pin=LED4-1
+Removed Pin From Net: NetName=PB7 Pin=LED6-1
+Added Pin To Net: NetName=PA5_2_L Pin=LED1-1
+Added Pin To Net: NetName=PA4_2_L Pin=LED4-1
+Added Pin To Net: NetName=PA7_2_L Pin=LED6-1
+Added Member To Class: ClassName=CTR_PAD Member=Component U? 74HC573

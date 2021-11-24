@@ -1,51 +1,28 @@
-/**
-  ******************************************************************************
-  * @file    usart.c
-  * @brief   This file provides code for the configuration
-  *          of the USART instances.
-  ******************************************************************************
-  * @attention
-  *
-  * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
-  * All rights reserved.</center></h2>
-  *
-  * This software component is licensed by ST under BSD 3-Clause license,
-  * the "License"; You may not use this file except in compliance with the
-  * License. You may obtain a copy of the License at:
-  *                        opensource.org/licenses/BSD-3-Clause
-  *
-  ******************************************************************************
-  */
+#include "CONF.h"
 
-/* Includes ------------------------------------------------------------------*/
-#include "USART.h"
-#include "stdio.h"
+/* HAL库中的串口接收缓冲 */
+uint8_t rxBuffer[RX_BUFF_SIZE];
 
-/* USER CODE BEGIN 0 */
-int fputc(int ch, FILE* stream)
-{
-	/* 类型转换 */
-	uint8_t mych = ch;
-	/* 发送 */
-	HAL_UART_Transmit(&huart1, &mych, 1, 100);
-	return ch;
-}
-/* USER CODE END 0 */
+/* 接收数据缓冲，最大缓存DATA_BUFF_SIZE个字节 */
+uint8_t dataBuffer[DATA_BUFF_SIZE];
 
+/* 接收状态标志 */
+uint16_t rxStatus = 0;
+
+/* USART1 初始化结构体 */
 UART_HandleTypeDef huart1;
 
-/* USART1 init function */
+/* printf 重定向 */
+int fputc(int ch,FILE *f)
+{
+    uint8_t temp[1]={ch};
+    HAL_UART_Transmit(&huart1,temp,1,100);
+		return ch;
+}
 
 void MX_USART1_UART_Init(void)
 {
 
-  /* USER CODE BEGIN USART1_Init 0 */
-
-  /* USER CODE END USART1_Init 0 */
-
-  /* USER CODE BEGIN USART1_Init 1 */
-
-  /* USER CODE END USART1_Init 1 */
   huart1.Instance = USART1;
   huart1.Init.BaudRate = 115200;
   huart1.Init.WordLength = UART_WORDLENGTH_8B;
@@ -60,77 +37,14 @@ void MX_USART1_UART_Init(void)
   {
     Error_Handler();
   }
-  /* USER CODE BEGIN USART1_Init 2 */
-
-  /* USER CODE END USART1_Init 2 */
+	HAL_UART_Receive_IT(&huart1, (uint8_t*)rxBuffer, RX_BUFF_SIZE);
 
 }
 
-void HAL_UART_MspInit(UART_HandleTypeDef* uartHandle)
+/* USART中断函数 */
+void USART1_IRQHandler(void)
 {
-
-  GPIO_InitTypeDef GPIO_InitStruct = {0};
-  if(uartHandle->Instance==USART1)
-  {
-  /* USER CODE BEGIN USART1_MspInit 0 */
-
-  /* USER CODE END USART1_MspInit 0 */
-    /* USART1 clock enable */
-    __HAL_RCC_USART1_CLK_ENABLE();
-
-    __HAL_RCC_GPIOA_CLK_ENABLE();
-    __HAL_RCC_GPIOB_CLK_ENABLE();
-    /**USART1 GPIO Configuration
-    PA10     ------> USART1_RX
-    PB6     ------> USART1_TX
-    */
-    GPIO_InitStruct.Pin = GPIO_PIN_10;
-    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
-    GPIO_InitStruct.Pull = GPIO_NOPULL;
-    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
-    GPIO_InitStruct.Alternate = GPIO_AF1_USART1;
-    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
-
-    GPIO_InitStruct.Pin = GPIO_PIN_6;
-    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
-    GPIO_InitStruct.Pull = GPIO_NOPULL;
-    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
-    GPIO_InitStruct.Alternate = GPIO_AF0_USART1;
-    HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
-
-  /* USER CODE BEGIN USART1_MspInit 1 */
-
-  /* USER CODE END USART1_MspInit 1 */
-  }
+	/* 处理USART2回调函数等 */
+  HAL_UART_IRQHandler(&huart1);
+	HAL_UART_Receive_IT(&huart1, (uint8_t*)rxBuffer, RX_BUFF_SIZE);
 }
-
-void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
-{
-
-  if(uartHandle->Instance==USART1)
-  {
-  /* USER CODE BEGIN USART1_MspDeInit 0 */
-
-  /* USER CODE END USART1_MspDeInit 0 */
-    /* Peripheral clock disable */
-    __HAL_RCC_USART1_CLK_DISABLE();
-
-    /**USART1 GPIO Configuration
-    PA10     ------> USART1_RX
-    PB6     ------> USART1_TX
-    */
-    HAL_GPIO_DeInit(GPIOA, GPIO_PIN_10);
-
-    HAL_GPIO_DeInit(GPIOB, GPIO_PIN_6);
-
-  /* USER CODE BEGIN USART1_MspDeInit 1 */
-
-  /* USER CODE END USART1_MspDeInit 1 */
-  }
-}
-
-/* USER CODE BEGIN 1 */
-
-/* USER CODE END 1 */
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

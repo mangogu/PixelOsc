@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=PA7_2 Pin=U?-2
+Removed Pin From Net: NetName=PA5_2 Pin=U?-4
+Added Pin To Net: NetName=PA5_2 Pin=U?-2
+Added Pin To Net: NetName=PA7_2 Pin=U?-4
+Change Net Name : Old Net Name=PA5_2_L New Net Name=PA7_2_L
+Change Net Name : Old Net Name=PA7_2_L New Net Name=PA5_2_L
+Added Member To Class: ClassName=CTR_PAD Member=Component U? 74HC573

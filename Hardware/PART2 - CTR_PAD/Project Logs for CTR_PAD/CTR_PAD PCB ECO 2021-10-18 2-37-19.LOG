@@ -1,0 +1,17 @@
+Change Component Comment : Designator=R10 Old Comment=103 New Comment=10K*4
+Added Member To Class: ClassName=CTR_PAD Member=Component JP2 HDR-1X4
+Added Member To Class: ClassName=CTR_PAD Member=Component KEY2 KEY-5D
+Added Member To Class: ClassName=CTR_PAD Member=Component LED2 RGB-3528
+Added Member To Class: ClassName=CTR_PAD Member=Component LED5 ºìÉ«
+Added Member To Class: ClassName=CTR_PAD Member=Component R1 10K
+Added Member To Class: ClassName=CTR_PAD Member=Component R2 5M
+Added Member To Class: ClassName=CTR_PAD Member=Component R4 5M
+Added Member To Class: ClassName=CTR_PAD Member=Component R13 20K
+Added Member To Class: ClassName=CTR_PAD Member=Component R14 4.7K
+Added Member To Class: ClassName=CTR_PAD Member=Component R15 4.7K
+Added Member To Class: ClassName=CTR_PAD Member=Component R16 10K
+Added Member To Class: ClassName=CTR_PAD Member=Component R18 330
+Added Member To Class: ClassName=CTR_PAD Member=Component R20 10K
+Added Member To Class: ClassName=CTR_PAD Member=Component SP2 M2Í­Öù
+Added Member To Class: ClassName=CTR_PAD Member=Component SP4 M2Í­Öù
+Added Member To Class: ClassName=CTR_PAD Member=Component U3 SP6201-3.3
