@@ -21,3 +21,8 @@ void CONFIG_Init(void)
 	
 }
 
+void CONFIG_Default(void)
+{
+	MasterSrcRecall(INIT, NULL);
+}
+

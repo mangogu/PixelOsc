@@ -17,6 +17,8 @@ void myOs_DevInit(void)
 	/* 初始化外部FLASH */
 	CONFIG_Init();
 	
+	CONFIG_Default();
+	
 	/* 初始化串口 */
 	MX_USART2_UART_Init();
 	
@@ -49,6 +51,7 @@ void myOs_DevInit(void)
 		{
 			cmdProcess();
 		}
+		drawMenu(1);
 	}
 	
 	

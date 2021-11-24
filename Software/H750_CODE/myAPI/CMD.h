@@ -12,6 +12,9 @@
 #define ERR_NO_OPT 	2	/* 无选项 */
 #define ERR_NO_ARG 	3 /* 无参数 */
 
+
+
+
 /* 命令结构体 */
 struct cmdStructDef
 {
@@ -22,6 +25,7 @@ struct cmdStructDef
 
 void cmdProcess(void);
 void screenRecall(char *opt, char *para);
+void menuRecall(char *opt, char *para);
 
 #endif
 

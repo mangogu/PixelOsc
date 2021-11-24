@@ -6,18 +6,22 @@ uint8_t rxBuffer[RX_BUFF_SIZE];
 /* 接收数据缓冲，最大缓存DATA_BUFF_SIZE个字节 */
 uint8_t dataBuffer[DATA_BUFF_SIZE];
 
-/* 接收状态标志 */
+/* 接收状态标志
+	接收状态
+	bit15，	接收完成标志
+	bit14，	接收到0x0d
+	bit13~0，	接收到的有效字节数目 */
 uint16_t rxStatus = 0;
 
 /* USART2 初始化结构体 */
 UART_HandleTypeDef huart2;
 
 /* printf 重定向 */
-int fputc(int ch,FILE *f)
-{
-    uint8_t temp[1]={ch};
-    HAL_UART_Transmit(&huart2,temp,1,100);
-		return ch;
+	int fputc(int ch,FILE *f)
+	{
+			uint8_t temp[1]={ch};
+			HAL_UART_Transmit(&huart2,temp,1,100);
+			return ch;
 }
 
 /* USART2初始化 */
@@ -59,8 +63,12 @@ void USART2_IRQHandler(void)
 {
 	/* 处理USART2回调函数等 */
   HAL_UART_IRQHandler(&huart2);
-	/* 开启下一次中断 */
-	HAL_UART_Receive_IT(&huart2, (uint8_t*)rxBuffer, RX_BUFF_SIZE);
+
+	/* 如果接收完成，暂时关闭接收，如果未接收完，则继续接收 */
+	if(!(rxStatus & 0x80))
+	{
+		HAL_UART_Receive_IT(&huart2, (uint8_t*)rxBuffer, RX_BUFF_SIZE);
+	}
 }
 
 /* USART2回调函数 */

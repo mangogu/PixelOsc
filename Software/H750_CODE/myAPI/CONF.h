@@ -9,7 +9,7 @@
 
 #define MAIN_BACK_COLOR		BLACK		/* 主背景色 */
 #define GUI_THICKNESS 		2				/* 间隙大小 */
-#define TEXT_LEN					12			/* 文本长度 */
+#define TEXT_LEN					20			/* 文本长度 */
 
 #define MENU_WIDTH 				120			/* 菜单宽 */
 #define MENU_HEIGHT 			70			/* 菜单高 */
@@ -71,6 +71,7 @@
 #include "FILE.h"
 #include "BMP.h"
 #include "CMD.h"
+#include "BTNFUNC.h"
 /* 系统层头文件 */
 #include "myOS.h"
 

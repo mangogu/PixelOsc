@@ -4,6 +4,7 @@
 #include "CONF.h"
 
 void CONFIG_Init(void);
+void CONFIG_Default(void);
 
 #endif
 

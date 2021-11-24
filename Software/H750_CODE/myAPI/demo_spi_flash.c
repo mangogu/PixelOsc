@@ -35,11 +35,11 @@
 */
 void DemoSpiFlash(void)
 {
-	int i;
+	//int i;
 	SPI_BusInit();
 	Flash_Init();
 	
-	i = 1;
+	//i = 1;
 	
 	
 	

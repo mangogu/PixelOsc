@@ -21,6 +21,7 @@ struct menuBtnStructDef
 	/* 控件下部文字 */
 	char strPtr_2[TEXT_LEN];		/* 英文 */
 	char chnPtr_2[TEXT_LEN];		/* 中文 */
+	char* (*recallFunc)(uint8_t, char*);
 }; 
 
 /* 菜单页结构体 */
@@ -28,12 +29,9 @@ struct pageSturctDef
 {
 	/* 识别号 */
 	uint8_t page;
+	uint8_t btnNum;
 	/* 菜单按钮x5 */
-	struct menuBtnStructDef menuBtn_1;
-	struct menuBtnStructDef menuBtn_2;
-	struct menuBtnStructDef menuBtn_3;
-	struct menuBtnStructDef menuBtn_4;
-	struct menuBtnStructDef menuBtn_5;
+	struct menuBtnStructDef menuBtn[5];
 };
 
 /* 菜单结构体 */
@@ -42,14 +40,13 @@ struct menuSturctDef
 	/* 识别号 */
 	char* name;
 	/* 菜单页数 */
-	uint8_t len;
+	uint8_t pageNum;
 	/* 菜单页数 */
 	uint8_t curPage;
 	/* 菜单页 */
 	uint8_t selected;
 	/* 菜单页 */
-	struct pageSturctDef page_1;
-	struct pageSturctDef page_2;
+	struct pageSturctDef page[2];
 }; 
 
 /* 底栏标签结构体 */
@@ -95,8 +92,9 @@ struct bottomStructDef
 #define NO_MENU "XXXX";
 
 /* 菜单样式 */
-#define	ONLY_BTN 0x00
-#define	BTN_TEXT 0x01
+#define	ONLY_BTN 0
+#define	BTN_TEXT 1
+#define	NO_BTN 	 2
 
 /* 选中 */
 #define NOT_SELECTED 	0x00
@@ -118,5 +116,10 @@ void drawMenu(uint8_t layer);
 void drawBottomLine(uint8_t layer);
 void drawWelcomeWin(uint8_t layer);
 void drawShutDownMsg(uint8_t layer);
+
+extern uint8_t flagMenuChanged;
+extern uint8_t flagMenuShow;
+extern struct menuSturctDef* curMenu;
+extern struct menuSturctDef menu[2];
 
 #endif

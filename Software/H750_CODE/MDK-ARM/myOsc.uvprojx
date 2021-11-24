@@ -641,6 +641,11 @@
               <FileType>1</FileType>
               <FilePath>..\myAPI\CMD.c</FilePath>
             </File>
+            <File>
+              <FileName>BTNFUNC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myAPI\BTNFUNC.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

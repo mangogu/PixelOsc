@@ -2,62 +2,110 @@
 
 /* 当前框架 */
 uint8_t curFrame;
+
 /* 菜单变更标志位 1：变更 0：未变更 */
 uint8_t flagMenuChanged = 1;
-struct menuSturctDef* curMenuPage;
 /* 菜单打开标志位 1：打开 0：关闭 */
 uint8_t flagMenuShow = 1;
 
+struct menuSturctDef* curMenu;
+
+
 extern struct LcdStructDef myLcd;
 
-
 /* Measure菜单定义 */
-struct menuSturctDef measureStruct = 
+struct menuSturctDef menu[2] = 
 {
-	.name = "<MEASURE>",
-	.len = 2,
-	.curPage = 1,
-	.selected = 1,
-	
-	/* 配置页面1 */
-	.page_1.page = 1,											/* 这第1页 */
-	
-	.page_1.menuBtn_1.type = BTN_TEXT,		/* 配置按钮属性 */
-	.page_1.menuBtn_1.strPtr_1 = "MasterSrc",
-	.page_1.menuBtn_1.strPtr_2= "",
-	
-	.page_1.menuBtn_2.type = BTN_TEXT,		/* 配置按钮属性 */
-	.page_1.menuBtn_2.strPtr_1 = "SlaveSrc",
-	.page_1.menuBtn_2.strPtr_2 = "",
-	
-	.page_1.menuBtn_3.type = BTN_TEXT,		/* 配置按钮属性 */
-	.page_1.menuBtn_3.strPtr_1 = "All Para",
-	.page_1.menuBtn_3.strPtr_2 = "",
-	
-	.page_1.menuBtn_4.type = BTN_TEXT,		/* 配置按钮属性 */
-	.page_1.menuBtn_4.strPtr_1 = "User Def",
-	.page_1.menuBtn_4.strPtr_2 = "",
-	
-	.page_1.menuBtn_5.type = ONLY_BTN,		/* 配置按钮属性 */
-	.page_1.menuBtn_5.strPtr_1 = NEXT_PAGE,
-	
-	/* 配置页面2 */
-	.page_2.page = 2,											/* 这第2页 */
-	
-	.page_2.menuBtn_1.type = BTN_TEXT,		/* 配置按钮属性 */
-	.page_2.menuBtn_1.strPtr_1 = "IndicatorSel",
-	
-	.page_2.menuBtn_2.type = BTN_TEXT,		/* 配置按钮属性 */
-	.page_2.menuBtn_2.strPtr_1 = "Indicator",
-	
-	.page_2.menuBtn_3.type = BTN_TEXT,		/* 配置按钮属性 */
-	.page_2.menuBtn_3.strPtr_1 = "Clear",
-	
-	.page_2.menuBtn_4.type = BTN_TEXT,		/* 配置按钮属性 */
-	.page_2.menuBtn_4.strPtr_1 = "measure Stat",
-	
-	.page_2.menuBtn_5.type = ONLY_BTN,		/* 配置按钮属性 */
-	.page_2.menuBtn_5.strPtr_1 = PRE_PAGE,
+	{
+		.name = "<MEASURE>",
+		.pageNum = 2,
+		.curPage = 0,
+		.selected = 0,
+		
+		/* 配置页面0 */
+		.page[0].page = 1,											/* 这第1页 */
+		
+		.page[0].btnNum = 5,										/* 按钮数量 */
+		
+		.page[0].menuBtn[0].type = BTN_TEXT,		/* 配置按钮属性 */
+		.page[0].menuBtn[0].strPtr_1 = "MasterSrc",
+		.page[0].menuBtn[0].strPtr_2 = "",
+		.page[0].menuBtn[0].recallFunc = MasterSrcRecall,
+		
+		.page[0].menuBtn[1].type = BTN_TEXT,		/* 配置按钮属性 */
+		.page[0].menuBtn[1].strPtr_1 = "SlaveSrc",
+		.page[0].menuBtn[1].strPtr_2 = "",
+		.page[0].menuBtn[1].recallFunc = NULL,
+		
+		.page[0].menuBtn[2].type = BTN_TEXT,		/* 配置按钮属性 */
+		.page[0].menuBtn[2].strPtr_1 = "All Para",
+		.page[0].menuBtn[2].strPtr_2 = "",
+		
+		.page[0].menuBtn[3].type = BTN_TEXT,		/* 配置按钮属性 */
+		.page[0].menuBtn[3].strPtr_1 = "User Def",
+		.page[0].menuBtn[3].strPtr_2 = "",
+		
+		.page[0].menuBtn[4].type = ONLY_BTN,		/* 配置按钮属性 */
+		.page[0].menuBtn[4].strPtr_1 = NEXT_PAGE,
+		
+		/* 配置页面1 */
+		.page[1].page = 2,											/* 这第2页 */
+		
+		.page[1].menuBtn[0].type = BTN_TEXT,		/* 配置按钮属性 */
+		.page[1].menuBtn[0].strPtr_1 = "IndicatorSel",
+		
+		.page[1].menuBtn[1].type = BTN_TEXT,		/* 配置按钮属性 */
+		.page[1].menuBtn[1].strPtr_1 = "Indicator",
+		
+		.page[1].menuBtn[2].type = BTN_TEXT,		/* 配置按钮属性 */
+		.page[1].menuBtn[2].strPtr_1 = "Clear",
+		
+		.page[1].menuBtn[3].type = BTN_TEXT,		/* 配置按钮属性 */
+		.page[1].menuBtn[3].strPtr_1 = "measure Stat",
+		
+		.page[1].menuBtn[4].type = ONLY_BTN,		/* 配置按钮属性 */
+		.page[1].menuBtn[4].strPtr_1 = PRE_PAGE,
+	},
+	{
+		.name = "<ACQUIRE>",
+		.pageNum = 1,
+		.curPage = 0,
+		.selected = 0,
+		
+		/* 配置页面0 */
+		.page[0].page = 1,											/* 这第1页 */
+		
+		.page[0].menuBtn[0].type = BTN_TEXT,		/* 配置按钮属性 */
+		.page[0].menuBtn[0].strPtr_1 = "Mode",
+		
+		.page[0].menuBtn[1].type = BTN_TEXT,		/* 配置按钮属性 */
+		.page[0].menuBtn[1].strPtr_1 = "Acquire Method",
+		
+		.page[0].menuBtn[2].type = BTN_TEXT,		/* 配置按钮属性 */
+		.page[0].menuBtn[2].strPtr_1 = "FastAcq",
+		
+		.page[0].menuBtn[3].type = NO_BTN,		/* 配置按钮属性 */
+		
+		.page[0].menuBtn[4].type = NO_BTN,		/* 配置按钮属性 */
+		
+		/* 配置页面1 */
+		.page[1].page = 2,											/* 这第2页 */
+		
+		.page[1].menuBtn[0].type = BTN_TEXT,		/* 配置按钮属性 */
+		.page[1].menuBtn[0].strPtr_1 = "IndicatorSel",
+		
+		.page[1].menuBtn[1].type = BTN_TEXT,		/* 配置按钮属性 */
+		.page[1].menuBtn[1].strPtr_1 = "Indicator",
+		
+		.page[1].menuBtn[2].type = BTN_TEXT,		/* 配置按钮属性 */
+		.page[1].menuBtn[2].strPtr_1 = "Clear",
+		
+		.page[1].menuBtn[3].type = BTN_TEXT,		/* 配置按钮属性 */
+		.page[1].menuBtn[3].strPtr_1 = "measure Stat",
+		
+		.page[1].menuBtn[4].type = ONLY_BTN,		/* 配置按钮属性 */
+		.page[1].menuBtn[4].strPtr_1 = PRE_PAGE,
+	}
 };
 
 /* 底栏结构体 */
@@ -146,32 +194,36 @@ void GUI_drawBtn(	uint16_t x,
 	else if(style->type == ONLY_BTN)
 	{
 		/* 绘制矩形部分 */
-		fill_By_DMA2D(x, y, MENU_WIDTH,	MENU_HEIGHT, MENU_COLOR_1, layer);
-		/* 载入颜色 */
-		menuFont.FrontColor = MENU_COLOR_CHAR;
-		menuFont.BackColor = MENU_COLOR_1;
+		fill_By_DMA2D(x, y, MENU_WIDTH,	MENU_HEIGHT, color_up, layer);
 		/* 显示文字 */
 		dispStrEx(x + GUI_THICKNESS + 2, y +  (MENU_HEIGHT - menuFont.FontCode) / 2, style->strPtr_1, &menuFont, MENU_WIDTH - 2 * (GUI_THICKNESS) - 4, ALIGN_CENTER, 1);
 		
+	}
+	else if(style->type == NO_BTN)
+	{
+		return;
 	}
 }
 
 void drawMenu(uint8_t layer)
 {
+	uint8_t i;
 	uint16_t btnY;
 	int16_t gap;
-	uint16_t selectBtn = 0x01 << curMenuPage->selected ;
+	uint16_t selectBtn = 0x01 << curMenu->selected ;
+
+	/* 菜单未改变则不刷新 */
+	if(flagMenuChanged == 0)
+	{
+		return;
+	}
 	
 	/* 菜单关闭则清除菜单区域 */
 	if(flagMenuShow == 0)
 	{
-		fill_By_DMA2D(myLcd.width - 1 - MENU_WIDTH - 2 * GUI_THICKNESS, 0, MENU_WIDTH, myLcd.height - 1, MAIN_BACK_COLOR, 1);
-		return;
-	}
-	
-	/* 菜单未改变则不刷新 */
-	if(flagMenuChanged == 0)
-	{
+		fill_By_DMA2D(myLcd.width - 1 - MENU_WIDTH - 2 * GUI_THICKNESS, 0,
+		MENU_WIDTH + 2 * GUI_THICKNESS, myLcd.height - 1 - BOTTOMLINE_HEIGHT - 2 * GUI_THICKNESS,
+		MAIN_BACK_COLOR, 1);
 		return;
 	}
 	
@@ -191,37 +243,26 @@ void drawMenu(uint8_t layer)
 	/* 绘制指示文字 */
 	menuFont.BackColor = MAIN_BACK_COLOR;
 	menuFont.FrontColor = WHITE;
-	dispStrEx(myLcd.width - 1 - MENU_WIDTH - 2 * GUI_THICKNESS, (TOPLINE_HEIGHT - menuFont.FontCode)/2, curMenuPage->name, &menuFont, MENU_WIDTH, ALIGN_CENTER, 1);
+	dispStrEx(myLcd.width - 1 - MENU_WIDTH - 2 * GUI_THICKNESS, (TOPLINE_HEIGHT - menuFont.FontCode)/2, curMenu->name, &menuFont, MENU_WIDTH, ALIGN_CENTER, 1);
 	
 	/* 选择绘制的页 */
-	if(curMenuPage->curPage == 1)
+	if(curMenu->curPage == 0)
 	{
-		pageToDraw = &(curMenuPage->page_1);
+		pageToDraw = &(curMenu->page[0]);
 	}
-	else if(curMenuPage->curPage == 2)
+	else if(curMenu->curPage == 1)
 	{
-		pageToDraw = &(curMenuPage->page_2);
+		pageToDraw = &(curMenu->page[1]);
 	}
 	
-	/* 绘制按钮1 */
-	GUI_drawBtn(	myLcd.width - 1 - MENU_WIDTH - GUI_THICKNESS, btnY, &(pageToDraw->menuBtn_1), (selectBtn>>1)&0x01, layer);
-	/* 设置按钮的y */
-	btnY += MENU_HEIGHT + gap;
-	/* 绘制按钮2 */
-	GUI_drawBtn(	myLcd.width - 1 - MENU_WIDTH - GUI_THICKNESS, btnY, &(pageToDraw->menuBtn_2), (selectBtn>>2)&0x01, layer);
-	/* 设置按钮的y */
-	btnY += MENU_HEIGHT + gap;
-	/* 绘制按钮2 */
-	GUI_drawBtn(	myLcd.width - 1 - MENU_WIDTH - GUI_THICKNESS, btnY, &(pageToDraw->menuBtn_3), (selectBtn>>3)&0x01, layer);
-	/* 设置按钮的y */
-	btnY += MENU_HEIGHT + gap;
-	/* 绘制按钮2 */
-	GUI_drawBtn(	myLcd.width - 1 - MENU_WIDTH - GUI_THICKNESS, btnY, &(pageToDraw->menuBtn_4), (selectBtn>>4)&0x01, layer);
-	/* 设置按钮的y */
-	btnY += MENU_HEIGHT + gap;
-	/* 绘制按钮2 */
-	GUI_drawBtn(	myLcd.width - 1 - MENU_WIDTH - GUI_THICKNESS, btnY, &(pageToDraw->menuBtn_5), (selectBtn>>5)&0x01, layer);
-	
+	for(i = 0; i < 5; i++)
+	{
+		/* 绘制按钮i */
+		GUI_drawBtn(	myLcd.width - 1 - MENU_WIDTH - GUI_THICKNESS, btnY, &(pageToDraw->menuBtn[i]), (selectBtn>>i)&0x01, layer);
+		/* 设置按钮的y */
+		btnY += MENU_HEIGHT + gap;
+	}
+
 	/* 消除标志位 */	
 	flagMenuChanged = 0;
 }
@@ -354,13 +395,12 @@ void test01(void)
 	extern LTDC_HandleTypeDef hltdc;
 	clearLcd(MAIN_BACK_COLOR, 1);
 	
-	curMenuPage = &measureStruct;
+	curMenu = &(menu[0]);
 	
 	drawMenu(1);
 	
 	drawWelcomeWin(1);
 	HAL_Delay(500);
-	measureStruct.curPage = 2;
 	
 	flagMenuChanged = 1;
 	drawMenu(1);
@@ -385,7 +425,7 @@ void test01(void)
 	bottomStruct.selected = 0;
 	drawBottomLine(1);
 	HAL_Delay(500);
-	
+	 
 	osc_color_table[0] = RGB2HEX(0, 127, 255);
 	//配置CLUT转换
 //	HAL_LTDC_ConfigCLUT(&hltdc,(unsigned int * )osc_color_table,256,LTDC_LAYER_1);
