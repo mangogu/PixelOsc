@@ -31,10 +31,9 @@ unsigned char const g_Hz16[] = {
 
 };
 
-
 #else
 	unsigned char const g_Hz16[] = {0xFF, 0xFF};
+	
 #endif
+
 	
-	
-		
