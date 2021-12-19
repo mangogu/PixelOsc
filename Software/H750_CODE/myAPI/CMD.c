@@ -143,7 +143,7 @@ void menuRecall(char *opt, char *para)
 			{
 				curMenu->selected++;
 			}
-			flagMenuChanged = 1;
+			isMenuChanged = 1;
 		}
 		else if(!(strcmp(para,"b")))
 		{
@@ -157,7 +157,7 @@ void menuRecall(char *opt, char *para)
 			{
 				curMenu->selected--;
 			}
-			flagMenuChanged = 1;
+			isMenuChanged = 1;
 		}
 		else
 		{
@@ -180,7 +180,7 @@ void menuRecall(char *opt, char *para)
 			{
 				curMenu++;
 			}	
-			flagMenuChanged = 1;
+			isMenuChanged = 1;
 		}
 		else if(!(strcmp(para,"b")))
 		{
@@ -194,7 +194,7 @@ void menuRecall(char *opt, char *para)
 			{
 				curMenu--;
 			}
-			flagMenuChanged = 1;
+			isMenuChanged = 1;
 		}
 		else
 		{
@@ -211,7 +211,7 @@ void menuRecall(char *opt, char *para)
 			{
 				curMenu->page[curMenu->curPage].menuBtn[curMenu->selected].recallFunc(FORWARD, NULL);
 			}
-			flagMenuChanged = 1;
+			isMenuChanged = 1;
 		}
 		else if(!(strcmp(para,"b")))
 		{
@@ -219,7 +219,7 @@ void menuRecall(char *opt, char *para)
 			{
 				curMenu->page[curMenu->curPage].menuBtn[curMenu->selected].recallFunc(BACK, NULL);
 			}
-			flagMenuChanged = 1;
+			isMenuChanged = 1;
 		}
 		else
 		{

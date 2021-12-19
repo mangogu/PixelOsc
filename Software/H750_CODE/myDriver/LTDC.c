@@ -64,3 +64,21 @@ void MX_LTDC_Init(void)
 
 }
 
+void LTDC_ConfigColorCHA(uint8_t startBrightness)
+{
+	uint32_t i;
+	for(i = 64; i < 128; i++)
+	{
+		osc_color_table[i] = RGB2HEX(startBrightness, startBrightness, 0);
+		startBrightness += 4;
+	}
+	HAL_LTDC_ConfigCLUT(&hltdc,(unsigned int * )osc_color_table,256,LTDC_LAYER_1);
+	
+	for(i = 0; i<800*480; i++)
+	{
+		Layer1Buffer[i] = 10;
+	}
+	
+	
+}
+

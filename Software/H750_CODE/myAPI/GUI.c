@@ -1,17 +1,25 @@
 #include "CONF.h"
 
+/* GUI完成初始化标志 */
+uint8_t isInitGUI = 0;
+
 /* 当前框架 */
 uint8_t curFrame;
+/* 当前菜单结构体指针 */
+struct menuSturctDef* curMenu;
+extern struct LcdStructDef myLcd;
+extern LTDC_HandleTypeDef hltdc;
 
 /* 菜单变更标志位 1：变更 0：未变更 */
-uint8_t flagMenuChanged = 1;
+uint8_t isMenuChanged = 1;
 /* 菜单打开标志位 1：打开 0：关闭 */
 uint8_t flagMenuShow = 1;
-
-struct menuSturctDef* curMenu;
-
-
-extern struct LcdStructDef myLcd;
+uint16_t gridStartY;
+uint16_t gridStartX;
+uint16_t gridEndX;
+uint16_t gridEndY;
+uint8_t gapX;
+uint8_t gapY;
 
 /* Measure菜单定义 */
 struct menuSturctDef menu[2] = 
@@ -139,6 +147,23 @@ struct FontStructDef menuFont = 		/* 定义一个字体结构体变量，用于设置字体参数 */
 	.Space = 0				/* 字符水平间距, 单位 = 像素 */
 };
 	
+void GUI_Init(void)
+{
+	/* 初始化绘图区域 */
+	gridStartY = TOPLINE_HEIGHT + 2 * GUI_THICKNESS;
+	gridStartX = 2 * GUI_THICKNESS;
+	gridEndX = myLcd.width - 1 - MENU_WIDTH - 2 * GUI_THICKNESS;
+	gridEndY = myLcd.height - 1 - 2 * GUI_THICKNESS - BOTTOMLINE_HEIGHT;
+	gapX = (gridEndX - gridStartX)/GRID_X_NUM;
+	gapY = (gridEndY - gridStartY)/GRID_Y_NUM;
+	/* 根据间隔重新计算End */
+	gridEndX = gridStartX + gapX * GRID_X_NUM;
+	gridEndY = gridStartY + gapY * GRID_Y_NUM;
+	
+	/* 初始化通道甲颜色：黄 */
+	LTDC_ConfigColorCHA(0);
+	isInitGUI = 1;
+}
 
 void GUI_drawBtn(	uint16_t x,
 									uint16_t y,
@@ -205,7 +230,12 @@ void GUI_drawBtn(	uint16_t x,
 	}
 }
 
-void drawMenu(uint8_t layer)
+void GUI_MenuRefresh(void)
+{
+	GUI_drawMenu(1);
+}
+
+void GUI_drawMenu(uint8_t layer)
 {
 	uint8_t i;
 	uint16_t btnY;
@@ -213,7 +243,7 @@ void drawMenu(uint8_t layer)
 	uint16_t selectBtn = 0x01 << curMenu->selected ;
 
 	/* 菜单未改变则不刷新 */
-	if(flagMenuChanged == 0)
+	if(isMenuChanged == 0)
 	{
 		return;
 	}
@@ -262,9 +292,6 @@ void drawMenu(uint8_t layer)
 		/* 设置按钮的y */
 		btnY += MENU_HEIGHT + gap;
 	}
-
-	/* 消除标志位 */	
-	flagMenuChanged = 0;
 }
 
 void GUI_drawLabel(	uint16_t x,
@@ -389,44 +416,94 @@ void drawShutDownMsg(uint8_t layer)
 	dispStrEx(260, 200, "Please release key to shut down...", &menuFont,	0, ALIGN_LEFT, 1);
 }
 
+
+void GUI_DrawGrid(uint8_t layer)
+{
+	/* 设置起始位置 */
+	uint16_t x = gridStartX;
+	uint16_t y = gridStartY;
+	
+	uint8_t i;
+	/* 绘制横线 */
+	for(i = 0; i <= GRID_Y_NUM ;i++)
+	{
+		drawLine(gridStartX, y, gridEndX, y, GREY_L, 1);
+		y += gapY;
+	}
+	/* 绘制竖线 */
+	for(i = 0; i <= GRID_X_NUM ;i++)
+	{
+		drawLine( x, gridStartY, x, gridEndY, GREY_L, 1);
+		x += gapX;
+	}
+}
+
+void GUI_DrawWave(void)
+{
+	extern uint8_t sss;
+	uint16_t i;
+	uint16_t yval[660];
+	uint16_t xval[660];
+	static uint8_t cnt = 50;
+	
+	if(cnt == 149)
+		return;
+	
+	for(i = 0; i <gridEndX - gridStartX; i++)
+	{
+		yval[i] = cnt*sin(((float)i)/50)+200+32;
+		xval[i] = i+5;
+	}
+	drawPoints(xval, yval, 660, 100, 1);
+	cnt++;
+	if(cnt==150)
+	{
+		cnt = 50;
+	}
+}
+
 void test01(void)
 {
 
-	extern LTDC_HandleTypeDef hltdc;
+	
 	clearLcd(MAIN_BACK_COLOR, 1);
 	
 	curMenu = &(menu[0]);
 	
-	drawMenu(1);
-	
-	drawWelcomeWin(1);
-	HAL_Delay(500);
-	
-	flagMenuChanged = 1;
-	drawMenu(1);
-	
-	
-	bottomStruct.selected = 1;
 	drawBottomLine(1);
-	HAL_Delay(500);
+
+	GUI_drawMenu(1);
 	
-	bottomStruct.selected = 2;
-	drawBottomLine(1);
-	HAL_Delay(500);
+	GUI_DrawGrid(1);
 	
-	bottomStruct.selected = 3;
-	drawBottomLine(1);
-	HAL_Delay(500);
+	//drawWelcomeWin(1);
+	//HAL_Delay(500);
 	
-	bottomStruct.selected = 4;
-	drawBottomLine(1);
-	HAL_Delay(500);
-	
-	bottomStruct.selected = 0;
-	drawBottomLine(1);
-	HAL_Delay(500);
+//	isMenuChanged = 1;
+//	GUI_drawMenu(1);
+//	
+//	
+//	bottomStruct.selected = 1;
+//	drawBottomLine(1);
+//	HAL_Delay(500);
+//	
+//	bottomStruct.selected = 2;
+//	drawBottomLine(1);
+//	HAL_Delay(500);
+//	
+//	bottomStruct.selected = 3;
+//	drawBottomLine(1);
+//	HAL_Delay(500);
+//	
+//	bottomStruct.selected = 4;
+//	drawBottomLine(1);
+//	HAL_Delay(500);
+//	
+//	bottomStruct.selected = 0;
+//	drawBottomLine(1);
+//	HAL_Delay(500);
 	 
-	osc_color_table[0] = RGB2HEX(0, 127, 255);
+	//osc_color_table[0] = RGB2HEX(0, 127, 255);
 	//配置CLUT转换
 //	HAL_LTDC_ConfigCLUT(&hltdc,(unsigned int * )osc_color_table,256,LTDC_LAYER_1);
 	

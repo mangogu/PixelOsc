@@ -10,6 +10,7 @@
 /*Func declaration
 	º¯ÊýÉùÃ÷*/
 void MX_LTDC_Init(void);
+void LTDC_ConfigColorCHA(uint8_t startBrightness);
 
 #endif
 

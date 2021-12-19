@@ -1,7 +1,10 @@
 #include "CONF.h"
 
-/* isDown = 0:未关机 isDown = 1:已关机 */
-uint8_t isDown = 0;
+uint8_t sss = 0;
+/* 任务结构体定义 */
+struct taskStructDef taskStruct[32];
+/* 拢共任务量 */
+uint8_t taskNum;
 
 void myOs_DevInit(void)
 {
@@ -10,6 +13,8 @@ void myOs_DevInit(void)
 	
 	/* 点亮屏幕 */
 	Lcd_Init();
+	
+	
 	
 	/* 初始化系统节拍 */
 	Systick_Init();
@@ -31,30 +36,65 @@ void myOs_DevInit(void)
 	/* 初始化模拟部分 */
 	analog_init();
 	
+	/* GUI初始化 */
+	GUI_Init();
+	
+	/* 初始化系统任务 */
+	myOS_InitTasks();
+	
 	//DemoSpiFlash();
 	
 	test01();
 	
 	while(1)
 	{
-		/* 检测关机 */
-		if(isDown)
-		{
-			/* 显示关机提示 */
-			drawShutDownMsg(1);
-			/* 等待 */
-			while(1);
-		}
-		
-		/* 如果需要处理串口 */
-		if(rxStatus&0x8000)
-		{
-			cmdProcess();
-		}
-		drawMenu(1);
+		myOS_ProcessTasks();
+		GUI_DrawWave();
+		delayms(10);
 	}
 	
 	
+}
+
+
+
+/* 初始化系统任务 */
+void myOS_InitTasks(void)
+{
+	uint8_t id = 0;
+	myOS_RegisterTask(myOS_ShutDown, &isDown, id++);
+	myOS_RegisterTask(cmdProcess, &isReceived, id++);
+	myOS_RegisterTask(GUI_MenuRefresh, &isMenuChanged, id++);
+	
+	taskNum = id;
+}								
+
+/* 注册系统任务 */
+void myOS_RegisterTask(void (*func)(void), uint8_t *flag, uint8_t id)
+{
+	taskStruct[id].id = id;
+	taskStruct[id].flag = flag;
+	taskStruct[id].taskFuncs = func;
+}
+
+/* 处理系统任务 */
+void myOS_ProcessTasks(void)
+{
+	uint8_t i;
+	/* 遍历任务 */
+	for(i = 0;i < taskNum ;i++)
+	{
+		if(*(taskStruct[i].flag))
+		{
+			break;
+		}
+	}
+	/* 处理任务 */
+	if(i < taskNum)
+	{
+		taskStruct[i].taskFuncs();
+		*(taskStruct[i].flag) = 0;
+	}
 }
 
 /* 定时中断函数 */
@@ -65,57 +105,24 @@ void myOS_1ms_Func(void)
 
 void myOS_10ms_Func(void)
 {
+	volatile  int time2;
+	volatile int time = Systick_GetRunTime();
 	
+	if(isInitGUI)
+	{
+		LTDC_ConfigColorCHA(sss);
+		sss-=4;
+	}
+	time2 = Systick_GetRunTime();
+	int time3 = time2-time;
 }
-
 void myOS_100ms_Func(void)
 {
 	/* 检测关机 */
-	shutDownPower();
+	myOS_checkShutDown();
+	
 }
 
-/* 检测关机 */
-void shutDownPower(void)
-{
-	static uint8_t clickCount = 0;
-	/* everRelease = 0:按键未释放 everRelease = 1:按键释放过 */
-	static uint8_t everRelease = 0;
-	/* 获取系统运行时长 */
-	int32_t runTime = Systick_GetRunTime();
-	
-	/* 若已经关机或开机不足OFF_WAIT秒则不进行判断 */
-	if(isDown == 1 || runTime <= OFF_WAIT * 1000)
-	{
-		return;
-	}
-	
-	/* 如果onoff键被按下 且 onoff键曾被释放过 */
-	if(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_5) == GPIO_PIN_SET && everRelease == 1)
-	{
-		/* 计数 */
-		clickCount ++;
-	}
-	else if(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_5) == GPIO_PIN_RESET && everRelease == 0)
-	{
-		everRelease = 1;
-	}
-	else if(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_5) == GPIO_PIN_RESET && everRelease == 1)
-	{
-		clickCount = 0;
-	}
-	
-	if(clickCount >= OFF_TIME*10)
-	{
-		/* 关闭电源 -> 设置IO : PC4 为浮空输入，高阻态 */
-		GPIO_InitTypeDef GPIO_InitStruct = {0};
-		GPIO_InitStruct.Pin = GPIO_PIN_4;
-		GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-		GPIO_InitStruct.Pull = GPIO_NOPULL;
-		GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-		HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
-		/* 关机 */
-		isDown = 1;
-	}
-}
+
 
 

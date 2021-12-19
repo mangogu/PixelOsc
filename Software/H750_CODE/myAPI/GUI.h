@@ -3,12 +3,6 @@
 
 #include "CONF.h"
 
-/* 常用颜色 */
-#define WHITE 	0
-#define BLACK 	1
-#define GREY_L 	9
-
-
 /********************结构体定义**********************/
 /* 菜单按钮结构体 */
 struct menuBtnStructDef
@@ -107,7 +101,7 @@ void GUI_drawBtn(	uint16_t x,
 									uint8_t layer);
 
 void test01(void);
-void drawMenu(uint8_t layer);
+void GUI_drawMenu(uint8_t layer);
 									void GUI_drawLabel(	uint16_t x,
 										uint16_t y,
 										struct labelStructDef* style,
@@ -117,9 +111,16 @@ void drawBottomLine(uint8_t layer);
 void drawWelcomeWin(uint8_t layer);
 void drawShutDownMsg(uint8_t layer);
 
-extern uint8_t flagMenuChanged;
+extern uint8_t isMenuChanged;
 extern uint8_t flagMenuShow;
 extern struct menuSturctDef* curMenu;
 extern struct menuSturctDef menu[2];
+void GUI_DrawGrid(uint8_t layer);
+void GUI_Init(void);									
+void GUI_MenuRefresh(void);				
+void GUI_DrawWave(void);
+
+extern uint8_t isMenuChanged;		
+extern uint8_t isInitGUI;								
 
 #endif

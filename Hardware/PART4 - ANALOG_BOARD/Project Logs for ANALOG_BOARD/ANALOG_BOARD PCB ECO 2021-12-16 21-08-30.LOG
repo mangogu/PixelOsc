@@ -1,0 +1,21 @@
+Added Component: Designator=JP1(SMA-KE-LI)
+Add component (AddParameter): Name = "BOM名称"; Value = "SMA-2.4G射频天线接口"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=JP2(SMA-KE-LI)
+Add component (AddParameter): Name = "BOM名称"; Value = "SMA-2.4G射频天线接口"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC2_1 Pin=JP1-1
+Added Pin To Net: NetName=DGND Pin=JP1-2
+Added Pin To Net: NetName=DGND Pin=JP1-2
+Added Pin To Net: NetName=DGND Pin=JP1-3
+Added Pin To Net: NetName=DGND Pin=JP1-3
+Added Pin To Net: NetName=NetC58_1 Pin=JP2-1
+Added Pin To Net: NetName=DGND Pin=JP2-2
+Added Pin To Net: NetName=DGND Pin=JP2-2
+Added Pin To Net: NetName=DGND Pin=JP2-3
+Added Pin To Net: NetName=DGND Pin=JP2-3
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component JP1 SMA
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component JP2 SMA
+Added Member To Class: ClassName=AtoD_PART Member=Component R? 0R

@@ -21,7 +21,6 @@
 
 
 #define BOTTOMLINE_HEIGHT				32
-#define BOTTOMLINE_WIDTH 				196
 #define BOTTOMLINE_COLOR_1 			GREY_L
 #define BOTTOMLINE_COLOR_2 			BLACK
 #define BOTTOMLINE_COLOR_CHAR 	WHITE
@@ -45,10 +44,14 @@
 #define WELCOME_WINDOW_COLOR_TOP			WHITE
 #define WELCOME_WINDOW_COLOR_CHAR			BLACK
 
+#define GRID_Y_NUM 8
+#define GRID_X_NUM 12
+
 /* 包含头文件 */
 /* C标准库头文件 */
 #include "stdio.h"
 #include "string.h"
+#include "math.h"
 /* HAL库头文件 */
 #include "stm32h7xx_hal.h"
 /* 驱动层头文件 */
@@ -72,6 +75,7 @@
 #include "BMP.h"
 #include "CMD.h"
 #include "BTNFUNC.h"
+#include "POWER.h"
 /* 系统层头文件 */
 #include "myOS.h"
 

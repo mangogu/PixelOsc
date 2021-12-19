@@ -14,6 +14,7 @@ extern UART_HandleTypeDef huart2;
 extern uint16_t rxStatus;
 extern uint8_t dataBuffer[DATA_BUFF_SIZE];
 extern uint8_t rxBuffer[RX_BUFF_SIZE];
+extern uint8_t isReceived;
 
 /* º¯ÊýÉùÃ÷ */
 void MX_USART2_UART_Init(void);

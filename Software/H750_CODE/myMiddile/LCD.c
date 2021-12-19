@@ -4,7 +4,74 @@
 /********************全局变量********************/
 
 /* 定义色彩表 */
-uint32_t osc_color_table[256] = COLOR_TABLE_L8;
+uint32_t osc_color_table[256] = 
+{                              	 \
+	RGB2HEX(255, 255, 255),   /* 0  白*/\
+	RGB2HEX(0, 0, 0),         /* 1  黑*/\
+	RGB2HEX(255, 0, 0),     	/* 2  红*/\
+	RGB2HEX(255, 165, 0),     /* 3  橙*/\
+	RGB2HEX(255, 255, 0),     /* 4  黄*/\
+	RGB2HEX(0, 255, 0),     	/* 5  绿*/\
+	RGB2HEX(0, 127, 255),     /* 6  青*/\
+	RGB2HEX(0, 0, 255),       /* 7  蓝*/\
+	RGB2HEX(139,  0,255),     /* 8  紫*/\
+	RGB2HEX(150,150,150),     /* 9  浅灰*/\
+	RGB2HEX(180,85,85),       /* 10 暗红*/\
+	RGB2HEX(255,255,7),       /* 11 */\
+	RGB2HEX(255,255,7),       /* 12 */\
+	RGB2HEX(255,255,7),       /* 13 */\
+	RGB2HEX(255,255,7),       /* 14 */\
+	RGB2HEX(3,227,231),       /* 15 */\
+	RGB2HEX(3,227,231),       /* 16 */\
+	RGB2HEX(3,227,231),       /* 17 */\
+	RGB2HEX(3,227,231),       /* 18 */\
+	RGB2HEX(3,227,231),       /* 19 */\
+	RGB2HEX(3,227,231),       /* 20 */\
+	RGB2HEX(195, 195, 199),   /* 21 */\
+	RGB2HEX(3, 3, 7),         /* 22 */\
+	RGB2HEX(255,1,1),         /* 23 */\
+	RGB2HEX(0,255,0),         /* 24 */\
+	RGB2HEX(231,131,87),      /* 25 */\
+	RGB2HEX(0,255,0),         /* 26 */\
+	RGB2HEX(240,11,205),      /* 27 */\
+	RGB2HEX(0,255,0),         /* 28 */\
+	RGB2HEX(0,255,0),         /* 29 */\
+	RGB2HEX(0,255,0),         /* 30 */\
+	RGB2HEX(0,255,0),         /* 31 */\
+	RGB2HEX(0,255,0),         /* 32 */\
+	RGB2HEX(0,255,0),         /* 33 */\
+	RGB2HEX(0,0,255),         /* 34 */\
+	RGB2HEX(0,0,255),         /* 35 */\
+	RGB2HEX(0,0,255),         /* 36 */\
+	RGB2HEX(0,0,255),         /* 37 */\
+	RGB2HEX(0,0,255),         /* 38 */\
+	RGB2HEX(0,0,255),         /* 39 */\
+	RGB2HEX(255,0,0),         /* 40 */\
+	RGB2HEX(255,0,0),         /* 41 */\
+	RGB2HEX(255,0,0),         /* 42 */\
+	RGB2HEX(255,0,0),         /* 43 */\
+	RGB2HEX(255,0,0),         /* 44 */\
+	RGB2HEX(255,0,0),         /* 45 */\
+	RGB2HEX(255,255,0),       /* 46 */\
+	RGB2HEX(255,255,0),       /* 47 */\
+	RGB2HEX(3,227,231),       /* 48 */\
+	RGB2HEX(3,227,231),       /* 49 */\
+	RGB2HEX(7, 3, 7),         /* 50 */\
+	RGB2HEX(7, 3, 7),         /* 51 */\
+	RGB2HEX(25, 206, 12),     /* 52 */\
+	RGB2HEX(25, 206, 12),     /* 53 */\
+	RGB2HEX(25, 206, 12),     /* 54 */\
+	RGB2HEX(25, 206, 12),     /* 55 */\
+	RGB2HEX(251, 3, 9),       /* 56 */\
+	RGB2HEX(251, 3, 9),       /* 57 */\
+	RGB2HEX(251, 3, 9),       /* 58 */\
+	RGB2HEX(251, 3, 9),       /* 59 */\
+	RGB2HEX(25, 206, 12),     /* 60 */\
+	RGB2HEX(251, 3, 9),       /* 61 */\
+	RGB2HEX(251, 3, 9),       /* 62 */\
+	RGB2HEX(251, 3, 9),       /* 63 */\
+	RGB2HEX(0, 0, 0),    		  /* 64 */\
+};
 
 /* 定义所使用的的屏幕 */
 #ifdef LCD_TYPE_800_480
@@ -295,8 +362,8 @@ void drawRect(uint16_t x, uint16_t y,  uint16_t width, uint16_t height, uint8_t 
 		  width
 	*/
 	drawHLine(x, y, width, color, layer);
-	drawVLine(x + width - 1, y, height, color, layer);
-	drawHLine(x, y + height - 1, width, color, layer);
+	drawVLine(x + width, y, height, color, layer);
+	drawHLine(x, y + height, width + 1, color, layer);
 	drawVLine(x, y, height, color, layer);
 }
 

@@ -13,6 +13,9 @@ uint8_t dataBuffer[DATA_BUFF_SIZE];
 	bit13~0，	接收到的有效字节数目 */
 uint16_t rxStatus = 0;
 
+/* 接收完成标志 */
+uint8_t isReceived = 0;
+
 /* USART2 初始化结构体 */
 UART_HandleTypeDef huart2;
 
@@ -92,6 +95,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 				else
 				{
 					rxStatus|=0x8000;
+					isReceived = 1;
 				}
 			}
 			/* 还没收到0X0D */
