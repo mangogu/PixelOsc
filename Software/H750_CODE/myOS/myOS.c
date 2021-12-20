@@ -51,6 +51,14 @@ void myOs_DevInit(void)
 		myOS_ProcessTasks();
 		GUI_DrawWave();
 		delayms(10);
+		
+		volatile  int time2;
+	volatile int time = Systick_GetRunTime();
+	
+	clearLcd(BLACK, 1);
+	time2 = Systick_GetRunTime();
+	int time3 = time2-time;
+	
 	}
 	
 	
@@ -105,16 +113,7 @@ void myOS_1ms_Func(void)
 
 void myOS_10ms_Func(void)
 {
-	volatile  int time2;
-	volatile int time = Systick_GetRunTime();
 	
-	if(isInitGUI)
-	{
-		LTDC_ConfigColorCHA(sss);
-		sss-=4;
-	}
-	time2 = Systick_GetRunTime();
-	int time3 = time2-time;
 }
 void myOS_100ms_Func(void)
 {
