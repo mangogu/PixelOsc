@@ -1,0 +1,30 @@
+Removed Member From Class: ClassName=ANALOG_PART1 Member=R29
+Removed Member From Class: ClassName=ANALOG_PART2 Member=R32
+Change Component Footprint: Designator=JP1 Old Footprint=SMA-KE-LI New Footprint=SMA_FR
+Change Component Footprint: Designator=JP2 Old Footprint=SMA-KE-LI New Footprint=SMA_FR
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component B19 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R7 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R8 499
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R9 1K 精密
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R11 75
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R12 4.99K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R13 75
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R15 4.99K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R16 75
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R17 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R19 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R21 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R22 100K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R24 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R25 4.99K 精密电阻
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R27 100K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R28 100K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R34 1K 精密电阻
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R41 499
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R43 976K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R45 4.99K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R47 1K 精密电阻
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R51 1K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R53 1K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R55 4.99K 精密电阻
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component U11 TLV431AIDBZR

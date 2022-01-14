@@ -1,0 +1,139 @@
+Removed Pin From Net: NetName=1V5REF Pin=U10-1
+Removed Pin From Net: NetName=1V5REF_2 Pin=U26-1
+Removed Member From Class: ClassName=AtoD_PART Member=R7
+Removed Member From Class: ClassName=ANALOG_PART1 Member=R29
+Change Component Footprint: Designator=JP1 Old Footprint=SMA-KE-LI New Footprint=SMA_FR
+Change Component Footprint: Designator=JP2 Old Footprint=SMA-KE-LI New Footprint=SMA_FR
+Change Component Footprint: Designator=U10 Old Footprint=SOT23-3L New Footprint=DBZ0003A_N
+Change Component Footprint: Designator=U26 Old Footprint=SOT23-3L New Footprint=DBZ0003A_N
+Change Component Comment : Designator=C87 Old Comment=100nF New Comment=1uF
+Change Component Comment : Designator=U10 Old Comment=TL431 New Comment=TLV431AIDBZR
+Change Component Comment : Designator=U26 Old Comment=TL431 New Comment=TLV431AIDBZR
+Change Component Designator: OldDesignator=B18 NewDesignator=B19
+Change Component Designator: OldDesignator=B19 NewDesignator=B18
+Change Component Designator: OldDesignator=R7 NewDesignator=R8
+Change Component Designator: OldDesignator=R8 NewDesignator=R9
+Change Component Designator: OldDesignator=R9 NewDesignator=R10
+Change Component Designator: OldDesignator=R10 NewDesignator=R11
+Change Component Designator: OldDesignator=R11 NewDesignator=R12
+Change Component Designator: OldDesignator=R12 NewDesignator=R13
+Change Component Designator: OldDesignator=R13 NewDesignator=R14
+Change Component Designator: OldDesignator=R14 NewDesignator=R15
+Change Component Designator: OldDesignator=R15 NewDesignator=R16
+Change Component Designator: OldDesignator=R16 NewDesignator=R17
+Change Component Designator: OldDesignator=R17 NewDesignator=R18
+Change Component Designator: OldDesignator=R18 NewDesignator=R19
+Change Component Designator: OldDesignator=R19 NewDesignator=R20
+Change Component Designator: OldDesignator=R20 NewDesignator=R21
+Change Component Designator: OldDesignator=R21 NewDesignator=R22
+Change Component Designator: OldDesignator=R22 NewDesignator=R23
+Change Component Designator: OldDesignator=R23 NewDesignator=R24
+Change Component Designator: OldDesignator=R24 NewDesignator=R25
+Change Component Designator: OldDesignator=R25 NewDesignator=R26
+Change Component Designator: OldDesignator=R26 NewDesignator=R27
+Change Component Designator: OldDesignator=R27 NewDesignator=R28
+Change Component Designator: OldDesignator=R28 NewDesignator=R29
+Change Component Designator: OldDesignator=R29 NewDesignator=R30
+Change Component Designator: OldDesignator=R30 NewDesignator=R7
+Change Component Designator: OldDesignator=R32 NewDesignator=R40
+Change Component Designator: OldDesignator=R34 NewDesignator=R32
+Change Component Designator: OldDesignator=R36 NewDesignator=R34
+Change Component Designator: OldDesignator=R37 NewDesignator=R35
+Change Component Designator: OldDesignator=R38 NewDesignator=R36
+Change Component Designator: OldDesignator=R39 NewDesignator=R37
+Change Component Designator: OldDesignator=R40 NewDesignator=R38
+Change Component Designator: OldDesignator=R41 NewDesignator=R39
+Change Component Designator: OldDesignator=R42 NewDesignator=R41
+Change Component Designator: OldDesignator=R43 NewDesignator=R42
+Change Component Designator: OldDesignator=R44 NewDesignator=R43
+Change Component Designator: OldDesignator=R45 NewDesignator=R44
+Change Component Designator: OldDesignator=R46 NewDesignator=R45
+Change Component Designator: OldDesignator=R47 NewDesignator=R46
+Change Component Designator: OldDesignator=R48 NewDesignator=R47
+Change Component Designator: OldDesignator=R49 NewDesignator=R48
+Change Component Designator: OldDesignator=R50 NewDesignator=R49
+Change Component Designator: OldDesignator=R51 NewDesignator=R50
+Change Component Designator: OldDesignator=R52 NewDesignator=R51
+Change Component Designator: OldDesignator=R53 NewDesignator=R52
+Change Component Designator: OldDesignator=R54 NewDesignator=R53
+Change Component Designator: OldDesignator=R55 NewDesignator=R54
+Change Component Designator: OldDesignator=R56 NewDesignator=R55
+Change Component Designator: OldDesignator=R57 NewDesignator=R56
+Change Component Designator: OldDesignator=R58 NewDesignator=R57
+Change Component Designator: OldDesignator=R? NewDesignator=R33
+Change Component Designator: OldDesignator=SP6 NewDesignator=SP3
+Change Component Designator: OldDesignator=SP7 NewDesignator=SP4
+Change Component Designator: OldDesignator=SP8 NewDesignator=SP5
+Change Component Designator: OldDesignator=SP9 NewDesignator=SP6
+Change Component Designator: OldDesignator=U10 NewDesignator=U11
+Change Component Designator: OldDesignator=U11 NewDesignator=U10
+Added Pin To Net: NetName=DGND Pin=C15-2
+Added Pin To Net: NetName=DGND Pin=C16-1
+Added Pin To Net: NetName=DGND Pin=C71-2
+Added Pin To Net: NetName=DGND Pin=C72-1
+Added Pin To Net: NetName=DGND Pin=R10-1
+Added Pin To Net: NetName=DGND Pin=R43-1
+Added Pin To Net: NetName=1V5REF Pin=U11-2
+Added Pin To Net: NetName=1V5REF_2 Pin=U26-2
+Change Net Name : Old Net Name=NetB18_1 New Net Name=NetB19_1
+Change Net Name : Old Net Name=NetB19_1 New Net Name=NetB18_1
+Change Net Name : Old Net Name=NetR7_2 New Net Name=NetR8_2
+Change Net Name : Old Net Name=NetR8_2 New Net Name=NetR9_2
+Change Net Name : Old Net Name=NetR10_2 New Net Name=NetR11_2
+Change Net Name : Old Net Name=NetR17_1 New Net Name=NetR18_1
+Change Net Name : Old Net Name=NetR19_2 New Net Name=NetR20_2
+Change Net Name : Old Net Name=NetR22_1 New Net Name=NetR23_1
+Change Net Name : Old Net Name=NetR23_2 New Net Name=NetR24_2
+Change Net Name : Old Net Name=NetR30_1 New Net Name=NetR7_1
+Change Net Name : Old Net Name=NetR30_2 New Net Name=NetR7_2
+Change Net Name : Old Net Name=NetR32_1 New Net Name=NetR40_1
+Change Net Name : Old Net Name=NetR32_2 New Net Name=NetR40_2
+Change Net Name : Old Net Name=NetR36_1 New Net Name=NetR34_1
+Change Net Name : Old Net Name=NetR37_1 New Net Name=NetR35_1
+Change Net Name : Old Net Name=NetR40_1 New Net Name=NetR38_1
+Change Net Name : Old Net Name=NetR42_2 New Net Name=NetR41_2
+Change Net Name : Old Net Name=NetR43_2 New Net Name=NetR42_2
+Change Net Name : Old Net Name=NetR45_2 New Net Name=NetR44_2
+Change Net Name : Old Net Name=NetR51_1 New Net Name=NetR50_1
+Change Net Name : Old Net Name=NetR54_2 New Net Name=NetR53_2
+Change Net Name : Old Net Name=NetR56_1 New Net Name=NetR55_1
+Change Net Name : Old Net Name=NetR57_2 New Net Name=NetR56_2
+Added Pin To Net: NetName=NetR19_1 Pin=R19-1
+Added Pin To Net: NetName=NetR19_1 Pin=R21-2
+Added Pin To Net: NetName=NetR19_1 Pin=U11-1
+Added Net: Name=NetR19_1
+Added Pin To Net: NetName=NetR52_1 Pin=R52-1
+Added Pin To Net: NetName=NetR52_1 Pin=R54-2
+Added Pin To Net: NetName=NetR52_1 Pin=U26-1
+Added Net: Name=NetR52_1
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component B19 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R7 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R8 499
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R9 1K ¾«ÃÜ
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R11 75
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R12 4.99K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R13 75
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R15 4.99K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R16 75
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R17 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R19 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R21 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R22 100K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R24 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R25 4.99K ¾«ÃÜµç×è
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R27 100K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R28 100K
+Added Member To Class: ClassName=AtoD_PART Member=Component R30 1K
+Added Member To Class: ClassName=AtoD_PART Member=Component R33 0R
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R39 24K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R42 1K ¾«ÃÜ
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R44 75
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R46 75
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R50 1K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R52 1K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R54 1K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R57 4.99K ¾«ÃÜµç×è
+Added Member To Class: ClassName=AtoD_PART Member=Component SP4 M2Í­Öù
+Added Member To Class: ClassName=AtoD_PART Member=Component SP5 M2Í­Öù
+Added Member To Class: ClassName=AtoD_PART Member=Component SP6 M2Í­Öù
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component U11 TLV431AIDBZR

@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=3V3 Pin=D1-2
+Change Component Footprint: Designator=JP3 Old Footprint=HDR2.54-LI-2x5P New Footprint=IDC2.54-LI-2x5P
+Added Pin To Net: NetName=3V3 Pin=D1-1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=JP3-1
+Added Net: Name=NetD1_2

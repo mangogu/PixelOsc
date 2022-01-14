@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=3V3 Pin=JP3-1
+Added Component: Designator=D1(SOD-323)
+Add component (AddParameter): Name = "BOM名称"; Value = "高速开关二极管"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "优秀评价可免费更新"; Value = "联系淘宝ID：黄晶宝石，获取更新版封装库"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "卖家免费技术支持，联系售后"; Value = "唯一出售店铺网址https://shop463601444.taobao.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装库 来自淘宝卖家 ID：黄晶宝石"; Value = "其他店铺购入均为盗版，请立即申请退款"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=D1-2
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=JP3-1
+Added Net: Name=NetD1_1
+Added Member To Class: ClassName=SWDPort Member=Component D1 1N4148

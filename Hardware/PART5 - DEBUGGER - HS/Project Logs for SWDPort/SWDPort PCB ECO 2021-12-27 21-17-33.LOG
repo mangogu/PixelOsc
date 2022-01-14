@@ -1,0 +1,11 @@
+Added Component: Designator=JP3(IDC2.54-LI-2x5P)
+Add component (AddParameter): Name = "BOM名称"; Value = "5*2P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=JP3-1
+Added Pin To Net: NetName=SWCLK Pin=JP3-3
+Added Pin To Net: NetName=3V3 Pin=JP3-4
+Added Pin To Net: NetName=DGND Pin=JP3-5
+Added Pin To Net: NetName=DGND Pin=JP3-6
+Added Pin To Net: NetName=SWDIO Pin=JP3-7
+Added Member To Class: ClassName=SWDPort Member=Component JP3 Header 5X2

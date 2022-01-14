@@ -1,0 +1,25 @@
+Removed Member From Class: ClassName=AtoD_PART Member=R8
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component B18 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R7 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R10 953K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R11 75
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R12 4.99K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R14 1K 精密电阻
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R15 4.99K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R17 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R18 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R20 1K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R22 100K
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R23 4.99K 精密电阻
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component R26 150K
+Added Member To Class: ClassName=AtoD_PART Member=Component R29 1K
+Added Member To Class: ClassName=AtoD_PART Member=Component R30 1K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R40 24K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R41 499
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R43 976K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R45 4.99K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R47 1K 精密电阻
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R51 1K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R53 1K
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component R55 4.99K 精密电阻
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component U11 TLV431AIDBZR

@@ -1,0 +1,3 @@
+Change Component Comment : Designator=C87 Old Comment=100nF New Comment=1uF
+Added Member To Class: ClassName=ANALOG_PART1 Member=Component JP1 SMA
+Added Member To Class: ClassName=ANALOG_PART2 Member=Component JP2 SMA
