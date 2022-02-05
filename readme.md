@@ -8,9 +8,9 @@
 
 ### *PART1 - CORE_BOARD*
 
-![image-20220206025503564](https://github.com/mangogu/PixelOsc/blob/master/images/image-20220206025139658.png?raw=true)
+![image-20220206025503564](https://github.com/mangogu/PixelOsc/blob/master/images/image-20220206025139658.png)
 
-![image-20220206025517163](.\images\image-20220206025517163.png)
+![image-20220206025517163](https://github.com/mangogu/PixelOsc/blob/master/images/images\image-20220206025517163.png)
 
 ![image-20220206025139658](.\images\image-20220206025139658.png)
 
