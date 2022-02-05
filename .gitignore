@@ -9,6 +9,7 @@
 /Hardware/*/*.htm
 /Hardware/*/*.pdf
 *.PrjPcbStructure
+*.step
 
 # MDK Object Files
 /Software/*/MDK-ARM/myOsc/

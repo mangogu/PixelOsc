@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : F:\onWorking\2021.11 Oscilloscope\06-PCB\PixelOsc\Hardware\PART4 - ANALOG_BOARD\ANALOG_BOARD.PcbDoc
-Date     : 2022/1/12
-Time     : 17:14:45
+PCB File : C:\Users\mango\Desktop\Hardware\PART4 - ANALOG_BOARD\ANALOG_BOARD.PcbDoc
+Date     : 2022/1/20
+Time     : 15:36:23
 
 Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
 Rule Violations :0
@@ -21,4 +21,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02

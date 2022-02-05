@@ -33,7 +33,10 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
 OutputPath=
 LogFolderPath=
-ManagedProjectGUID=
+ManagedProjectGUID=35627260-B681-4E7C-B543-51682541A447
+VaultGUID=62185478-AE24-4559-AA6F-D55AE14297F9
+ReleaseVaultName=DigiPCBA Workspace
+ItemGUID=35627260-B681-4E7C-B543-51682541A447
 IncludeDesignInRelease=0
 
 [Preferences]

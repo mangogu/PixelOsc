@@ -1,0 +1,149 @@
+*************************************************************
+FileName = PANNEL-BOARD.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Solder
+      File : PANNEL-BOARD.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : PANNEL-BOARD.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : PANNEL-BOARD.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : PANNEL-BOARD.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : PANNEL-BOARD.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : PANNEL-BOARD.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : PANNEL-BOARD.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : PANNEL-BOARD.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : PANNEL-BOARD.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : PANNEL-BOARD.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D19
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : PANNEL-BOARD.GG1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D19
+*************************************************************
+
